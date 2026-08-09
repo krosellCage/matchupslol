@@ -90,7 +90,7 @@
   .prow{border-top:1px solid var(--line);padding:11px 0}
   .prow .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
            color:var(--faint);display:block;margin-bottom:4px}
-  .prow .v{font-size:14px;color:var(--ink)}
+  .prow .v{display:block;font-size:14px;line-height:1.5;color:var(--ink);white-space:normal;text-transform:none;font-family:var(--sans);font-weight:400;letter-spacing:0;padding:0}
   .profile ul{margin:8px 0 0;padding-left:17px}
   .profile li{font-size:13.5px;color:var(--soft);margin-bottom:6px}
 
@@ -109,12 +109,14 @@
     .row{grid-template-columns:1fr auto;gap:6px 12px}
     .row .note{grid-column:1/-1}
   }
-  .v{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;
+  /* Named .badge, not .v - a bare .v collided with .prow .v in the profile
+     card and leaked nowrap/uppercase/mono onto text that needed to wrap. */
+  .badge{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;
      padding:4px 8px;border-radius:2px;white-space:nowrap;display:inline-block;font-weight:600}
-  .v.favoured{color:var(--fav);background:var(--favbg)}
-  .v.even{color:var(--even);background:var(--evenbg)}
-  .v.careful{color:var(--care);background:var(--carebg)}
-  .v.hard{color:var(--hard);background:var(--hardbg)}
+  .badge.favoured{color:var(--fav);background:var(--favbg)}
+  .badge.even{color:var(--even);background:var(--evenbg)}
+  .badge.careful{color:var(--care);background:var(--carebg)}
+  .badge.hard{color:var(--hard);background:var(--hardbg)}
   .empty{padding:34px 18px;text-align:center;color:var(--faint);font-size:15px}
 
   footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line2);
@@ -274,7 +276,7 @@
       var other = (mode === 'play') ? m[1] : m[0];
       var sub   = (mode === 'play') ? '' : '<small>playing as</small>';
       return '<div class="row"><div class="who">' + esc(other) + sub + '</div>' +
-             '<div><span class="v ' + m[2] + '">' + m[2] + '</span></div>' +
+             '<div><span class="badge ' + m[2] + '">' + m[2] + '</span></div>' +
              '<div class="note">' + esc(m[3]) + '</div></div>';
     }).join('');
   }
@@ -312,3 +314,4 @@
   renderAll();
 })();
 </script>
+
