@@ -117,6 +117,10 @@
   .badge.even{color:var(--even);background:var(--evenbg)}
   .badge.careful{color:var(--care);background:var(--carebg)}
   .badge.hard{color:var(--hard);background:var(--hardbg)}
+  .badge.soft{opacity:.62;font-weight:500}
+  .note.derived{font-style:italic;opacity:.86}
+  .cchip.thin{border-style:dashed;color:var(--soft)}
+  .cchip.thin.on{border-style:solid;color:var(--ground)}
   .empty{padding:34px 18px;text-align:center;color:var(--faint);font-size:15px}
 
   footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line2);
@@ -177,12 +181,20 @@
 </div>
 
 <script src="data/jungle.js"></script>
+<script src="data/jungle-2.js"></script>
 <script>
 (function(){
   var D = window.LANE_JUNGLE;
   if (!D) { document.getElementById('rows').innerHTML = '<div class="empty">Dataset failed to load.</div>'; return; }
 
   var champs   = D.champions.map(function(c){ return c.name; });
+  var written  = {}; champs.forEach(function(n){ written[n] = true; });
+
+  // If A is favoured into B then B is hard into A. Both "careful" and "hard"
+  // invert to "favoured", which loses a little nuance - so derived rows are
+  // labelled, and they quote the original entry rather than inventing prose.
+  var INVERSE = { favoured:'hard', hard:'favoured', careful:'favoured', even:'even' };
+
   var current  = champs[0];
   var mode     = 'play';                       // 'play' = my champion, 'vs' = the enemy
   var query    = '';
@@ -207,11 +219,39 @@
     return out.sort();
   }
 
+  // Every champion that appears anywhere, so all of them are selectable even
+  // when only their opponents' entries mention them.
+  function allChampions(){
+    var seen = {}, out = [];
+    champs.forEach(function(n){ if (!seen[n]) { seen[n] = 1; out.push(n); } });
+    D.matchups.forEach(function(m){ if (!seen[m[1]]) { seen[m[1]] = 1; out.push(m[1]); } });
+    return out.sort();
+  }
+
+  // Written entries first; anything not covered is derived from the other side.
+  function rowsFor(champ){
+    var out = [], covered = {};
+    D.matchups.forEach(function(m){
+      if (m[0] === champ) {
+        covered[m[1]] = 1;
+        out.push({ other:m[1], v:m[2], note:m[3], derived:false });
+      }
+    });
+    D.matchups.forEach(function(m){
+      if (m[1] === champ && m[0] !== champ && !covered[m[0]]) {
+        out.push({ other:m[0], v:INVERSE[m[2]], derived:true,
+                   note:m[0] + "'s entry: " + m[3] });
+      }
+    });
+    return out;
+  }
+
   function renderChamps(){
-    var names = (mode === 'play') ? champs : opponentList();
+    var names = (mode === 'play') ? allChampions() : opponentList();
     if (names.indexOf(current) === -1) { current = names[0]; }
     elChamps.innerHTML = names.map(function(n){
-      return '<button class="cchip' + (n === current ? ' on' : '') + '" data-n="' + esc(n) + '">' + esc(n) + '</button>';
+      var thin = (mode === 'play' && !written[n]) ? ' thin' : '';
+      return '<button class="cchip' + thin + (n === current ? ' on' : '') + '" data-n="' + esc(n) + '">' + esc(n) + '</button>';
     }).join('');
   }
 
@@ -232,7 +272,22 @@
       return;
     }
     var c = D.champions.filter(function(x){ return x.name === current; })[0];
-    if (!c) { elProfile.innerHTML = ''; return; }
+    if (!c) {
+      var rs = rowsFor(current);
+      var t = { favoured:0, even:0, careful:0, hard:0 };
+      rs.forEach(function(r){ t[r.v]++; });
+      elProfile.innerHTML =
+        '<h2>' + esc(current) + '</h2>' +
+        '<p class="idn">No profile written yet. These matchups are derived from the ' +
+        'entries of champions that are written up, read from the other side.</p>' +
+        '<div class="prow"><span class="k">Favoured</span><span class="v">' + t.favoured + '</span></div>' +
+        '<div class="prow"><span class="k">Even</span><span class="v">' + t.even + '</span></div>' +
+        '<div class="prow"><span class="k">Hard</span><span class="v">' + t.hard + '</span></div>' +
+        '<div class="prow"><span class="k">Coverage</span><span class="v">' + rs.length +
+        ' of the ' + allChampions().length + ' junglers on the site. A full profile means ' +
+        'someone has actually played and written the champion up.</span></div>';
+      return;
+    }
     elProfile.innerHTML =
       '<h2>' + esc(c.name) + '</h2>' +
       '<p class="idn">' + esc(c.identity) + '</p>' +
@@ -246,38 +301,44 @@
   }
 
   function renderRows(){
-    var rows = D.matchups.filter(function(m){
-      return (mode === 'play') ? m[0] === current : m[1] === current;
-    }).filter(function(m){
-      return verdicts[m[2]];
-    }).filter(function(m){
-      if (!query) return true;
-      var other = (mode === 'play') ? m[1] : m[0];
-      return (other + ' ' + m[3]).toLowerCase().indexOf(query) !== -1;
-    });
+    var rows;
+    if (mode === 'play') {
+      rows = rowsFor(current);
+    } else {
+      rows = D.matchups.filter(function(m){ return m[1] === current; })
+        .map(function(m){ return { other:m[0], v:m[2], note:m[3], derived:false, asMe:true }; });
+    }
 
-    elTitle.textContent = (mode === 'play')
-      ? current + ' into…'
-      : 'Who handles ' + current + '?';
-    elCount.textContent = rows.length + (rows.length === 1 ? ' matchup' : ' matchups');
+    rows = rows.filter(function(r){ return verdicts[r.v]; })
+               .filter(function(r){
+                 if (!query) return true;
+                 return (r.other + ' ' + r.note).toLowerCase().indexOf(query) !== -1;
+               });
+
+    elTitle.textContent = (mode === 'play') ? current + ' into…' : 'Who handles ' + current + '?';
+    var derivedCount = rows.filter(function(r){ return r.derived; }).length;
+    elCount.textContent = rows.length + (rows.length === 1 ? ' matchup' : ' matchups') +
+                          (derivedCount ? ' · ' + derivedCount + ' derived' : '');
 
     if (!rows.length) {
       elRows.innerHTML = '<div class="empty">Nothing matches those filters.</div>';
       return;
     }
-    var order = { hard:0, careful:1, even:2, favoured:3 };
-    if (mode === 'vs') { order = { favoured:0, even:1, careful:2, hard:3 }; }
+
+    var order = (mode === 'play')
+      ? { hard:0, careful:1, even:2, favoured:3 }
+      : { favoured:0, even:1, careful:2, hard:3 };
     rows.sort(function(a,b){
-      var d = order[a[2]] - order[b[2]];
-      return d !== 0 ? d : (mode === 'play' ? a[1] : a[0]).localeCompare(mode === 'play' ? b[1] : b[0]);
+      if (a.derived !== b.derived) { return a.derived ? 1 : -1; }   // written first
+      var d = order[a.v] - order[b.v];
+      return d !== 0 ? d : a.other.localeCompare(b.other);
     });
 
-    elRows.innerHTML = rows.map(function(m){
-      var other = (mode === 'play') ? m[1] : m[0];
-      var sub   = (mode === 'play') ? '' : '<small>playing as</small>';
-      return '<div class="row"><div class="who">' + esc(other) + sub + '</div>' +
-             '<div><span class="badge ' + m[2] + '">' + m[2] + '</span></div>' +
-             '<div class="note">' + esc(m[3]) + '</div></div>';
+    elRows.innerHTML = rows.map(function(r){
+      var sub = r.asMe ? '<small>playing as</small>' : (r.derived ? '<small>derived</small>' : '');
+      return '<div class="row"><div class="who">' + esc(r.other) + sub + '</div>' +
+             '<div><span class="badge ' + r.v + (r.derived ? ' soft' : '') + '">' + r.v + '</span></div>' +
+             '<div class="note' + (r.derived ? ' derived' : '') + '">' + esc(r.note) + '</div></div>';
     }).join('');
   }
 
@@ -314,4 +375,5 @@
   renderAll();
 })();
 </script>
+
 

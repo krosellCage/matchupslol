@@ -13,8 +13,17 @@ and a script tag.
 
 ## What's in it
 
-**260 jungle matchups** — five champions against every jungler that sees play,
-each with a verdict and one line on what decides it.
+**520 jungle matchups.** Ten champions are written up in full — Nocturne, Xin
+Zhao, Viego, Lee Sin, Sejuani, Kayn, Graves, Vi, Warwick and Amumu — each
+against every jungler that sees play, with a verdict and one line on what
+decides it.
+
+All **52 junglers are selectable**. The other 42 have no written profile yet, so
+their pages show *derived* matchups: if Lee Sin's entry says he is favoured into
+Karthus, then Karthus's page shows that fact inverted and clearly labelled,
+quoting the original note. Nothing is invented to fill a gap — a champion with a
+dashed outline in the picker has no profile written, and every derived row says
+so.
 
 Two directions:
 
@@ -40,13 +49,19 @@ enemy jungler and start playing the map.
 
 ## Honest scope
 
-Only **jungle** is written, and only five champions. Full coverage of every
-champion in every lane is roughly **7,600 directional matchups**. At the quality
-of what's here that is a multi-year writing project, and anything generated
-wholesale to fill the gap would be confidently wrong — which is worse than an
-empty page, because a matchup site survives on being right.
+Only **jungle** is written, and only ten champions have real profiles. Full
+coverage of every champion in every lane is roughly **7,600 directional
+matchups**. At the quality of what's here that is a multi-year writing project,
+and anything generated wholesale to fill the gap would be confidently wrong —
+which is worse than an empty page, because a matchup site survives on being
+right.
 
-So the other lanes say "soon" and contain nothing. That is deliberate.
+So the other lanes say "soon" and contain nothing, and unwritten champions are
+marked as unwritten rather than padded out. That is deliberate.
+
+Derived matchups lose a little precision: both *careful* and *hard* invert to
+*favoured*, so a derived verdict is coarser than a written one. That is why they
+are labelled rather than silently mixed in.
 
 The version that scales is data-driven: real win rates and gold differentials
 per matchup computed from match history, which needs an approved production API
@@ -104,3 +119,4 @@ matchupslol isn't endorsed by Riot Games and doesn't reflect the views or
 opinions of Riot Games or anyone officially involved in producing or managing
 Riot Games properties. Riot Games and all associated properties are trademarks
 or registered trademarks of Riot Games, Inc.
+
