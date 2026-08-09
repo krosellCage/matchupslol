@@ -18,12 +18,8 @@ Zhao, Viego, Lee Sin, Sejuani, Kayn, Graves, Vi, Warwick and Amumu — each
 against every jungler that sees play, with a verdict and one line on what
 decides it.
 
-All **52 junglers are selectable**. The other 42 have no written profile yet, so
-their pages show *derived* matchups: if Lee Sin's entry says he is favoured into
-Karthus, then Karthus's page shows that fact inverted and clearly labelled,
-quoting the original note. Nothing is invented to fill a gap — a champion with a
-dashed outline in the picker has no profile written, and every derived row says
-so.
+All **52 junglers are selectable**. The 42 without a profile show *derived*
+matchups instead — see scope below.
 
 Two directions:
 
@@ -56,12 +52,12 @@ and anything generated wholesale to fill the gap would be confidently wrong —
 which is worse than an empty page, because a matchup site survives on being
 right.
 
-So the other lanes say "soon" and contain nothing, and unwritten champions are
-marked as unwritten rather than padded out. That is deliberate.
-
-Derived matchups lose a little precision: both *careful* and *hard* invert to
-*favoured*, so a derived verdict is coarser than a written one. That is why they
-are labelled rather than silently mixed in.
+So the other lanes contain nothing, and the 42 unwritten junglers show **derived**
+matchups: if Lee Sin's entry says he is favoured into Karthus, Karthus's page
+shows that inverted, quoting Lee Sin's note rather than inventing a new one.
+Derived rows carry a muted badge, unwritten champions get a dashed outline in the
+picker, and both *careful* and *hard* invert to *favoured* — so a derived verdict
+is coarser than a written one, and says so.
 
 The version that scales is data-driven: real win rates and gold differentials
 per matchup computed from match history, which needs an approved production API
@@ -119,4 +115,5 @@ matchupslol isn't endorsed by Riot Games and doesn't reflect the views or
 opinions of Riot Games or anyone officially involved in producing or managing
 Riot Games properties. Riot Games and all associated properties are trademarks
 or registered trademarks of Riot Games, Inc.
+
 

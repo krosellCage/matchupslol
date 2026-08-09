@@ -38,5 +38,31 @@ if ($check -notmatch 'LANE_JUNGLE\s*=\s*\{') { throw 'dataset assignment missing
 $rows = ([regex]::Matches($check, '\["[^"]+","[^"]+","(favoured|even|careful|hard)"')).Count
 if ($rows -lt 100) { throw "only $rows matchup rows made it into the build" }
 
+# Lint the prose, not just the plumbing. Notes that repeat verbatim, or lean on
+# the same stock sentence, are the failure mode of a hand-written dataset.
+$notes = [regex]::Matches($check, '","(?:favoured|even|careful|hard)","([^"]*)"\]') |
+         ForEach-Object { $_.Groups[1].Value }
+$dupes = $notes | Group-Object | Where-Object Count -gt 1
+if ($dupes) {
+    Write-Host "duplicate notes:" -ForegroundColor Red
+    $dupes | ForEach-Object { Write-Host "  x$($_.Count)  $($_.Name)" -ForegroundColor Red }
+    throw "$($dupes.Count) note(s) used verbatim more than once"
+}
+$ph = @{}
+foreach ($nt in $notes) {
+    $w = ($nt -replace "[^A-Za-z' ]", ' ') -split '\s+' | Where-Object { $_ }
+    for ($i = 0; $i -lt $w.Count - 3; $i++) {
+        $k = ($w[$i..($i + 3)] -join ' ').ToLower()
+        if (-not $ph.ContainsKey($k)) { $ph[$k] = 0 }
+        $ph[$k]++
+    }
+}
+$worn = $ph.GetEnumerator() | Where-Object { $_.Value -ge 6 } | Sort-Object Value -Descending
+if ($worn) {
+    Write-Host "stock phrases (6+ uses) - consider rewording:" -ForegroundColor DarkYellow
+    $worn | Select-Object -First 6 | ForEach-Object { Write-Host "  x$($_.Value)  $($_.Name)" -ForegroundColor DarkYellow }
+}
+
 $kb = [math]::Round((Get-Item $out).Length / 1KB, 1)
 Write-Host "built $out  ($kb KB, $found dataset(s), $rows matchups)" -ForegroundColor Green
+
