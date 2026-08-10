@@ -58,6 +58,7 @@ foreach ($id in $ids) {
             cd = $sp.cooldownBurn      # e.g. "11/10/9/8/7" - per rank
             cost = $sp.costBurn
             range = $sp.rangeBurn
+            img = $sp.image.full       # served from /img/spell/
         }
     }
 
@@ -68,6 +69,8 @@ foreach ($id in $ids) {
         tags    = @($c.tags)
         partype = $c.partype
         passive = $c.passive.name
+        pimg    = $c.passive.image.full   # served from /img/passive/
+        img     = $c.image.full           # served from /img/champion/
         spells  = $spells
     }
     Start-Sleep -Milliseconds 40
@@ -94,4 +97,5 @@ if ($out.Count -ne $ids.Count) {
 }
 $kb = [math]::Round((Get-Item $OutFile).Length / 1KB, 1)
 Write-Host "wrote $OutFile  ($kb KB, $($out.Count) champions)" -ForegroundColor Green
+
 

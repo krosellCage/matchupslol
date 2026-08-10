@@ -16,34 +16,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Blood Well",
       "passive": "Deathbringer Stance",
+      "pimg": "Aatrox_Passive.png",
+      "img": "Aatrox.png",
       "spells": [
         {
           "k": "Q",
           "n": "The Darkin Blade",
           "cd": "14/12/10/8/6",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "AatroxQ.png"
         },
         {
           "k": "W",
           "n": "Infernal Chains",
           "cd": "20/18/16/14/12",
           "cost": "0",
-          "range": "825"
+          "range": "825",
+          "img": "AatroxW.png"
         },
         {
           "k": "E",
           "n": "Umbral Dash",
           "cd": "9/8/7/6/5",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "AatroxE.png"
         },
         {
           "k": "R",
           "n": "World Ender",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "AatroxR.png"
         }
       ]
     },
@@ -56,34 +62,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Essence Theft",
+      "pimg": "Ahri_SoulEater2.png",
+      "img": "Ahri.png",
       "spells": [
         {
           "k": "Q",
           "n": "Orb of Deception",
           "cd": "7",
           "cost": "55/65/75/85/95",
-          "range": "970"
+          "range": "970",
+          "img": "AhriQ.png"
         },
         {
           "k": "W",
           "n": "Fox-Fire",
           "cd": "9/8/7/6/5",
           "cost": "30",
-          "range": "700"
+          "range": "700",
+          "img": "AhriW.png"
         },
         {
           "k": "E",
           "n": "Charm",
           "cd": "12",
           "cost": "60",
-          "range": "975"
+          "range": "975",
+          "img": "AhriE.png"
         },
         {
           "k": "R",
           "n": "Spirit Rush",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "450"
+          "range": "450",
+          "img": "AhriR.png"
         }
       ]
     },
@@ -95,34 +107,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Energy",
       "passive": "Assassin's Mark",
+      "pimg": "Akali_P.png",
+      "img": "Akali.png",
       "spells": [
         {
           "k": "Q",
           "n": "Five Point Strike",
           "cd": "1.5",
           "cost": "110/100/90/80/70",
-          "range": "550"
+          "range": "550",
+          "img": "AkaliQ.png"
         },
         {
           "k": "W",
           "n": "Twilight Shroud",
           "cd": "20/19/18/17/16",
           "cost": "0",
-          "range": "350"
+          "range": "350",
+          "img": "AkaliW.png"
         },
         {
           "k": "E",
           "n": "Shuriken Flip",
           "cd": "16/14.5/13/11.5/10",
           "cost": "30",
-          "range": "825"
+          "range": "825",
+          "img": "AkaliE.png"
         },
         {
           "k": "R",
           "n": "Perfect Execution",
           "cd": "120/90/60",
           "cost": "0",
-          "range": "675"
+          "range": "675",
+          "img": "AkaliR.png"
         }
       ]
     },
@@ -135,34 +153,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Dirty Fighting",
+      "pimg": "akshan_p.png",
+      "img": "Akshan.png",
       "spells": [
         {
           "k": "Q",
           "n": "Avengerang",
           "cd": "9/8/7/6/5",
           "cost": "60/65/70/75/80",
-          "range": "850"
+          "range": "850",
+          "img": "AkshanQ.png"
         },
         {
           "k": "W",
           "n": "Going Rogue",
           "cd": "18/14/10/6/2",
           "cost": "40/30/20/10/0",
-          "range": "5500"
+          "range": "5500",
+          "img": "AkshanW.png"
         },
         {
           "k": "E",
           "n": "Heroic Swing",
           "cd": "18/16.5/15/13.5/12",
           "cost": "70",
-          "range": "800"
+          "range": "800",
+          "img": "AkshanE.png"
         },
         {
           "k": "R",
           "n": "Comeuppance",
           "cd": "100/85/70",
           "cost": "100",
-          "range": "2500"
+          "range": "2500",
+          "img": "AkshanR.png"
         }
       ]
     },
@@ -175,34 +199,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Triumphant Roar",
+      "pimg": "Alistar_E.png",
+      "img": "Alistar.png",
       "spells": [
         {
           "k": "Q",
           "n": "Pulverize",
           "cd": "14/13/12/11/10",
           "cost": "50/55/60/65/70",
-          "range": "365"
+          "range": "365",
+          "img": "Pulverize.png"
         },
         {
           "k": "W",
           "n": "Headbutt",
           "cd": "14/13/12/11/10",
           "cost": "50/55/60/65/70",
-          "range": "650"
+          "range": "650",
+          "img": "Headbutt.png"
         },
         {
           "k": "E",
           "n": "Trample",
           "cd": "12/11.5/11/10.5/10",
           "cost": "50/55/60/65/70",
-          "range": "350"
+          "range": "350",
+          "img": "AlistarE.png"
         },
         {
           "k": "R",
           "n": "Unbreakable Will",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "1"
+          "range": "1",
+          "img": "FerociousHowl.png"
         }
       ]
     },
@@ -215,34 +245,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Energy",
       "passive": "Drakehound's Step",
+      "pimg": "Icon_Ambessa_Passive.png",
+      "img": "Ambessa.png",
       "spells": [
         {
           "k": "Q",
           "n": "Cunning Sweep / Sundering Slam",
           "cd": "14/13/12/11/10",
           "cost": "70",
-          "range": "650"
+          "range": "650",
+          "img": "AmbessaQ.png"
         },
         {
           "k": "W",
           "n": "Repudiation",
           "cd": "18/17/16/15/14",
           "cost": "70",
-          "range": "325"
+          "range": "325",
+          "img": "AmbessaW.png"
         },
         {
           "k": "E",
           "n": "Lacerate",
           "cd": "13/12/11/10/9",
           "cost": "70",
-          "range": "325"
+          "range": "325",
+          "img": "AmbessaE.png"
         },
         {
           "k": "R",
           "n": "Public Execution",
           "cd": "130/115/100",
           "cost": "0",
-          "range": "1250"
+          "range": "1250",
+          "img": "AmbessaR.png"
         }
       ]
     },
@@ -255,34 +291,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Cursed Touch",
+      "pimg": "Amumu_Passive.png",
+      "img": "Amumu.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bandage Toss",
           "cd": "3",
           "cost": "50",
-          "range": "1100"
+          "range": "1100",
+          "img": "BandageToss.png"
         },
         {
           "k": "W",
           "n": "Despair",
           "cd": "1",
           "cost": "8",
-          "range": "300"
+          "range": "300",
+          "img": "AuraofDespair.png"
         },
         {
           "k": "E",
           "n": "Tantrum",
           "cd": "9/8/7/6/5",
           "cost": "35",
-          "range": "350"
+          "range": "350",
+          "img": "Tantrum.png"
         },
         {
           "k": "R",
           "n": "Curse of the Sad Mummy",
           "cd": "150/125/100",
           "cost": "100/150/200",
-          "range": "550"
+          "range": "550",
+          "img": "CurseoftheSadMummy.png"
         }
       ]
     },
@@ -294,34 +336,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Rebirth",
+      "pimg": "Anivia_P.png",
+      "img": "Anivia.png",
       "spells": [
         {
           "k": "Q",
           "n": "Flash Frost",
           "cd": "11/10/9/8/7",
           "cost": "80/85/90/95/100",
-          "range": "1075"
+          "range": "1075",
+          "img": "FlashFrost.png"
         },
         {
           "k": "W",
           "n": "Crystallize",
           "cd": "17",
           "cost": "70",
-          "range": "1000"
+          "range": "1000",
+          "img": "Crystallize.png"
         },
         {
           "k": "E",
           "n": "Frostbite",
           "cd": "4",
           "cost": "50",
-          "range": "650"
+          "range": "650",
+          "img": "Frostbite.png"
         },
         {
           "k": "R",
           "n": "Glacial Storm",
           "cd": "4/3/2",
           "cost": "60",
-          "range": "750"
+          "range": "750",
+          "img": "GlacialStorm.png"
         }
       ]
     },
@@ -334,34 +382,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Pyromania",
+      "pimg": "Annie_Passive.png",
+      "img": "Annie.png",
       "spells": [
         {
           "k": "Q",
           "n": "Disintegrate",
           "cd": "4",
           "cost": "60/65/70/75/80",
-          "range": "625"
+          "range": "625",
+          "img": "AnnieQ.png"
         },
         {
           "k": "W",
           "n": "Incinerate",
           "cd": "7",
           "cost": "70/75/80/85/90",
-          "range": "600"
+          "range": "600",
+          "img": "AnnieW.png"
         },
         {
           "k": "E",
           "n": "Molten Shield",
           "cd": "10",
           "cost": "60/65/70/75/80",
-          "range": "800"
+          "range": "800",
+          "img": "AnnieE.png"
         },
         {
           "k": "R",
           "n": "Summon: Tibbers",
           "cd": "130/115/100",
           "cost": "100",
-          "range": "600"
+          "range": "600",
+          "img": "AnnieR.png"
         }
       ]
     },
@@ -373,34 +427,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "The Hitman and the Seer",
+      "pimg": "ApheliosP.png",
+      "img": "Aphelios.png",
       "spells": [
         {
           "k": "Q",
           "n": "Weapon Abilites",
           "cd": "9",
           "cost": "60",
-          "range": "1450"
+          "range": "1450",
+          "img": "ApheliosQ_ClientTooltipWrapper.png"
         },
         {
           "k": "W",
           "n": "Phase",
           "cd": "0.8",
           "cost": "0",
-          "range": "250"
+          "range": "250",
+          "img": "ApheliosW.png"
         },
         {
           "k": "E",
           "n": "Weapon Queue System",
           "cd": "0",
           "cost": "0",
-          "range": "1000"
+          "range": "1000",
+          "img": "ApheliosE_ClientTooltipWrapper.png"
         },
         {
           "k": "R",
           "n": "Moonlight Vigil",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "1300"
+          "range": "1300",
+          "img": "ApheliosR.png"
         }
       ]
     },
@@ -413,34 +473,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Frost Shot",
+      "pimg": "Ashe_P.png",
+      "img": "Ashe.png",
       "spells": [
         {
           "k": "Q",
           "n": "Ranger's Focus",
           "cd": "0",
           "cost": "30",
-          "range": "400"
+          "range": "400",
+          "img": "AsheQ.png"
         },
         {
           "k": "W",
           "n": "Volley",
           "cd": "18/14.5/11/7.5/4",
           "cost": "75/70/65/60/55",
-          "range": "1200"
+          "range": "1200",
+          "img": "Volley.png"
         },
         {
           "k": "E",
           "n": "Hawkshot",
           "cd": "5",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "AsheSpiritOfTheHawk.png"
         },
         {
           "k": "R",
           "n": "Enchanted Crystal Arrow",
           "cd": "100/80/60",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "EnchantedCrystalArrow.png"
         }
       ]
     },
@@ -452,34 +518,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Cosmic Creator",
+      "pimg": "AurelionSolP.png",
+      "img": "AurelionSol.png",
       "spells": [
         {
           "k": "Q",
           "n": "Breath of Light",
           "cd": "3",
           "cost": "35/40/45/50/55",
-          "range": "750"
+          "range": "750",
+          "img": "AurelionSolQ.png"
         },
         {
           "k": "W",
           "n": "Astral Flight",
           "cd": "22/20.5/19/17.5/16",
           "cost": "50/55/60/65/70",
-          "range": "1500"
+          "range": "1500",
+          "img": "AurelionSolW.png"
         },
         {
           "k": "E",
           "n": "Singularity",
           "cd": "12",
           "cost": "90",
-          "range": "750"
+          "range": "750",
+          "img": "AurelionSolE.png"
         },
         {
           "k": "R",
           "n": "Falling Star / The Skies Descend",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "1250"
+          "range": "1250",
+          "img": "AurelionSolR.png"
         }
       ]
     },
@@ -492,34 +564,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Spirit Abjuration",
+      "pimg": "AuroraPassive.png",
+      "img": "Aurora.png",
       "spells": [
         {
           "k": "Q",
           "n": "Twofold Hex",
           "cd": "9/8.5/8/7.5/7",
           "cost": "60",
-          "range": "900"
+          "range": "900",
+          "img": "AuroraQ.png"
         },
         {
           "k": "W",
           "n": "Across the Veil",
           "cd": "22/21/20/19/18",
           "cost": "80",
-          "range": "700"
+          "range": "700",
+          "img": "AuroraW.png"
         },
         {
           "k": "E",
           "n": "The Weirding",
           "cd": "15/14/13/12/11",
           "cost": "80",
-          "range": "825"
+          "range": "825",
+          "img": "AuroraE.png"
         },
         {
           "k": "R",
           "n": "Between Worlds",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "250"
+          "range": "250",
+          "img": "AuroraR.png"
         }
       ]
     },
@@ -532,34 +610,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Shurima's Legacy",
+      "pimg": "Azir_Passive.png",
+      "img": "Azir.png",
       "spells": [
         {
           "k": "Q",
           "n": "Conquering Sands",
           "cd": "14/12/10/8/6",
           "cost": "70/80/90/100/110",
-          "range": "740"
+          "range": "740",
+          "img": "AzirQWrapper.png"
         },
         {
           "k": "W",
           "n": "Arise!",
           "cd": "1.5",
           "cost": "40/35/30/25/20",
-          "range": "525"
+          "range": "525",
+          "img": "AzirW.png"
         },
         {
           "k": "E",
           "n": "Shifting Sands",
           "cd": "22/20.5/19/17.5/16",
           "cost": "60",
-          "range": "1100"
+          "range": "1100",
+          "img": "AzirEWrapper.png"
         },
         {
           "k": "R",
           "n": "Emperor's Divide",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "250"
+          "range": "250",
+          "img": "AzirR.png"
         }
       ]
     },
@@ -572,34 +656,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Traveler's Call",
+      "pimg": "Bard_Passive.png",
+      "img": "Bard.png",
       "spells": [
         {
           "k": "Q",
           "n": "Cosmic Binding",
           "cd": "11/10/9/8/7",
           "cost": "60",
-          "range": "25000"
+          "range": "25000",
+          "img": "BardQ.png"
         },
         {
           "k": "W",
           "n": "Caretaker's Shrine",
           "cd": "0",
           "cost": "70",
-          "range": "800"
+          "range": "800",
+          "img": "BardW.png"
         },
         {
           "k": "E",
           "n": "Magical Journey",
           "cd": "22/20.5/19/17.5/16",
           "cost": "30",
-          "range": "900"
+          "range": "900",
+          "img": "BardE.png"
         },
         {
           "k": "R",
           "n": "Tempered Fate",
           "cd": "110/95/80",
           "cost": "100",
-          "range": "3400"
+          "range": "3400",
+          "img": "BardR.png"
         }
       ]
     },
@@ -611,34 +701,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "",
       "passive": "Death in Lavender ",
+      "pimg": "Belveth_Passive.png",
+      "img": "Belveth.png",
       "spells": [
         {
           "k": "Q",
           "n": "Void Surge",
           "cd": "4/3.25/2.5/1.75/1",
           "cost": "0",
-          "range": "450"
+          "range": "450",
+          "img": "BelvethQ.png"
         },
         {
           "k": "W",
           "n": "Above and Below",
           "cd": "12/11/10/9/8",
           "cost": "0",
-          "range": "715"
+          "range": "715",
+          "img": "BelvethW.png"
         },
         {
           "k": "E",
           "n": "Royal Maelstrom",
           "cd": "24/21/18/15/12",
           "cost": "0",
-          "range": "500"
+          "range": "500",
+          "img": "BelvethE.png"
         },
         {
           "k": "R",
           "n": "Endless Banquet",
           "cd": "1",
           "cost": "0",
-          "range": "450"
+          "range": "450",
+          "img": "BelvethR.png"
         }
       ]
     },
@@ -651,34 +747,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Mana Barrier",
+      "pimg": "Blitzcrank_ManaBarrier.png",
+      "img": "Blitzcrank.png",
       "spells": [
         {
           "k": "Q",
           "n": "Rocket Grab",
           "cd": "20/19/18/17/16",
           "cost": "100",
-          "range": "1079"
+          "range": "1079",
+          "img": "RocketGrab.png"
         },
         {
           "k": "W",
           "n": "Overdrive",
           "cd": "15",
           "cost": "75",
-          "range": "1"
+          "range": "1",
+          "img": "Overdrive.png"
         },
         {
           "k": "E",
           "n": "Power Fist",
           "cd": "7/6.5/6/5.5/5",
           "cost": "25",
-          "range": "300"
+          "range": "300",
+          "img": "PowerFist.png"
         },
         {
           "k": "R",
           "n": "Static Field",
           "cd": "60/40/20",
           "cost": "100",
-          "range": "600"
+          "range": "600",
+          "img": "StaticField.png"
         }
       ]
     },
@@ -691,34 +793,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Blaze",
+      "pimg": "BrandP.png",
+      "img": "Brand.png",
       "spells": [
         {
           "k": "Q",
           "n": "Sear",
           "cd": "8/7.5/7/6.5/6",
           "cost": "70",
-          "range": "1050"
+          "range": "1050",
+          "img": "BrandQ.png"
         },
         {
           "k": "W",
           "n": "Pillar of Flame",
           "cd": "10/9.5/9/8.5/8",
           "cost": "60/70/80/90/100",
-          "range": "900"
+          "range": "900",
+          "img": "BrandW.png"
         },
         {
           "k": "E",
           "n": "Conflagration",
           "cd": "13/12/11/10/9",
           "cost": "90",
-          "range": "625"
+          "range": "625",
+          "img": "BrandE.png"
         },
         {
           "k": "R",
           "n": "Pyroclasm",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "750"
+          "range": "750",
+          "img": "BrandR.png"
         }
       ]
     },
@@ -731,34 +839,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Concussive Blows",
+      "pimg": "Braum_Passive.png",
+      "img": "Braum.png",
       "spells": [
         {
           "k": "Q",
           "n": "Winter's Bite",
           "cd": "8/7.5/7/6.5/6",
           "cost": "45/50/55/60/65",
-          "range": "1000"
+          "range": "1000",
+          "img": "BraumQ.png"
         },
         {
           "k": "W",
           "n": "Stand Behind Me",
           "cd": "12/11/10/9/8",
           "cost": "40",
-          "range": "650"
+          "range": "650",
+          "img": "BraumW.png"
         },
         {
           "k": "E",
           "n": "Unbreakable",
           "cd": "16/14/12/10/8",
           "cost": "30/35/40/45/50",
-          "range": "25000"
+          "range": "25000",
+          "img": "BraumE.png"
         },
         {
           "k": "R",
           "n": "Glacial Fissure",
           "cd": "130/115/100",
           "cost": "100",
-          "range": "1250"
+          "range": "1250",
+          "img": "BraumRWrapper.png"
         }
       ]
     },
@@ -771,34 +885,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Fury",
       "passive": "Crimson Curse",
+      "pimg": "BriarP.png",
+      "img": "Briar.png",
       "spells": [
         {
           "k": "Q",
           "n": "Head Rush",
           "cd": "13/12/11/10/9",
           "cost": "0",
-          "range": "475"
+          "range": "475",
+          "img": "BriarQ.png"
         },
         {
           "k": "W",
           "n": "Blood Frenzy / Snack Attack",
           "cd": "14/13/12/11/10",
           "cost": "0",
-          "range": "350"
+          "range": "350",
+          "img": "BriarW.png"
         },
         {
           "k": "E",
           "n": "Chilling Scream",
           "cd": "16",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "BriarE.png"
         },
         {
           "k": "R",
           "n": "Certain Death",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "12000"
+          "range": "12000",
+          "img": "BriarR.png"
         }
       ]
     },
@@ -810,34 +930,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Headshot",
+      "pimg": "Caitlyn_Headshot.png",
+      "img": "Caitlyn.png",
       "spells": [
         {
           "k": "Q",
           "n": "Piltover Peacemaker",
           "cd": "10/9/8/7/6",
           "cost": "55/60/65/70/75",
-          "range": "1250"
+          "range": "1250",
+          "img": "CaitlynQ.png"
         },
         {
           "k": "W",
           "n": "Yordle Snap Trap",
           "cd": "0.5",
           "cost": "20",
-          "range": "800"
+          "range": "800",
+          "img": "CaitlynW.png"
         },
         {
           "k": "E",
           "n": "90 Caliber Net",
           "cd": "16/14/12/10/8",
           "cost": "75",
-          "range": "750"
+          "range": "750",
+          "img": "CaitlynE.png"
         },
         {
           "k": "R",
           "n": "Ace in the Hole",
           "cd": "90",
           "cost": "100",
-          "range": "3500"
+          "range": "3500",
+          "img": "CaitlynR.png"
         }
       ]
     },
@@ -850,34 +976,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Adaptive Defenses",
+      "pimg": "Camille_Passive.png",
+      "img": "Camille.png",
       "spells": [
         {
           "k": "Q",
           "n": "Precision Protocol",
           "cd": "9/8/7/6/5",
           "cost": "25",
-          "range": "325"
+          "range": "325",
+          "img": "CamilleQ.png"
         },
         {
           "k": "W",
           "n": "Tactical Sweep",
           "cd": "15/14/13/12/11",
           "cost": "50/55/60/65/70",
-          "range": "610"
+          "range": "610",
+          "img": "CamilleW.png"
         },
         {
           "k": "E",
           "n": "Hookshot",
           "cd": "16/15/14/13/12",
           "cost": "70",
-          "range": "800"
+          "range": "800",
+          "img": "CamilleE.png"
         },
         {
           "k": "R",
           "n": "The Hextech Ultimatum",
           "cd": "140/115/90",
           "cost": "100",
-          "range": "475"
+          "range": "475",
+          "img": "CamilleR.png"
         }
       ]
     },
@@ -889,34 +1021,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Serpentine Grace",
+      "pimg": "Cassiopeia_Passive.png",
+      "img": "Cassiopeia.png",
       "spells": [
         {
           "k": "Q",
           "n": "Noxious Blast",
           "cd": "3.5",
           "cost": "50/55/60/65/70",
-          "range": "850"
+          "range": "850",
+          "img": "CassiopeiaQ.png"
         },
         {
           "k": "W",
           "n": "Miasma",
           "cd": "24/22/20/18/16",
           "cost": "70/75/80/85/90",
-          "range": "700"
+          "range": "700",
+          "img": "CassiopeiaW.png"
         },
         {
           "k": "E",
           "n": "Twin Fang",
           "cd": "0.75",
           "cost": "40",
-          "range": "700"
+          "range": "700",
+          "img": "CassiopeiaE.png"
         },
         {
           "k": "R",
           "n": "Petrifying Gaze",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "825"
+          "range": "825",
+          "img": "CassiopeiaR.png"
         }
       ]
     },
@@ -929,34 +1067,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Carnivore",
+      "pimg": "GreenTerror_TailSpike.png",
+      "img": "Chogath.png",
       "spells": [
         {
           "k": "Q",
           "n": "Rupture",
           "cd": "6",
           "cost": "50",
-          "range": "950"
+          "range": "950",
+          "img": "Rupture.png"
         },
         {
           "k": "W",
           "n": "Feral Scream",
           "cd": "11/10.5/10/9.5/9",
           "cost": "70/75/80/85/90",
-          "range": "300"
+          "range": "300",
+          "img": "FeralScream.png"
         },
         {
           "k": "E",
           "n": "Vorpal Spikes",
           "cd": "8/7/6/5/4",
           "cost": "30",
-          "range": "40"
+          "range": "40",
+          "img": "VorpalSpikes.png"
         },
         {
           "k": "R",
           "n": "Feast",
           "cd": "80/70/60",
           "cost": "100",
-          "range": "175"
+          "range": "175",
+          "img": "Feast.png"
         }
       ]
     },
@@ -969,34 +1113,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Hextech Munitions",
+      "pimg": "Corki_RapidReload.png",
+      "img": "Corki.png",
       "spells": [
         {
           "k": "Q",
           "n": "Phosphorus Bomb",
           "cd": "9/8.5/8/7.5/7",
           "cost": "60/65/70/75/80",
-          "range": "825"
+          "range": "825",
+          "img": "PhosphorusBomb.png"
         },
         {
           "k": "W",
           "n": "Valkyrie",
           "cd": "20/18/16/14/12",
           "cost": "80/85/90/95/100",
-          "range": "600"
+          "range": "600",
+          "img": "CarpetBomb.png"
         },
         {
           "k": "E",
           "n": "Gatling Gun",
           "cd": "12",
           "cost": "50/55/60/65/70",
-          "range": "600"
+          "range": "600",
+          "img": "GGun.png"
         },
         {
           "k": "R",
           "n": "Missile Barrage",
           "cd": "2",
           "cost": "35",
-          "range": "1225"
+          "range": "1225",
+          "img": "MissileBarrage.png"
         }
       ]
     },
@@ -1009,34 +1159,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Hemorrhage",
+      "pimg": "Darius_Icon_Hemorrhage.png",
+      "img": "Darius.png",
       "spells": [
         {
           "k": "Q",
           "n": "Decimate",
           "cd": "9/8/7/6/5",
           "cost": "25/30/35/40/45",
-          "range": "1"
+          "range": "1",
+          "img": "DariusCleave.png"
         },
         {
           "k": "W",
           "n": "Crippling Strike",
           "cd": "5",
           "cost": "40",
-          "range": "300"
+          "range": "300",
+          "img": "DariusNoxianTacticsONH.png"
         },
         {
           "k": "E",
           "n": "Apprehend",
           "cd": "26/23.5/21/18.5/16",
           "cost": "70/60/50/40/30",
-          "range": "535"
+          "range": "535",
+          "img": "DariusAxeGrabCone.png"
         },
         {
           "k": "R",
           "n": "Noxian Guillotine",
           "cd": "120/100/80",
           "cost": "100/100/0",
-          "range": "460"
+          "range": "460",
+          "img": "DariusExecute.png"
         }
       ]
     },
@@ -1049,34 +1205,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Moonsilver Blade",
+      "pimg": "Diana_Passive_LunarBlade.png",
+      "img": "Diana.png",
       "spells": [
         {
           "k": "Q",
           "n": "Crescent Strike",
           "cd": "8/7.5/7/6.5/6",
           "cost": "50",
-          "range": "900"
+          "range": "900",
+          "img": "DianaQ.png"
         },
         {
           "k": "W",
           "n": "Pale Cascade",
           "cd": "15/13.5/12/10.5/9",
           "cost": "40/45/50/55/60",
-          "range": "800"
+          "range": "800",
+          "img": "DianaOrbs.png"
         },
         {
           "k": "E",
           "n": "Lunar Rush",
           "cd": "22/20/18/16/14",
           "cost": "40/45/50/55/60",
-          "range": "825"
+          "range": "825",
+          "img": "DianaTeleport.png"
         },
         {
           "k": "R",
           "n": "Moonfall",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "475"
+          "range": "475",
+          "img": "DianaR.png"
         }
       ]
     },
@@ -1088,34 +1250,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "League of Draven",
+      "pimg": "Draven_passive.png",
+      "img": "Draven.png",
       "spells": [
         {
           "k": "Q",
           "n": "Spinning Axe",
           "cd": "12/11/10/9/8",
           "cost": "45",
-          "range": "300"
+          "range": "300",
+          "img": "DravenSpinning.png"
         },
         {
           "k": "W",
           "n": "Blood Rush",
           "cd": "12",
           "cost": "40/35/30/25/20",
-          "range": "1000"
+          "range": "1000",
+          "img": "DravenFury.png"
         },
         {
           "k": "E",
           "n": "Stand Aside",
           "cd": "16/15/14/13/12",
           "cost": "70",
-          "range": "1050"
+          "range": "1050",
+          "img": "DravenDoubleShot.png"
         },
         {
           "k": "R",
           "n": "Whirling Death",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "20000"
+          "range": "20000",
+          "img": "DravenRCast.png"
         }
       ]
     },
@@ -1128,34 +1296,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "None",
       "passive": "Goes Where He Pleases",
+      "pimg": "DrMundo_P.png",
+      "img": "DrMundo.png",
       "spells": [
         {
           "k": "Q",
           "n": "Infected Bonesaw",
           "cd": "4",
           "cost": "0",
-          "range": "975"
+          "range": "975",
+          "img": "DrMundoQ.png"
         },
         {
           "k": "W",
           "n": "Heart Zapper",
           "cd": "17/16.5/16/15.5/15",
           "cost": "0",
-          "range": "325"
+          "range": "325",
+          "img": "DrMundoW.png"
         },
         {
           "k": "E",
           "n": "Blunt Force Trauma",
           "cd": "9/8.25/7.5/6.75/6",
           "cost": "0",
-          "range": "0"
+          "range": "0",
+          "img": "DrMundoE.png"
         },
         {
           "k": "R",
           "n": "Maximum Dosage",
           "cd": "120",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "DrMundoR.png"
         }
       ]
     },
@@ -1168,34 +1342,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Z-Drive Resonance",
+      "pimg": "Ekko_P.png",
+      "img": "Ekko.png",
       "spells": [
         {
           "k": "Q",
           "n": "Timewinder",
           "cd": "9/8.5/8/7.5/7",
           "cost": "50/60/70/80/90",
-          "range": "1075"
+          "range": "1075",
+          "img": "EkkoQ.png"
         },
         {
           "k": "W",
           "n": "Parallel Convergence",
           "cd": "22/20/18/16/14",
           "cost": "30/35/40/45/50",
-          "range": "1600"
+          "range": "1600",
+          "img": "EkkoW.png"
         },
         {
           "k": "E",
           "n": "Phase Dive",
           "cd": "9/8.5/8/7.5/7",
           "cost": "40/45/50/55/60",
-          "range": "325"
+          "range": "325",
+          "img": "EkkoE.png"
         },
         {
           "k": "R",
           "n": "Chronobreak",
           "cd": "110/80/50",
           "cost": "100",
-          "range": "850"
+          "range": "850",
+          "img": "EkkoR.png"
         }
       ]
     },
@@ -1208,34 +1388,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Spider Queen",
+      "pimg": "ElisePassive.png",
+      "img": "Elise.png",
       "spells": [
         {
           "k": "Q",
           "n": "Neurotoxin / Venomous Bite",
           "cd": "6",
           "cost": "80/85/90/95/100",
-          "range": "615"
+          "range": "615",
+          "img": "EliseHumanQ.png"
         },
         {
           "k": "W",
           "n": "Volatile Spiderling / Skittering Frenzy",
           "cd": "12",
           "cost": "60/70/80/90/100",
-          "range": "950"
+          "range": "950",
+          "img": "EliseHumanW.png"
         },
         {
           "k": "E",
           "n": "Cocoon / Rappel",
           "cd": "12/11.5/11/10.5/10",
           "cost": "50",
-          "range": "1075"
+          "range": "1075",
+          "img": "EliseHumanE.png"
         },
         {
           "k": "R",
           "n": "Spider Form",
           "cd": "3",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "EliseR.png"
         }
       ]
     },
@@ -1248,34 +1434,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Demon Shade",
+      "pimg": "Evelynn_Passive.png",
+      "img": "Evelynn.png",
       "spells": [
         {
           "k": "Q",
           "n": "Hate Spike",
           "cd": "4",
           "cost": "40/45/50/55/60",
-          "range": "800"
+          "range": "800",
+          "img": "EvelynnQ.png"
         },
         {
           "k": "W",
           "n": "Allure",
           "cd": "15/14/13/12/11",
           "cost": "60/70/80/90/100",
-          "range": "1200/1300/1400/1500/1600"
+          "range": "1200/1300/1400/1500/1600",
+          "img": "EvelynnW.png"
         },
         {
           "k": "E",
           "n": "Whiplash",
           "cd": "8",
           "cost": "40/45/50/55/60",
-          "range": "210"
+          "range": "210",
+          "img": "EvelynnE.png"
         },
         {
           "k": "R",
           "n": "Last Caress",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "EvelynnR.png"
         }
       ]
     },
@@ -1288,34 +1480,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Rising Spell Force",
+      "pimg": "Ezreal_RisingSpellForce.png",
+      "img": "Ezreal.png",
       "spells": [
         {
           "k": "Q",
           "n": "Mystic Shot",
           "cd": "5.5/5.25/5/4.75/4.5",
           "cost": "28/31/34/37/40",
-          "range": "1150"
+          "range": "1150",
+          "img": "EzrealQ.png"
         },
         {
           "k": "W",
           "n": "Essence Flux",
           "cd": "8",
           "cost": "50",
-          "range": "1150"
+          "range": "1150",
+          "img": "EzrealW.png"
         },
         {
           "k": "E",
           "n": "Arcane Shift",
           "cd": "26/23/20/17/14",
           "cost": "70",
-          "range": "475"
+          "range": "475",
+          "img": "EzrealE.png"
         },
         {
           "k": "R",
           "n": "Trueshot Barrage",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "EzrealR.png"
         }
       ]
     },
@@ -1328,34 +1526,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "A Harmless Scarecrow",
+      "pimg": "FiddlesticksP.png",
+      "img": "Fiddlesticks.png",
       "spells": [
         {
           "k": "Q",
           "n": "Terrify",
           "cd": "15/14.5/14/13.5/13",
           "cost": "65",
-          "range": "575"
+          "range": "575",
+          "img": "FiddleSticksQ.png"
         },
         {
           "k": "W",
           "n": "Bountiful Harvest",
           "cd": "10/9.5/9/8.5/8",
           "cost": "60/65/70/75/80",
-          "range": "650"
+          "range": "650",
+          "img": "FiddleSticksW.png"
         },
         {
           "k": "E",
           "n": "Reap",
           "cd": "10/9/8/7/6",
           "cost": "40/45/50/55/60",
-          "range": "850"
+          "range": "850",
+          "img": "FiddleSticksE.png"
         },
         {
           "k": "R",
           "n": "Crowstorm",
           "cd": "140/110/80",
           "cost": "100",
-          "range": "800"
+          "range": "800",
+          "img": "FiddleSticksR.png"
         }
       ]
     },
@@ -1368,34 +1572,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Duelist's Dance",
+      "pimg": "Fiora_P.png",
+      "img": "Fiora.png",
       "spells": [
         {
           "k": "Q",
           "n": "Lunge",
           "cd": "13/11.25/9.5/7.75/6",
           "cost": "20",
-          "range": "400"
+          "range": "400",
+          "img": "FioraQ.png"
         },
         {
           "k": "W",
           "n": "Riposte",
           "cd": "24/22/20/18/16",
           "cost": "50",
-          "range": "750"
+          "range": "750",
+          "img": "FioraW.png"
         },
         {
           "k": "E",
           "n": "Bladework",
           "cd": "11/10/9/8/7",
           "cost": "40",
-          "range": "425"
+          "range": "425",
+          "img": "FioraE.png"
         },
         {
           "k": "R",
           "n": "Grand Challenge",
           "cd": "110/90/70",
           "cost": "100",
-          "range": "500"
+          "range": "500",
+          "img": "FioraR.png"
         }
       ]
     },
@@ -1408,34 +1618,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Nimble Fighter",
+      "pimg": "Fizz_P.png",
+      "img": "Fizz.png",
       "spells": [
         {
           "k": "Q",
           "n": "Urchin Strike",
           "cd": "8/7.5/7/6.5/6",
           "cost": "50",
-          "range": "550"
+          "range": "550",
+          "img": "FizzQ.png"
         },
         {
           "k": "W",
           "n": "Seastone Trident",
           "cd": "7/6/5/4/3",
           "cost": "30/40/50/60/70",
-          "range": "600"
+          "range": "600",
+          "img": "FizzW.png"
         },
         {
           "k": "E",
           "n": "Playful / Trickster",
           "cd": "16/14/12/10/8",
           "cost": "75/80/85/90/95",
-          "range": "400"
+          "range": "400",
+          "img": "FizzE.png"
         },
         {
           "k": "R",
           "n": "Chum the Waters",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "1300"
+          "range": "1300",
+          "img": "FizzR.png"
         }
       ]
     },
@@ -1448,34 +1664,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Colossal Smash",
+      "pimg": "Galio_Passive.png",
+      "img": "Galio.png",
       "spells": [
         {
           "k": "Q",
           "n": "Winds of War",
           "cd": "11/10/9/8/7",
           "cost": "60/65/70/75/80",
-          "range": "825"
+          "range": "825",
+          "img": "GalioQ.png"
         },
         {
           "k": "W",
           "n": "Shield of Durand",
           "cd": "18/17/16/15/14",
           "cost": "50",
-          "range": "275"
+          "range": "275",
+          "img": "GalioW.png"
         },
         {
           "k": "E",
           "n": "Justice Punch",
           "cd": "11/10/9/8/7",
           "cost": "50",
-          "range": "650"
+          "range": "650",
+          "img": "GalioE.png"
         },
         {
           "k": "R",
           "n": "Hero's Entrance",
           "cd": "180/160/140",
           "cost": "100",
-          "range": "4000/4750/5500"
+          "range": "4000/4750/5500",
+          "img": "GalioR.png"
         }
       ]
     },
@@ -1487,34 +1709,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Trial by Fire",
+      "pimg": "Gangplank_Passive.png",
+      "img": "Gangplank.png",
       "spells": [
         {
           "k": "Q",
           "n": "Parrrley",
           "cd": "4.5",
           "cost": "50/45/40/35/30",
-          "range": "625"
+          "range": "625",
+          "img": "GangplankQWrapper.png"
         },
         {
           "k": "W",
           "n": "Remove Scurvy",
           "cd": "22/20/18/16/14",
           "cost": "60/70/80/90/100",
-          "range": "400"
+          "range": "400",
+          "img": "GangplankW.png"
         },
         {
           "k": "E",
           "n": "Powder Keg",
           "cd": "0",
           "cost": "0",
-          "range": "1000"
+          "range": "1000",
+          "img": "GangplankE.png"
         },
         {
           "k": "R",
           "n": "Cannon Barrage",
           "cd": "160/140/120",
           "cost": "100",
-          "range": "30000"
+          "range": "30000",
+          "img": "GangplankR.png"
         }
       ]
     },
@@ -1527,34 +1755,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "None",
       "passive": "Perseverance",
+      "pimg": "Garen_Passive.png",
+      "img": "Garen.png",
       "spells": [
         {
           "k": "Q",
           "n": "Decisive Strike",
           "cd": "8",
           "cost": "0",
-          "range": "300"
+          "range": "300",
+          "img": "GarenQ.png"
         },
         {
           "k": "W",
           "n": "Courage",
           "cd": "22/19.5/17/14.5/12",
           "cost": "0",
-          "range": "0"
+          "range": "0",
+          "img": "GarenW.png"
         },
         {
           "k": "E",
           "n": "Judgment",
           "cd": "9/8.25/7.5/6.75/6",
           "cost": "0",
-          "range": "325"
+          "range": "325",
+          "img": "GarenE.png"
         },
         {
           "k": "R",
           "n": "Demacian Justice",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "GarenR.png"
         }
       ]
     },
@@ -1567,34 +1801,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Rage",
       "passive": "Rage Gene",
+      "pimg": "Gnar_Passive.png",
+      "img": "Gnar.png",
       "spells": [
         {
           "k": "Q",
           "n": "Boomerang Throw / Boulder Toss",
           "cd": "16/14.5/13/11.5/10",
           "cost": "0",
-          "range": "1100"
+          "range": "1100",
+          "img": "GnarQ.png"
         },
         {
           "k": "W",
           "n": "Hyper / Wallop",
           "cd": "7",
           "cost": "0",
-          "range": "0"
+          "range": "0",
+          "img": "GnarW.png"
         },
         {
           "k": "E",
           "n": "Hop / Crunch",
           "cd": "22/19.5/17/14.5/12",
           "cost": "0",
-          "range": "475"
+          "range": "475",
+          "img": "GnarE.png"
         },
         {
           "k": "R",
           "n": "GNAR!",
           "cd": "90/60/30",
           "cost": "0",
-          "range": "590"
+          "range": "590",
+          "img": "GnarR.png"
         }
       ]
     },
@@ -1607,34 +1847,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Happy Hour",
+      "pimg": "GragasPassiveHeal.png",
+      "img": "Gragas.png",
       "spells": [
         {
           "k": "Q",
           "n": "Barrel Roll",
           "cd": "10/9/8/7/6",
           "cost": "80",
-          "range": "850"
+          "range": "850",
+          "img": "GragasQ.png"
         },
         {
           "k": "W",
           "n": "Drunken Rage",
           "cd": "5",
           "cost": "30",
-          "range": "20"
+          "range": "20",
+          "img": "GragasW.png"
         },
         {
           "k": "E",
           "n": "Body Slam",
           "cd": "14/13.5/13/12.5/12",
           "cost": "50",
-          "range": "600"
+          "range": "600",
+          "img": "GragasE.png"
         },
         {
           "k": "R",
           "n": "Explosive Cask",
           "cd": "100/85/70",
           "cost": "100",
-          "range": "1000"
+          "range": "1000",
+          "img": "GragasR.png"
         }
       ]
     },
@@ -1646,34 +1892,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "New Destiny",
+      "pimg": "GravesTrueGrit.png",
+      "img": "Graves.png",
       "spells": [
         {
           "k": "Q",
           "n": "End of the Line",
           "cd": "13/11.25/9.5/7.75/6",
           "cost": "80",
-          "range": "925"
+          "range": "925",
+          "img": "GravesQLineSpell.png"
         },
         {
           "k": "W",
           "n": "Smoke Screen",
           "cd": "26/24/22/20/18",
           "cost": "70/75/80/85/90",
-          "range": "950"
+          "range": "950",
+          "img": "GravesSmokeGrenade.png"
         },
         {
           "k": "E",
           "n": "Quickdraw",
           "cd": "16/15/14/13/12",
           "cost": "40",
-          "range": "425"
+          "range": "425",
+          "img": "GravesMove.png"
         },
         {
           "k": "R",
           "n": "Collateral Damage",
           "cd": "100/80/60",
           "cost": "100",
-          "range": "1000"
+          "range": "1000",
+          "img": "GravesChargeShot.png"
         }
       ]
     },
@@ -1685,34 +1937,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "A Thousand Cuts",
+      "pimg": "Gwen_Passive.png",
+      "img": "Gwen.png",
       "spells": [
         {
           "k": "Q",
           "n": "Snip Snip!",
           "cd": "6.5/5.75/5/4.25/3.5",
           "cost": "40",
-          "range": "450"
+          "range": "450",
+          "img": "GwenQ.png"
         },
         {
           "k": "W",
           "n": "Hallowed Mist",
           "cd": "22/21/20/19/18",
           "cost": "60",
-          "range": "0"
+          "range": "0",
+          "img": "GwenW.png"
         },
         {
           "k": "E",
           "n": "Skip 'n Slash",
           "cd": "13/12.5/12/11.5/11",
           "cost": "35",
-          "range": "400"
+          "range": "400",
+          "img": "GwenE.png"
         },
         {
           "k": "R",
           "n": "Needlework",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "1200"
+          "range": "1200",
+          "img": "GwenR.png"
         }
       ]
     },
@@ -1725,34 +1983,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Warpath",
+      "pimg": "Hecarim_Passive.png",
+      "img": "Hecarim.png",
       "spells": [
         {
           "k": "Q",
           "n": "Rampage",
           "cd": "4",
           "cost": "28/26/24/22/20",
-          "range": "350"
+          "range": "350",
+          "img": "HecarimRapidSlash.png"
         },
         {
           "k": "W",
           "n": "Spirit of Dread",
           "cd": "14",
           "cost": "50/55/60/65/70",
-          "range": "525"
+          "range": "525",
+          "img": "HecarimW.png"
         },
         {
           "k": "E",
           "n": "Devastating Charge",
           "cd": "20/19/18/17/16",
           "cost": "60",
-          "range": "300"
+          "range": "300",
+          "img": "HecarimRamp.png"
         },
         {
           "k": "R",
           "n": "Onslaught of Shadows",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "50000"
+          "range": "50000",
+          "img": "HecarimUlt.png"
         }
       ]
     },
@@ -1765,34 +2029,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Hextech Affinity",
+      "pimg": "Heimerdinger_Passive.png",
+      "img": "Heimerdinger.png",
       "spells": [
         {
           "k": "Q",
           "n": "H-28 G Evolution Turret",
           "cd": "1",
           "cost": "20",
-          "range": "350"
+          "range": "350",
+          "img": "HeimerdingerQ.png"
         },
         {
           "k": "W",
           "n": "Hextech Micro-Rockets",
           "cd": "11/10/9/8/7",
           "cost": "50/60/70/80/90",
-          "range": "1325"
+          "range": "1325",
+          "img": "HeimerdingerW.png"
         },
         {
           "k": "E",
           "n": "CH-2 Electron Storm Grenade",
           "cd": "11",
           "cost": "85",
-          "range": "970"
+          "range": "970",
+          "img": "HeimerdingerE.png"
         },
         {
           "k": "R",
           "n": "UPGRADE!!!",
           "cd": "100/85/70",
           "cost": "100",
-          "range": "1"
+          "range": "1",
+          "img": "HeimerdingerR.png"
         }
       ]
     },
@@ -1805,34 +2075,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Signature of the Visionary",
+      "pimg": "HweiPassive.png",
+      "img": "Hwei.png",
       "spells": [
         {
           "k": "Q",
           "n": "Subject: Disaster",
           "cd": "10/9/8/7/6",
           "cost": "80/90/100/110/120",
-          "range": "0"
+          "range": "0",
+          "img": "HweiQ.png"
         },
         {
           "k": "W",
           "n": "Subject: Serenity",
           "cd": "18/17.5/17/16.5/16",
           "cost": "90/95/100/105/110",
-          "range": "0"
+          "range": "0",
+          "img": "HweiW.png"
         },
         {
           "k": "E",
           "n": "Subject: Torment",
           "cd": "12/11.5/11/10.5/10",
           "cost": "50/55/60/65/70",
-          "range": "0"
+          "range": "0",
+          "img": "HweiE.png"
         },
         {
           "k": "R",
           "n": "Spiraling Despair",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "1300"
+          "range": "1300",
+          "img": "HweiR.png"
         }
       ]
     },
@@ -1845,34 +2121,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Prophet of an Elder God",
+      "pimg": "Illaoi_P.png",
+      "img": "Illaoi.png",
       "spells": [
         {
           "k": "Q",
           "n": "Tentacle Smash",
           "cd": "10/9/8/7/6",
           "cost": "40/45/50/55/60",
-          "range": "850"
+          "range": "850",
+          "img": "IllaoiQ.png"
         },
         {
           "k": "W",
           "n": "Harsh Lesson",
           "cd": "4",
           "cost": "30",
-          "range": "400"
+          "range": "400",
+          "img": "IllaoiW.png"
         },
         {
           "k": "E",
           "n": "Test of Spirit",
           "cd": "16/15/14/13/12",
           "cost": "35/40/45/50/55",
-          "range": "900"
+          "range": "900",
+          "img": "IllaoiE.png"
         },
         {
           "k": "R",
           "n": "Leap of Faith",
           "cd": "120/95/70",
           "cost": "100",
-          "range": "450"
+          "range": "450",
+          "img": "IllaoiR.png"
         }
       ]
     },
@@ -1885,34 +2167,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Ionian Fervor",
+      "pimg": "Irelia_Passive.png",
+      "img": "Irelia.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bladesurge",
           "cd": "10/9/8/7/6",
           "cost": "15",
-          "range": "600"
+          "range": "600",
+          "img": "IreliaQ.png"
         },
         {
           "k": "W",
           "n": "Defiant Dance",
           "cd": "20/18/16/14/12",
           "cost": "70/75/80/85/90",
-          "range": "825"
+          "range": "825",
+          "img": "IreliaW.png"
         },
         {
           "k": "E",
           "n": "Flawless Duet",
           "cd": "16/14.5/13/11.5/10",
           "cost": "50",
-          "range": "850"
+          "range": "850",
+          "img": "IreliaE.png"
         },
         {
           "k": "R",
           "n": "Vanguard's Edge",
           "cd": "125/105/85",
           "cost": "100",
-          "range": "950"
+          "range": "950",
+          "img": "IreliaR.png"
         }
       ]
     },
@@ -1925,34 +2213,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Friend of the Forest",
+      "pimg": "IvernP.png",
+      "img": "Ivern.png",
       "spells": [
         {
           "k": "Q",
           "n": "Rootcaller",
           "cd": "14/13/12/11/10",
           "cost": "60",
-          "range": "1125"
+          "range": "1125",
+          "img": "IvernQ.png"
         },
         {
           "k": "W",
           "n": "Brushmaker",
           "cd": "0.5",
           "cost": "30",
-          "range": "1150"
+          "range": "1150",
+          "img": "IvernW.png"
         },
         {
           "k": "E",
           "n": "Triggerseed",
           "cd": "11/10/9/8/7",
           "cost": "70",
-          "range": "750"
+          "range": "750",
+          "img": "IvernE.png"
         },
         {
           "k": "R",
           "n": "Daisy!",
           "cd": "140/130/120",
           "cost": "100",
-          "range": "600"
+          "range": "600",
+          "img": "IvernR.png"
         }
       ]
     },
@@ -1965,34 +2259,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Tailwind",
+      "pimg": "JannaP.png",
+      "img": "Janna.png",
       "spells": [
         {
           "k": "Q",
           "n": "Howling Gale",
           "cd": "14",
           "cost": "90/95/100/105/110",
-          "range": "1075"
+          "range": "1075",
+          "img": "HowlingGale.png"
         },
         {
           "k": "W",
           "n": "Zephyr",
           "cd": "8/7.5/7/6.5/6",
           "cost": "50/55/60/65/70",
-          "range": "4294967295"
+          "range": "4294967295",
+          "img": "SowTheWind.png"
         },
         {
           "k": "E",
           "n": "Eye Of The Storm",
           "cd": "16/15/14/13/12",
           "cost": "70/75/80/85/90",
-          "range": "800"
+          "range": "800",
+          "img": "EyeOfTheStorm.png"
         },
         {
           "k": "R",
           "n": "Monsoon",
           "cd": "130/115/100",
           "cost": "100",
-          "range": "725"
+          "range": "725",
+          "img": "ReapTheWhirlwind.png"
         }
       ]
     },
@@ -2005,34 +2305,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Martial Cadence",
+      "pimg": "JarvanIVP.png",
+      "img": "JarvanIV.png",
       "spells": [
         {
           "k": "Q",
           "n": "Dragon Strike",
           "cd": "10/9/8/7/6",
           "cost": "45/50/55/60/65",
-          "range": "770"
+          "range": "770",
+          "img": "JarvanIVDragonStrike.png"
         },
         {
           "k": "W",
           "n": "Golden Aegis",
           "cd": "9",
           "cost": "30",
-          "range": "625"
+          "range": "625",
+          "img": "JarvanIVGoldenAegis.png"
         },
         {
           "k": "E",
           "n": "Demacian Standard",
           "cd": "12/11.5/11/10.5/10",
           "cost": "55",
-          "range": "860"
+          "range": "860",
+          "img": "JarvanIVDemacianStandard.png"
         },
         {
           "k": "R",
           "n": "Cataclysm",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "650"
+          "range": "650",
+          "img": "JarvanIVCataclysm.png"
         }
       ]
     },
@@ -2044,34 +2350,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Relentless Assault",
+      "pimg": "Armsmaster_MasterOfArms.png",
+      "img": "Jax.png",
       "spells": [
         {
           "k": "Q",
           "n": "Leap Strike",
           "cd": "8/7.5/7/6.5/6",
           "cost": "50",
-          "range": "700"
+          "range": "700",
+          "img": "JaxQ.png"
         },
         {
           "k": "W",
           "n": "Empower",
           "cd": "7/6/5/4/3",
           "cost": "30",
-          "range": "300"
+          "range": "300",
+          "img": "JaxW.png"
         },
         {
           "k": "E",
           "n": "Counter Strike",
           "cd": "17/15/13/11/9",
           "cost": "50/60/70/80/90",
-          "range": "300"
+          "range": "300",
+          "img": "JaxE.png"
         },
         {
           "k": "R",
           "n": "Grandmaster-at-Arms",
           "cd": "110/100/90",
           "cost": "100",
-          "range": "260"
+          "range": "260",
+          "img": "JaxR.png"
         }
       ]
     },
@@ -2084,34 +2396,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Hextech Capacitor",
+      "pimg": "Jayce_Passive.png",
+      "img": "Jayce.png",
       "spells": [
         {
           "k": "Q",
           "n": "To the Skies! / Shock Blast",
           "cd": "16/14/12/10/8/6",
           "cost": "40",
-          "range": "600"
+          "range": "600",
+          "img": "JayceToTheSkies.png"
         },
         {
           "k": "W",
           "n": "Lightning Field / Hyper Charge",
           "cd": "10",
           "cost": "40",
-          "range": "285"
+          "range": "285",
+          "img": "JayceStaticField.png"
         },
         {
           "k": "E",
           "n": "Thundering Blow / Acceleration Gate",
           "cd": "20/18/16/14/12/10",
           "cost": "55",
-          "range": "240"
+          "range": "240",
+          "img": "JayceThunderingBlow.png"
         },
         {
           "k": "R",
           "n": "Mercury Cannon / Mercury Hammer",
           "cd": "6",
           "cost": "0",
-          "range": "600"
+          "range": "600",
+          "img": "JayceStanceHtG.png"
         }
       ]
     },
@@ -2124,34 +2442,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Whisper",
+      "pimg": "Jhin_P.png",
+      "img": "Jhin.png",
       "spells": [
         {
           "k": "Q",
           "n": "Dancing Grenade",
           "cd": "7/6.5/6/5.5/5",
           "cost": "40/45/50/55/60",
-          "range": "550"
+          "range": "550",
+          "img": "JhinQ.png"
         },
         {
           "k": "W",
           "n": "Deadly Flourish",
           "cd": "12",
           "cost": "50/55/60/65/70",
-          "range": "3000"
+          "range": "3000",
+          "img": "JhinW.png"
         },
         {
           "k": "E",
           "n": "Captive Audience",
           "cd": "2",
           "cost": "30",
-          "range": "750"
+          "range": "750",
+          "img": "JhinE.png"
         },
         {
           "k": "R",
           "n": "Curtain Call",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "JhinR.png"
         }
       ]
     },
@@ -2163,34 +2487,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Get Excited!",
+      "pimg": "Jinx_Passive.png",
+      "img": "Jinx.png",
       "spells": [
         {
           "k": "Q",
           "n": "Switcheroo!",
           "cd": "0.9",
           "cost": "20",
-          "range": "600"
+          "range": "600",
+          "img": "JinxQ.png"
         },
         {
           "k": "W",
           "n": "Zap!",
           "cd": "8/7/6/5/4",
           "cost": "40/45/50/55/60",
-          "range": "1450"
+          "range": "1450",
+          "img": "JinxW.png"
         },
         {
           "k": "E",
           "n": "Flame Chompers!",
           "cd": "24/20.5/17/13.5/10",
           "cost": "90",
-          "range": "925"
+          "range": "925",
+          "img": "JinxE.png"
         },
         {
           "k": "R",
           "n": "Super Mega Death Rocket!",
           "cd": "85/65/45",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "JinxR.png"
         }
       ]
     },
@@ -2203,34 +2533,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Second Skin",
+      "pimg": "Kaisa_Passive.png",
+      "img": "Kaisa.png",
       "spells": [
         {
           "k": "Q",
           "n": "Icathian Rain",
           "cd": "10/9/8/7/6",
           "cost": "55",
-          "range": "600"
+          "range": "600",
+          "img": "KaisaQ.png"
         },
         {
           "k": "W",
           "n": "Void Seeker",
           "cd": "20/18.5/17/15.5/14",
           "cost": "55/60/65/70/75",
-          "range": "3000"
+          "range": "3000",
+          "img": "KaisaW.png"
         },
         {
           "k": "E",
           "n": "Supercharge",
           "cd": "16/14.5/13/11.5/10",
           "cost": "30",
-          "range": "1"
+          "range": "1",
+          "img": "KaisaE.png"
         },
         {
           "k": "R",
           "n": "Killer Instinct",
           "cd": "130/100/70",
           "cost": "100",
-          "range": "2000/2500/3000"
+          "range": "2000/2500/3000",
+          "img": "KaisaR.png"
         }
       ]
     },
@@ -2242,34 +2578,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Martial Poise",
+      "pimg": "Kalista_Passive.png",
+      "img": "Kalista.png",
       "spells": [
         {
           "k": "Q",
           "n": "Pierce",
           "cd": "9",
           "cost": "60/65/70/75/80",
-          "range": "1150"
+          "range": "1150",
+          "img": "KalistaMysticShot.png"
         },
         {
           "k": "W",
           "n": "Sentinel",
           "cd": "30",
           "cost": "0",
-          "range": "5000"
+          "range": "5000",
+          "img": "KalistaW.png"
         },
         {
           "k": "E",
           "n": "Rend",
           "cd": "0",
           "cost": "30",
-          "range": "1000"
+          "range": "1000",
+          "img": "KalistaExpungeWrapper.png"
         },
         {
           "k": "R",
           "n": "Fate's Call",
           "cd": "160/140/120",
           "cost": "100",
-          "range": "1000"
+          "range": "1000",
+          "img": "KalistaRx.png"
         }
       ]
     },
@@ -2282,34 +2624,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Gathering Fire",
+      "pimg": "Karma_Passive.png",
+      "img": "Karma.png",
       "spells": [
         {
           "k": "Q",
           "n": "Inner Flame",
           "cd": "9/8/7/6/5",
           "cost": "40/50/60/70/80",
-          "range": "950"
+          "range": "950",
+          "img": "KarmaQ.png"
         },
         {
           "k": "W",
           "n": "Focused Resolve",
           "cd": "12",
           "cost": "50/55/60/65/70",
-          "range": "675"
+          "range": "675",
+          "img": "KarmaSpiritBind.png"
         },
         {
           "k": "E",
           "n": "Inspire",
           "cd": "10/9.5/9/8.5/8",
           "cost": "60/65/70/75/80",
-          "range": "800"
+          "range": "800",
+          "img": "KarmaSolKimShield.png"
         },
         {
           "k": "R",
           "n": "Mantra",
           "cd": "40/38/36/34",
           "cost": "0",
-          "range": "1100"
+          "range": "1100",
+          "img": "KarmaMantra.png"
         }
       ]
     },
@@ -2321,34 +2669,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Death Defied",
+      "pimg": "Karthus_Passive.png",
+      "img": "Karthus.png",
       "spells": [
         {
           "k": "Q",
           "n": "Lay Waste",
           "cd": "0",
           "cost": "20/25/30/35/40",
-          "range": "875"
+          "range": "875",
+          "img": "KarthusLayWasteA1.png"
         },
         {
           "k": "W",
           "n": "Wall of Pain",
           "cd": "15",
           "cost": "70",
-          "range": "1000"
+          "range": "1000",
+          "img": "KarthusWallOfPain.png"
         },
         {
           "k": "E",
           "n": "Defile",
           "cd": "0.5",
           "cost": "30/42/54/66/78",
-          "range": "550"
+          "range": "550",
+          "img": "KarthusDefile.png"
         },
         {
           "k": "R",
           "n": "Requiem",
           "cd": "200/180/160",
           "cost": "100",
-          "range": "10000"
+          "range": "10000",
+          "img": "KarthusFallenOne.png"
         }
       ]
     },
@@ -2361,34 +2715,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Void Stone",
+      "pimg": "Kassadin_Passive.png",
+      "img": "Kassadin.png",
       "spells": [
         {
           "k": "Q",
           "n": "Null Sphere",
           "cd": "9/8.5/8/7.5/7",
           "cost": "60/65/70/75/80",
-          "range": "650"
+          "range": "650",
+          "img": "NullLance.png"
         },
         {
           "k": "W",
           "n": "Nether Blade",
           "cd": "7",
           "cost": "1",
-          "range": "1"
+          "range": "1",
+          "img": "NetherBlade.png"
         },
         {
           "k": "E",
           "n": "Force Pulse",
           "cd": "21/20/19/18/17",
           "cost": "60/65/70/75/80",
-          "range": "400"
+          "range": "400",
+          "img": "ForcePulse.png"
         },
         {
           "k": "R",
           "n": "Riftwalk",
           "cd": "5/3.5/2",
           "cost": "40",
-          "range": "500"
+          "range": "500",
+          "img": "RiftWalk.png"
         }
       ]
     },
@@ -2401,34 +2761,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "None",
       "passive": "Voracity",
+      "pimg": "Katarina_Passive.png",
+      "img": "Katarina.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bouncing Blade",
           "cd": "11/10/9/8/7",
           "cost": "0",
-          "range": "625"
+          "range": "625",
+          "img": "KatarinaQ.png"
         },
         {
           "k": "W",
           "n": "Preparation",
           "cd": "15/14/13/12/11",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "KatarinaW.png"
         },
         {
           "k": "E",
           "n": "Shunpo",
           "cd": "12/11/10/9/8",
           "cost": "0",
-          "range": "725"
+          "range": "725",
+          "img": "KatarinaEWrapper.png"
         },
         {
           "k": "R",
           "n": "Death Lotus",
           "cd": "75/60/45",
           "cost": "0",
-          "range": "550"
+          "range": "550",
+          "img": "KatarinaR.png"
         }
       ]
     },
@@ -2441,34 +2807,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Divine Ascent",
+      "pimg": "Kayle_P.png",
+      "img": "Kayle.png",
       "spells": [
         {
           "k": "Q",
           "n": "Radiant Blast",
           "cd": "12/11/10/9/8",
           "cost": "60/70/80/90/100",
-          "range": "900"
+          "range": "900",
+          "img": "KayleQ.png"
         },
         {
           "k": "W",
           "n": "Celestial Blessing",
           "cd": "15",
           "cost": "70/75/80/85/90",
-          "range": "900"
+          "range": "900",
+          "img": "KayleW.png"
         },
         {
           "k": "E",
           "n": "Starfire Spellblade",
           "cd": "8/7.5/7/6.5/6",
           "cost": "0",
-          "range": "550"
+          "range": "550",
+          "img": "KayleE.png"
         },
         {
           "k": "R",
           "n": "Divine Judgment",
           "cd": "160/120/80",
           "cost": "100/50/0",
-          "range": "900"
+          "range": "900",
+          "img": "KayleR.png"
         }
       ]
     },
@@ -2481,34 +2853,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "The Darkin Scythe",
+      "pimg": "Kayn_Passive_Primary.png",
+      "img": "Kayn.png",
       "spells": [
         {
           "k": "Q",
           "n": "Reaping Slash",
           "cd": "7/6.5/6/5.5/5",
           "cost": "40",
-          "range": "350"
+          "range": "350",
+          "img": "KaynQ.png"
         },
         {
           "k": "W",
           "n": "Blade's Reach",
           "cd": "13/12/11/10/9",
           "cost": "40/45/50/55/60",
-          "range": "700"
+          "range": "700",
+          "img": "KaynW.png"
         },
         {
           "k": "E",
           "n": "Shadow Step",
           "cd": "21/19/17/15/13",
           "cost": "90",
-          "range": "400"
+          "range": "400",
+          "img": "KaynE.png"
         },
         {
           "k": "R",
           "n": "Umbral Trespass",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "550"
+          "range": "550",
+          "img": "KaynR.png"
         }
       ]
     },
@@ -2520,34 +2898,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Energy",
       "passive": "Mark of the Storm",
+      "pimg": "Kennen_Passive.png",
+      "img": "Kennen.png",
       "spells": [
         {
           "k": "Q",
           "n": "Thundering Shuriken",
           "cd": "7/6.25/5.5/4.75/4",
           "cost": "60/55/50/45/40",
-          "range": "950"
+          "range": "950",
+          "img": "KennenShurikenHurlMissile1.png"
         },
         {
           "k": "W",
           "n": "Electrical Surge",
           "cd": "13/11.25/9.5/7.75/6",
           "cost": "40",
-          "range": "725"
+          "range": "725",
+          "img": "KennenBringTheLight.png"
         },
         {
           "k": "E",
           "n": "Lightning Rush",
           "cd": "10/9/8/7/6",
           "cost": "80",
-          "range": "170"
+          "range": "170",
+          "img": "KennenLightningRush.png"
         },
         {
           "k": "R",
           "n": "Slicing Maelstrom",
           "cd": "120",
           "cost": "0",
-          "range": "550"
+          "range": "550",
+          "img": "KennenShurikenStorm.png"
         }
       ]
     },
@@ -2559,34 +2943,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Unseen Threat",
+      "pimg": "Khazix_P.png",
+      "img": "Khazix.png",
       "spells": [
         {
           "k": "Q",
           "n": "Taste Their Fear",
           "cd": "4",
           "cost": "20",
-          "range": "325"
+          "range": "325",
+          "img": "KhazixQ.png"
         },
         {
           "k": "W",
           "n": "Void Spike",
           "cd": "9",
           "cost": "55/60/65/70/75",
-          "range": "1000"
+          "range": "1000",
+          "img": "KhazixW.png"
         },
         {
           "k": "E",
           "n": "Leap",
           "cd": "20/18/16/14/12",
           "cost": "50",
-          "range": "700"
+          "range": "700",
+          "img": "KhazixE.png"
         },
         {
           "k": "R",
           "n": "Void Assault",
           "cd": "100/85/70",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "KhazixR.png"
         }
       ]
     },
@@ -2598,34 +2988,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Mark of the Kindred",
+      "pimg": "Kindred_Passive.png",
+      "img": "Kindred.png",
       "spells": [
         {
           "k": "Q",
           "n": "Dance of Arrows",
           "cd": "9",
           "cost": "35",
-          "range": "340"
+          "range": "340",
+          "img": "KindredQ.png"
         },
         {
           "k": "W",
           "n": "Wolf's Frenzy",
           "cd": "18/17/16/15/14",
           "cost": "40",
-          "range": "560"
+          "range": "560",
+          "img": "KindredW.png"
         },
         {
           "k": "E",
           "n": "Mounting Dread",
           "cd": "14/12.5/11/9.5/8",
           "cost": "0",
-          "range": "500"
+          "range": "500",
+          "img": "KindredEWrapper.png"
         },
         {
           "k": "R",
           "n": "Lamb's Respite",
           "cd": "160/140/120",
           "cost": "100",
-          "range": "500"
+          "range": "500",
+          "img": "KindredR.png"
         }
       ]
     },
@@ -2637,34 +3033,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Courage",
       "passive": "Skaarl, the Cowardly Lizard",
+      "pimg": "Kled_P.png",
+      "img": "Kled.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bear Trap on a Rope",
           "cd": "11/10/9/8/7",
           "cost": "0",
-          "range": "800"
+          "range": "800",
+          "img": "KledQ.png"
         },
         {
           "k": "W",
           "n": "Violent Tendencies",
           "cd": "13/12/11/10/9",
           "cost": "0",
-          "range": "0"
+          "range": "0",
+          "img": "KledW.png"
         },
         {
           "k": "E",
           "n": "Jousting",
           "cd": "13/12/11/10/9",
           "cost": "0",
-          "range": "550"
+          "range": "550",
+          "img": "KledE.png"
         },
         {
           "k": "R",
           "n": "Chaaaaaaaarge!!!",
           "cd": "140/125/110",
           "cost": "0",
-          "range": "3500/4000/4500"
+          "range": "3500/4000/4500",
+          "img": "KledR.png"
         }
       ]
     },
@@ -2677,34 +3079,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Icathian Surprise",
+      "pimg": "KogMaw_IcathianSurprise.png",
+      "img": "KogMaw.png",
       "spells": [
         {
           "k": "Q",
           "n": "Caustic Spittle",
           "cd": "7",
           "cost": "40",
-          "range": "1175"
+          "range": "1175",
+          "img": "KogMawQ.png"
         },
         {
           "k": "W",
           "n": "Bio-Arcane Barrage",
           "cd": "17",
           "cost": "40",
-          "range": "530"
+          "range": "530",
+          "img": "KogMawBioArcaneBarrage.png"
         },
         {
           "k": "E",
           "n": "Void Ooze",
           "cd": "12",
           "cost": "40/55/70/85/100",
-          "range": "1200"
+          "range": "1200",
+          "img": "KogMawVoidOoze.png"
         },
         {
           "k": "R",
           "n": "Living Artillery",
           "cd": "2/1.5/1",
           "cost": "40",
-          "range": "1300/1550/1800"
+          "range": "1300/1550/1800",
+          "img": "KogMawLivingArtillery.png"
         }
       ]
     },
@@ -2717,34 +3125,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Dauntless Instinct",
+      "pimg": "Icons_KSante_P.png",
+      "img": "KSante.png",
       "spells": [
         {
           "k": "Q",
           "n": "Ntofo Strikes",
           "cd": "3.5",
           "cost": "20",
-          "range": "450"
+          "range": "450",
+          "img": "KSanteQ.png"
         },
         {
           "k": "W",
           "n": "Path Maker",
           "cd": "14/13/12/11/10",
           "cost": "40/45/50/55/60",
-          "range": "600"
+          "range": "600",
+          "img": "KSanteW.png"
         },
         {
           "k": "E",
           "n": "Footwork",
           "cd": "10/9.5/9/8.5/8",
           "cost": "45/50/55/60/65",
-          "range": "525"
+          "range": "525",
+          "img": "KSanteE.png"
         },
         {
           "k": "R",
           "n": "All Out",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "250"
+          "range": "250",
+          "img": "KSanteR.png"
         }
       ]
     },
@@ -2757,34 +3171,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Mirror Image",
+      "pimg": "LeblancP.png",
+      "img": "Leblanc.png",
       "spells": [
         {
           "k": "Q",
           "n": "Sigil of Malice",
           "cd": "6",
           "cost": "50",
-          "range": "700"
+          "range": "700",
+          "img": "LeblancQ.png"
         },
         {
           "k": "W",
           "n": "Distortion",
           "cd": "15/13.75/12.5/11.25/10",
           "cost": "60/70/80/90/100",
-          "range": "600"
+          "range": "600",
+          "img": "LeblancW.png"
         },
         {
           "k": "E",
           "n": "Ethereal Chains",
           "cd": "14/13.25/12.5/11.75/11",
           "cost": "50",
-          "range": "925"
+          "range": "925",
+          "img": "LeblancE.png"
         },
         {
           "k": "R",
           "n": "Mimic",
           "cd": "45/35/25",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "LeblancR.png"
         }
       ]
     },
@@ -2797,34 +3217,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Energy",
       "passive": "Flurry",
+      "pimg": "LeeSinPassive.png",
+      "img": "LeeSin.png",
       "spells": [
         {
           "k": "Q",
           "n": "Sonic Wave / Resonating Strike",
           "cd": "10/9/8/7/6",
           "cost": "50",
-          "range": "1100"
+          "range": "1100",
+          "img": "LeeSinQOne.png"
         },
         {
           "k": "W",
           "n": "Safeguard / Iron Will",
           "cd": "7",
           "cost": "50",
-          "range": "700"
+          "range": "700",
+          "img": "LeeSinWOne.png"
         },
         {
           "k": "E",
           "n": "Tempest / Cripple",
           "cd": "8",
           "cost": "50",
-          "range": "450"
+          "range": "450",
+          "img": "LeeSinEOne.png"
         },
         {
           "k": "R",
           "n": "Dragon's Rage",
           "cd": "110/85/60",
           "cost": "0",
-          "range": "375"
+          "range": "375",
+          "img": "LeeSinR.png"
         }
       ]
     },
@@ -2837,34 +3263,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Sunlight",
+      "pimg": "LeonaSunlight.png",
+      "img": "Leona.png",
       "spells": [
         {
           "k": "Q",
           "n": "Shield of Daybreak",
           "cd": "5",
           "cost": "30/35/40/45/50",
-          "range": "100"
+          "range": "100",
+          "img": "LeonaShieldOfDaybreak.png"
         },
         {
           "k": "W",
           "n": "Eclipse",
           "cd": "14/13/12/11/10",
           "cost": "60",
-          "range": "450"
+          "range": "450",
+          "img": "LeonaSolarBarrier.png"
         },
         {
           "k": "E",
           "n": "Zenith Blade",
           "cd": "12/10.5/9/7.5/6",
           "cost": "40/45/50/55/60",
-          "range": "875"
+          "range": "875",
+          "img": "LeonaZenithBlade.png"
         },
         {
           "k": "R",
           "n": "Solar Flare",
           "cd": "90/75/60",
           "cost": "100",
-          "range": "1200"
+          "range": "1200",
+          "img": "LeonaSolarFlare.png"
         }
       ]
     },
@@ -2877,34 +3309,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Dream-Laden Bough",
+      "pimg": "Lillia_Icon_Passive.png",
+      "img": "Lillia.png",
       "spells": [
         {
           "k": "Q",
           "n": "Blooming Blows",
           "cd": "6/5.5/5/4.5/4",
           "cost": "65",
-          "range": "450"
+          "range": "450",
+          "img": "LilliaQ.png"
         },
         {
           "k": "W",
           "n": "Watch Out! Eep!",
           "cd": "14/13/12/11/10",
           "cost": "50",
-          "range": "500"
+          "range": "500",
+          "img": "LilliaW.png"
         },
         {
           "k": "E",
           "n": "Swirlseed",
           "cd": "12",
           "cost": "70",
-          "range": "700"
+          "range": "700",
+          "img": "LilliaE.png"
         },
         {
           "k": "R",
           "n": "Lilting Lullaby",
           "cd": "150/130/110",
           "cost": "50",
-          "range": "1600"
+          "range": "1600",
+          "img": "LilliaR.png"
         }
       ]
     },
@@ -2916,34 +3354,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Iceborn Subjugation",
+      "pimg": "Lissandra_Passive.png",
+      "img": "Lissandra.png",
       "spells": [
         {
           "k": "Q",
           "n": "Ice Shard",
           "cd": "7/6/5/4/3",
           "cost": "55/60/65/70/75",
-          "range": "725"
+          "range": "725",
+          "img": "LissandraQ.png"
         },
         {
           "k": "W",
           "n": "Ring of Frost",
           "cd": "10/9.5/9/8.5/8",
           "cost": "40",
-          "range": "450"
+          "range": "450",
+          "img": "LissandraW.png"
         },
         {
           "k": "E",
           "n": "Glacial Path",
           "cd": "24/21/18/15/12",
           "cost": "80/85/90/95/100",
-          "range": "1050"
+          "range": "1050",
+          "img": "LissandraE.png"
         },
         {
           "k": "R",
           "n": "Frozen Tomb",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "550"
+          "range": "550",
+          "img": "LissandraR.png"
         }
       ]
     },
@@ -2956,34 +3400,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Silver Stake",
+      "pimg": "Locke_Passive.png",
+      "img": "Locke.png",
       "spells": [
         {
           "k": "Q",
           "n": "Ritual Nails",
           "cd": "10/9/8/7/6",
           "cost": "70",
-          "range": "950"
+          "range": "950",
+          "img": "LockeQ.png"
         },
         {
           "k": "W",
           "n": "Soul Ignition",
           "cd": "18/17/16/15/14",
           "cost": "50/55/60/65/70",
-          "range": "250"
+          "range": "250",
+          "img": "LockeW.png"
         },
         {
           "k": "E",
           "n": "Ashen Pursuit",
           "cd": "10",
           "cost": "30/40/50/60/70",
-          "range": "425"
+          "range": "425",
+          "img": "LockeE.png"
         },
         {
           "k": "R",
           "n": "Purgatory",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "1000"
+          "range": "1000",
+          "img": "LockeR.png"
         }
       ]
     },
@@ -2996,34 +3446,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Lightslinger",
+      "pimg": "Lucian_Passive.png",
+      "img": "Lucian.png",
       "spells": [
         {
           "k": "Q",
           "n": "Piercing Light",
           "cd": "9/8/7/6/5",
           "cost": "48/56/64/72/80",
-          "range": "500"
+          "range": "500",
+          "img": "LucianQ.png"
         },
         {
           "k": "W",
           "n": "Ardent Blaze",
           "cd": "14/13/12/11/10",
           "cost": "60",
-          "range": "900"
+          "range": "900",
+          "img": "LucianW.png"
         },
         {
           "k": "E",
           "n": "Relentless Pursuit",
           "cd": "16/15.5/15/14.5/14",
           "cost": "32/24/16/8/0",
-          "range": "445"
+          "range": "445",
+          "img": "LucianE.png"
         },
         {
           "k": "R",
           "n": "The Culling",
           "cd": "110/100/90",
           "cost": "100",
-          "range": "1400"
+          "range": "1400",
+          "img": "LucianR.png"
         }
       ]
     },
@@ -3036,34 +3492,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Pix, Faerie Companion",
+      "pimg": "Lulu_PixFaerieCompanion.png",
+      "img": "Lulu.png",
       "spells": [
         {
           "k": "Q",
           "n": "Glitterlance",
           "cd": "7",
           "cost": "50/55/60/65/70",
-          "range": "925"
+          "range": "925",
+          "img": "LuluQ.png"
         },
         {
           "k": "W",
           "n": "Whimsy",
           "cd": "18",
           "cost": "65",
-          "range": "650"
+          "range": "650",
+          "img": "LuluW.png"
         },
         {
           "k": "E",
           "n": "Help, Pix!",
           "cd": "10/9.5/9/8.5/8",
           "cost": "60/65/70/75/80",
-          "range": "650"
+          "range": "650",
+          "img": "LuluE.png"
         },
         {
           "k": "R",
           "n": "Wild Growth",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "900"
+          "range": "900",
+          "img": "LuluR.png"
         }
       ]
     },
@@ -3076,34 +3538,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Illumination",
+      "pimg": "LuxIlluminatingFraulein.png",
+      "img": "Lux.png",
       "spells": [
         {
           "k": "Q",
           "n": "Light Binding",
           "cd": "10",
           "cost": "50",
-          "range": "1175"
+          "range": "1175",
+          "img": "LuxLightBinding.png"
         },
         {
           "k": "W",
           "n": "Prismatic Barrier",
           "cd": "12/11.5/11/10.5/10",
           "cost": "60/65/70/75/80",
-          "range": "1150"
+          "range": "1150",
+          "img": "LuxPrismaticWave.png"
         },
         {
           "k": "E",
           "n": "Lucent Singularity",
           "cd": "10/9.5/9/8.5/8",
           "cost": "70/80/90/100/110",
-          "range": "1100"
+          "range": "1100",
+          "img": "LuxLightStrikeKugel.png"
         },
         {
           "k": "R",
           "n": "Final Spark",
           "cd": "60/50/40",
           "cost": "100",
-          "range": "3340"
+          "range": "3340",
+          "img": "LuxR.png"
         }
       ]
     },
@@ -3116,34 +3584,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Granite Shield",
+      "pimg": "Malphite_GraniteShield.png",
+      "img": "Malphite.png",
       "spells": [
         {
           "k": "Q",
           "n": "Seismic Shard",
           "cd": "8",
           "cost": "70/75/80/85/90",
-          "range": "625"
+          "range": "625",
+          "img": "SeismicShard.png"
         },
         {
           "k": "W",
           "n": "Thunderclap",
           "cd": "10/9.5/9/8.5/8",
           "cost": "30/35/40/45/50",
-          "range": "400"
+          "range": "400",
+          "img": "Obduracy.png"
         },
         {
           "k": "E",
           "n": "Ground Slam",
           "cd": "7",
           "cost": "50/55/60/65/70",
-          "range": "400"
+          "range": "400",
+          "img": "Landslide.png"
         },
         {
           "k": "R",
           "n": "Unstoppable Force",
           "cd": "130/115/100",
           "cost": "100",
-          "range": "1000"
+          "range": "1000",
+          "img": "UFSlash.png"
         }
       ]
     },
@@ -3155,34 +3629,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Void Shift",
+      "pimg": "Malzahar_Passive.png",
+      "img": "Malzahar.png",
       "spells": [
         {
           "k": "Q",
           "n": "Call of the Void",
           "cd": "6",
           "cost": "60/65/70/75/80",
-          "range": "900"
+          "range": "900",
+          "img": "MalzaharQ.png"
         },
         {
           "k": "W",
           "n": "Void Swarm",
           "cd": "8",
           "cost": "40/45/50/55/60",
-          "range": "150"
+          "range": "150",
+          "img": "MalzaharW.png"
         },
         {
           "k": "E",
           "n": "Malefic Visions",
           "cd": "11/10/9/8/7",
           "cost": "60/70/80/90/100",
-          "range": "650"
+          "range": "650",
+          "img": "MalzaharE.png"
         },
         {
           "k": "R",
           "n": "Nether Grasp",
           "cd": "140/110/80",
           "cost": "100",
-          "range": "700"
+          "range": "700",
+          "img": "MalzaharR.png"
         }
       ]
     },
@@ -3195,34 +3675,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Sap Magic",
+      "pimg": "Maokai_Passive.png",
+      "img": "Maokai.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bramble Smash",
           "cd": "7/6.5/6/5.5/5",
           "cost": "40",
-          "range": "600"
+          "range": "600",
+          "img": "MaokaiQ.png"
         },
         {
           "k": "W",
           "n": "Twisted Advance",
           "cd": "14/13/12/11/10",
           "cost": "60",
-          "range": "525"
+          "range": "525",
+          "img": "MaokaiW.png"
         },
         {
           "k": "E",
           "n": "Sapling Toss",
           "cd": "18/17/16/15/14",
           "cost": "60/65/70/75/80",
-          "range": "1100"
+          "range": "1100",
+          "img": "MaokaiE.png"
         },
         {
           "k": "R",
           "n": "Nature's Grasp",
           "cd": "130/110/90",
           "cost": "100",
-          "range": "3000"
+          "range": "3000",
+          "img": "MaokaiR.png"
         }
       ]
     },
@@ -3235,34 +3721,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Double Strike",
+      "pimg": "MasterYi_Passive1.png",
+      "img": "MasterYi.png",
       "spells": [
         {
           "k": "Q",
           "n": "Alpha Strike",
           "cd": "20/19.5/19/18.5/18",
           "cost": "50/55/60/65/70",
-          "range": "600"
+          "range": "600",
+          "img": "AlphaStrike.png"
         },
         {
           "k": "W",
           "n": "Meditate",
           "cd": "10",
           "cost": "40",
-          "range": "20"
+          "range": "20",
+          "img": "Meditate.png"
         },
         {
           "k": "E",
           "n": "Wuju Style",
           "cd": "14",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "WujuStyle.png"
         },
         {
           "k": "R",
           "n": "Highlander",
           "cd": "85",
           "cost": "100",
-          "range": "1"
+          "range": "1",
+          "img": "Highlander.png"
         }
       ]
     },
@@ -3275,34 +3767,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Searing Brilliance",
+      "pimg": "Mel_Passive.png",
+      "img": "Mel.png",
       "spells": [
         {
           "k": "Q",
           "n": "Radiant Volley",
           "cd": "10/9/8/7/6",
           "cost": "70/75/80/85/90",
-          "range": "950"
+          "range": "950",
+          "img": "MelQ.png"
         },
         {
           "k": "W",
           "n": "Rebuttal",
           "cd": "38/35/33/29/26",
           "cost": "80/60/40/20/0",
-          "range": "250"
+          "range": "250",
+          "img": "MelW.png"
         },
         {
           "k": "E",
           "n": "Solar Snare",
           "cd": "11/10.5/10/9.5/9",
           "cost": "50/60/70/80/90",
-          "range": "1000"
+          "range": "1000",
+          "img": "MelE.png"
         },
         {
           "k": "R",
           "n": "Golden Eclipse",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "MelR.png"
         }
       ]
     },
@@ -3315,34 +3813,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Fired Up!",
+      "pimg": "Milio_P.png",
+      "img": "Milio.png",
       "spells": [
         {
           "k": "Q",
           "n": "Ultra Mega Fire Kick",
           "cd": "10",
           "cost": "50/55/60/65/70",
-          "range": "1200"
+          "range": "1200",
+          "img": "MilioQ.png"
         },
         {
           "k": "W",
           "n": "Cozy Campfire",
           "cd": "29/27/25/23/21",
           "cost": "90/100/110/120/130",
-          "range": "350"
+          "range": "350",
+          "img": "MilioW.png"
         },
         {
           "k": "E",
           "n": "Warm Hugs",
           "cd": "0.5",
           "cost": "50/60/70/80/90",
-          "range": "650"
+          "range": "650",
+          "img": "MilioE.png"
         },
         {
           "k": "R",
           "n": "Breath of Life",
           "cd": "160/145/130",
           "cost": "100",
-          "range": "700"
+          "range": "700",
+          "img": "MilioR.png"
         }
       ]
     },
@@ -3355,34 +3859,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Love Tap",
+      "pimg": "MissFortune_W.png",
+      "img": "MissFortune.png",
       "spells": [
         {
           "k": "Q",
           "n": "Double Up",
           "cd": "7/6/5/4/3",
           "cost": "40",
-          "range": "650"
+          "range": "650",
+          "img": "MissFortuneRicochetShot.png"
         },
         {
           "k": "W",
           "n": "Strut",
           "cd": "12",
           "cost": "45",
-          "range": "600"
+          "range": "600",
+          "img": "MissFortuneViciousStrikes.png"
         },
         {
           "k": "E",
           "n": "Make It Rain",
           "cd": "18/17/16/15/14",
           "cost": "80",
-          "range": "1000"
+          "range": "1000",
+          "img": "MissFortuneScattershot.png"
         },
         {
           "k": "R",
           "n": "Bullet Time",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "MissFortuneBulletTime.png"
         }
       ]
     },
@@ -3395,34 +3905,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Stone Skin",
+      "pimg": "MonkeyKingStoneSkin.png",
+      "img": "MonkeyKing.png",
       "spells": [
         {
           "k": "Q",
           "n": "Crushing Blow",
           "cd": "8/7.5/7/6.5/6",
           "cost": "20",
-          "range": "250/275/300/325/350"
+          "range": "250/275/300/325/350",
+          "img": "MonkeyKingDoubleAttack.png"
         },
         {
           "k": "W",
           "n": "Warrior Trickster",
           "cd": "22/21/20/19/18",
           "cost": "60/55/50/45/40",
-          "range": "275"
+          "range": "275",
+          "img": "MonkeyKingDecoy.png"
         },
         {
           "k": "E",
           "n": "Nimbus Strike",
           "cd": "10/9.25/8.5/7.75/7",
           "cost": "30/35/40/45/50",
-          "range": "650"
+          "range": "650",
+          "img": "MonkeyKingNimbus.png"
         },
         {
           "k": "R",
           "n": "Cyclone",
           "cd": "130/110/90",
           "cost": "100",
-          "range": "315"
+          "range": "315",
+          "img": "MonkeyKingSpinToWin.png"
         }
       ]
     },
@@ -3435,34 +3951,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Shield",
       "passive": "Darkness Rise",
+      "pimg": "MordekaiserPassive.png",
+      "img": "Mordekaiser.png",
       "spells": [
         {
           "k": "Q",
           "n": "Obliterate",
           "cd": "8/7/6/5/4",
           "cost": "0",
-          "range": "675"
+          "range": "675",
+          "img": "MordekaiserQ.png"
         },
         {
           "k": "W",
           "n": "Indestructible",
           "cd": "12/11/10/9/8",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "MordekaiserW.png"
         },
         {
           "k": "E",
           "n": "Death's Grasp",
           "cd": "16/14/12/10/8",
           "cost": "0",
-          "range": "700"
+          "range": "700",
+          "img": "MordekaiserE.png"
         },
         {
           "k": "R",
           "n": "Realm of Death",
           "cd": "140/120/100",
           "cost": "0",
-          "range": "650"
+          "range": "650",
+          "img": "MordekaiserR.png"
         }
       ]
     },
@@ -3475,34 +3997,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Soul Siphon",
+      "pimg": "FallenAngel_Empathize.png",
+      "img": "Morgana.png",
       "spells": [
         {
           "k": "Q",
           "n": "Dark Binding",
           "cd": "10",
           "cost": "50/55/60/65/70",
-          "range": "1250"
+          "range": "1250",
+          "img": "MorganaQ.png"
         },
         {
           "k": "W",
           "n": "Tormented Shadow",
           "cd": "12",
           "cost": "70/80/90/100/110",
-          "range": "900"
+          "range": "900",
+          "img": "MorganaW.png"
         },
         {
           "k": "E",
           "n": "Black Shield",
           "cd": "26/23.5/21/18.5/16",
           "cost": "80",
-          "range": "800"
+          "range": "800",
+          "img": "MorganaE.png"
         },
         {
           "k": "R",
           "n": "Soul Shackles",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "625"
+          "range": "625",
+          "img": "MorganaR.png"
         }
       ]
     },
@@ -3515,34 +4043,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "We Are More",
+      "pimg": "Icons_Naafiri_P.png",
+      "img": "Naafiri.png",
       "spells": [
         {
           "k": "Q",
           "n": "Darkin Daggers",
           "cd": "9/8.5/8/7.5/7",
           "cost": "50/60/70/80/90",
-          "range": "900"
+          "range": "900",
+          "img": "NaafiriQ.png"
         },
         {
           "k": "W",
           "n": "The Call of the Pack",
           "cd": "26/24/22/20/18",
           "cost": "60",
-          "range": "400"
+          "range": "400",
+          "img": "NaafiriR.png"
         },
         {
           "k": "E",
           "n": "Eviscerate",
           "cd": "11/10/9/8/7",
           "cost": "40",
-          "range": "450"
+          "range": "450",
+          "img": "NaafiriE.png"
         },
         {
           "k": "R",
           "n": "Hounds' Pursuit",
           "cd": "110/95/80",
           "cost": "100",
-          "range": "900"
+          "range": "900",
+          "img": "NaafiriW.png"
         }
       ]
     },
@@ -3555,34 +4089,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Surging Tides",
+      "pimg": "NamiPassive.png",
+      "img": "Nami.png",
       "spells": [
         {
           "k": "Q",
           "n": "Aqua Prison",
           "cd": "12/11/10/9/8",
           "cost": "60",
-          "range": "875"
+          "range": "875",
+          "img": "NamiQ.png"
         },
         {
           "k": "W",
           "n": "Ebb and Flow",
           "cd": "10",
           "cost": "70/75/80/85/90",
-          "range": "725"
+          "range": "725",
+          "img": "NamiW.png"
         },
         {
           "k": "E",
           "n": "Tidecaller's Blessing",
           "cd": "11",
           "cost": "55/60/65/70/75",
-          "range": "800"
+          "range": "800",
+          "img": "NamiE.png"
         },
         {
           "k": "R",
           "n": "Tidal Wave",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "2550"
+          "range": "2550",
+          "img": "NamiR.png"
         }
       ]
     },
@@ -3595,34 +4135,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Soul Eater",
+      "pimg": "Nasus_Passive.png",
+      "img": "Nasus.png",
       "spells": [
         {
           "k": "Q",
           "n": "Siphoning Strike",
           "cd": "7.5/6.5/5.5/4.5/3.5",
           "cost": "20",
-          "range": "255"
+          "range": "255",
+          "img": "NasusQ.png"
         },
         {
           "k": "W",
           "n": "Wither",
           "cd": "15/14/13/12/11",
           "cost": "80",
-          "range": "700"
+          "range": "700",
+          "img": "NasusW.png"
         },
         {
           "k": "E",
           "n": "Spirit Fire",
           "cd": "12",
           "cost": "60/70/80/90/100",
-          "range": "650"
+          "range": "650",
+          "img": "NasusE.png"
         },
         {
           "k": "R",
           "n": "Fury of the Sands",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "400"
+          "range": "400",
+          "img": "NasusR.png"
         }
       ]
     },
@@ -3635,34 +4181,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Staggering Blow",
+      "pimg": "Nautilus_StaggeringBlow.png",
+      "img": "Nautilus.png",
       "spells": [
         {
           "k": "Q",
           "n": "Dredge Line",
           "cd": "14/13/12/11/10",
           "cost": "60",
-          "range": "1150"
+          "range": "1150",
+          "img": "NautilusAnchorDrag.png"
         },
         {
           "k": "W",
           "n": "Titan's Wrath",
           "cd": "12",
           "cost": "60",
-          "range": "350"
+          "range": "350",
+          "img": "NautilusPiercingGaze.png"
         },
         {
           "k": "E",
           "n": "Riptide",
           "cd": "7/6.5/6/5.5/5",
           "cost": "50/60/70/80/90",
-          "range": "600"
+          "range": "600",
+          "img": "NautilusSplashZone.png"
         },
         {
           "k": "R",
           "n": "Depth Charge",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "825"
+          "range": "825",
+          "img": "NautilusGrandLine.png"
         }
       ]
     },
@@ -3675,34 +4227,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Inherent Glamour",
+      "pimg": "Neeko_P.png",
+      "img": "Neeko.png",
       "spells": [
         {
           "k": "Q",
           "n": "Blooming Burst",
           "cd": "9/8.5/8/7.5/7",
           "cost": "50/60/70/80/90",
-          "range": "800"
+          "range": "800",
+          "img": "NeekoQ.png"
         },
         {
           "k": "W",
           "n": "Shapesplitter",
           "cd": "16/15/14/13/12",
           "cost": "0",
-          "range": "900"
+          "range": "900",
+          "img": "NeekoW.png"
         },
         {
           "k": "E",
           "n": "Tangle-Barbs",
           "cd": "12/11.5/11/10.5/10",
           "cost": "60/65/70/75/80",
-          "range": "1000"
+          "range": "1000",
+          "img": "NeekoE.png"
         },
         {
           "k": "R",
           "n": "Pop Blossom",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "600"
+          "range": "600",
+          "img": "NeekoR.png"
         }
       ]
     },
@@ -3715,34 +4273,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Prowl",
+      "pimg": "Nidalee_Passive.png",
+      "img": "Nidalee.png",
       "spells": [
         {
           "k": "Q",
           "n": "Javelin Toss / Takedown",
           "cd": "6",
           "cost": "50/55/60/65/70",
-          "range": "1500"
+          "range": "1500",
+          "img": "JavelinToss.png"
         },
         {
           "k": "W",
           "n": "Bushwhack / Pounce",
           "cd": "13/12/11/10/9",
           "cost": "30/35/40/45/50",
-          "range": "900"
+          "range": "900",
+          "img": "Bushwhack.png"
         },
         {
           "k": "E",
           "n": "Primal Surge / Swipe",
           "cd": "12",
           "cost": "50/55/60/65/70",
-          "range": "900"
+          "range": "900",
+          "img": "PrimalSurge.png"
         },
         {
           "k": "R",
           "n": "Aspect Of The Cougar",
           "cd": "3",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "AspectOfTheCougar.png"
         }
       ]
     },
@@ -3755,34 +4319,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Joy Unending",
+      "pimg": "NIlahP.png",
+      "img": "Nilah.png",
       "spells": [
         {
           "k": "Q",
           "n": "Formless Blade",
           "cd": "4",
           "cost": "30",
-          "range": "600"
+          "range": "600",
+          "img": "NilahQ.png"
         },
         {
           "k": "W",
           "n": "Jubilant Veil",
           "cd": "26/25/24/23/22",
           "cost": "60/45/30/15/0",
-          "range": "150"
+          "range": "150",
+          "img": "NilahW.png"
         },
         {
           "k": "E",
           "n": "Slipstream",
           "cd": "0.5",
           "cost": "40",
-          "range": "550"
+          "range": "550",
+          "img": "NilahE.png"
         },
         {
           "k": "R",
           "n": "Apotheosis",
           "cd": "110/95/80",
           "cost": "100",
-          "range": "400"
+          "range": "400",
+          "img": "NilahR.png"
         }
       ]
     },
@@ -3795,34 +4365,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Umbra Blades",
+      "pimg": "Nocturne_UmbraBlades.png",
+      "img": "Nocturne.png",
       "spells": [
         {
           "k": "Q",
           "n": "Duskbringer",
           "cd": "8",
           "cost": "60/65/70/75/80",
-          "range": "1125"
+          "range": "1125",
+          "img": "NocturneDuskbringer.png"
         },
         {
           "k": "W",
           "n": "Shroud of Darkness",
           "cd": "20/18/16/14/12",
           "cost": "50",
-          "range": "20"
+          "range": "20",
+          "img": "NocturneShroudofDarkness.png"
         },
         {
           "k": "E",
           "n": "Unspeakable Horror",
           "cd": "15/14/13/12/11",
           "cost": "60/65/70/75/80",
-          "range": "425"
+          "range": "425",
+          "img": "NocturneUnspeakableHorror.png"
         },
         {
           "k": "R",
           "n": "Paranoia",
           "cd": "140/115/90",
           "cost": "100",
-          "range": "2500/3250/4000"
+          "range": "2500/3250/4000",
+          "img": "NocturneParanoia.png"
         }
       ]
     },
@@ -3835,34 +4411,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Call of the Freljord",
+      "pimg": "NunuPassive.png",
+      "img": "Nunu.png",
       "spells": [
         {
           "k": "Q",
           "n": "Consume",
           "cd": "13/12/11/10/9",
           "cost": "60",
-          "range": "125"
+          "range": "125",
+          "img": "NunuQ.png"
         },
         {
           "k": "W",
           "n": "Biggest Snowball Ever!",
           "cd": "14",
           "cost": "50/55/60/65/70",
-          "range": "7500"
+          "range": "7500",
+          "img": "NunuW.png"
         },
         {
           "k": "E",
           "n": "Snowball Barrage",
           "cd": "14/13/12/11/10",
           "cost": "50/55/60/65/70",
-          "range": "625"
+          "range": "625",
+          "img": "NunuE.png"
         },
         {
           "k": "R",
           "n": "Absolute Zero",
           "cd": "110/100/90",
           "cost": "100",
-          "range": "650"
+          "range": "650",
+          "img": "NunuR.png"
         }
       ]
     },
@@ -3875,34 +4457,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Berserker Rage",
+      "pimg": "Olaf_Passive.png",
+      "img": "Olaf.png",
       "spells": [
         {
           "k": "Q",
           "n": "Undertow",
           "cd": "9",
           "cost": "50/55/60/65/70",
-          "range": "1000"
+          "range": "1000",
+          "img": "OlafAxeThrowCast.png"
         },
         {
           "k": "W",
           "n": "Tough It Out",
           "cd": "16/15/14/13/12",
           "cost": "50",
-          "range": "700"
+          "range": "700",
+          "img": "OlafFrenziedStrikes.png"
         },
         {
           "k": "E",
           "n": "Reckless Swing",
           "cd": "11/10/9/8/7",
           "cost": "0",
-          "range": "325"
+          "range": "325",
+          "img": "OlafRecklessStrike.png"
         },
         {
           "k": "R",
           "n": "Ragnarok",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "400"
+          "range": "400",
+          "img": "OlafRagnarok.png"
         }
       ]
     },
@@ -3915,34 +4503,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Clockwork Windup",
+      "pimg": "OriannaPassive.png",
+      "img": "Orianna.png",
       "spells": [
         {
           "k": "Q",
           "n": "Command: Attack",
           "cd": "7/6/5/4/3",
           "cost": "35",
-          "range": "815"
+          "range": "815",
+          "img": "OrianaIzunaCommand.png"
         },
         {
           "k": "W",
           "n": "Command: Dissonance",
           "cd": "7",
           "cost": "60/65/70/75/80",
-          "range": "225"
+          "range": "225",
+          "img": "OrianaDissonanceCommand.png"
         },
         {
           "k": "E",
           "n": "Command: Protect",
           "cd": "9",
           "cost": "60",
-          "range": "1095"
+          "range": "1095",
+          "img": "OrianaRedactCommand.png"
         },
         {
           "k": "R",
           "n": "Command: Shockwave",
           "cd": "110/95/80",
           "cost": "100",
-          "range": "410"
+          "range": "410",
+          "img": "OrianaDetonateCommand.png"
         }
       ]
     },
@@ -3954,34 +4548,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Living Forge",
+      "pimg": "OrnnP.png",
+      "img": "Ornn.png",
       "spells": [
         {
           "k": "Q",
           "n": "Volcanic Rupture",
           "cd": "9/8.5/8/7.5/7",
           "cost": "45",
-          "range": "800"
+          "range": "800",
+          "img": "OrnnQ.png"
         },
         {
           "k": "W",
           "n": "Bellows Breath",
           "cd": "12/11.5/11/10.5/10",
           "cost": "45/50/55/60/65",
-          "range": "25000"
+          "range": "25000",
+          "img": "OrnnW.png"
         },
         {
           "k": "E",
           "n": "Searing Charge",
           "cd": "14/13.5/13/12.5/12",
           "cost": "35/40/45/50/55",
-          "range": "450"
+          "range": "450",
+          "img": "OrnnE.png"
         },
         {
           "k": "R",
           "n": "Call of the Forge God",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "2500"
+          "range": "2500",
+          "img": "OrnnR.png"
         }
       ]
     },
@@ -3994,34 +4594,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Mortal Will",
+      "pimg": "Pantheon_Passive.png",
+      "img": "Pantheon.png",
       "spells": [
         {
           "k": "Q",
           "n": "Comet Spear",
           "cd": "11/10.25/9.5/8.75/8",
           "cost": "25",
-          "range": "575"
+          "range": "575",
+          "img": "PantheonQ.png"
         },
         {
           "k": "W",
           "n": "Shield Vault",
           "cd": "13/12/11/10/9",
           "cost": "55",
-          "range": "600"
+          "range": "600",
+          "img": "PantheonW.png"
         },
         {
           "k": "E",
           "n": "Aegis Assault",
           "cd": "22/21/20/19/18",
           "cost": "80",
-          "range": "400"
+          "range": "400",
+          "img": "PantheonE.png"
         },
         {
           "k": "R",
           "n": "Grand Starfall",
           "cd": "180/165/150",
           "cost": "100",
-          "range": "5500"
+          "range": "5500",
+          "img": "PantheonR.png"
         }
       ]
     },
@@ -4034,34 +4640,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Iron Ambassador",
+      "pimg": "Poppy_Passive.png",
+      "img": "Poppy.png",
       "spells": [
         {
           "k": "Q",
           "n": "Hammer Shock",
           "cd": "8/7/6/5/4",
           "cost": "35/40/45/50/55",
-          "range": "430"
+          "range": "430",
+          "img": "PoppyQ.png"
         },
         {
           "k": "W",
           "n": "Steadfast Presence",
           "cd": "20/18/16/14/12",
           "cost": "50",
-          "range": "400"
+          "range": "400",
+          "img": "PoppyW.png"
         },
         {
           "k": "E",
           "n": "Heroic Charge",
           "cd": "14/13/12/11/10",
           "cost": "70",
-          "range": "475"
+          "range": "475",
+          "img": "PoppyE.png"
         },
         {
           "k": "R",
           "n": "Keeper's Verdict",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "500"
+          "range": "500",
+          "img": "PoppyR.png"
         }
       ]
     },
@@ -4074,34 +4686,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Gift of the Drowned Ones",
+      "pimg": "PykePassive.png",
+      "img": "Pyke.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bone Skewer",
           "cd": "10/9.5/9/8.5/8",
           "cost": "70/75/80/85/90",
-          "range": "400"
+          "range": "400",
+          "img": "PykeQ.png"
         },
         {
           "k": "W",
           "n": "Ghostwater Dive",
           "cd": "14/13/12/11/10",
           "cost": "65",
-          "range": "600"
+          "range": "600",
+          "img": "PykeW.png"
         },
         {
           "k": "E",
           "n": "Phantom Undertow",
           "cd": "15/14/13/12/11",
           "cost": "40",
-          "range": "550"
+          "range": "550",
+          "img": "PykeE.png"
         },
         {
           "k": "R",
           "n": "Death From Below",
           "cd": "100/85/70",
           "cost": "100",
-          "range": "750"
+          "range": "750",
+          "img": "PykeR.png"
         }
       ]
     },
@@ -4113,34 +4731,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Royal Privilege",
+      "pimg": "Qiyana_Passive.png",
+      "img": "Qiyana.png",
       "spells": [
         {
           "k": "Q",
           "n": "Elemental Wrath / Edge of Ixtal",
           "cd": "7",
           "cost": "35",
-          "range": "525"
+          "range": "525",
+          "img": "QiyanaQ.png"
         },
         {
           "k": "W",
           "n": "Terrashape",
           "cd": "7",
           "cost": "25/30/35/40/45",
-          "range": "1100"
+          "range": "1100",
+          "img": "QiyanaW.png"
         },
         {
           "k": "E",
           "n": "Audacity",
           "cd": "11/10/9/8/7",
           "cost": "40/45/50/55/60",
-          "range": "650"
+          "range": "650",
+          "img": "QiyanaE.png"
         },
         {
           "k": "R",
           "n": "Supreme Display of Talent",
           "cd": "120",
           "cost": "100",
-          "range": "950"
+          "range": "950",
+          "img": "QiyanaR.png"
         }
       ]
     },
@@ -4153,34 +4777,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Harrier",
+      "pimg": "Quinn_Passive.png",
+      "img": "Quinn.png",
       "spells": [
         {
           "k": "Q",
           "n": "Blinding Assault",
           "cd": "11/10.5/10/9.5/9",
           "cost": "50/55/60/65/70",
-          "range": "1025"
+          "range": "1025",
+          "img": "QuinnQ.png"
         },
         {
           "k": "W",
           "n": "Heightened Senses",
           "cd": "50/45/40/35/30",
           "cost": "0",
-          "range": "2100"
+          "range": "2100",
+          "img": "QuinnW.png"
         },
         {
           "k": "E",
           "n": "Vault",
           "cd": "12/11/10/9/8",
           "cost": "50",
-          "range": "675"
+          "range": "675",
+          "img": "QuinnE.png"
         },
         {
           "k": "R",
           "n": "Behind Enemy Lines",
           "cd": "3",
           "cost": "50/25/0",
-          "range": "700"
+          "range": "700",
+          "img": "QuinnR.png"
         }
       ]
     },
@@ -4192,34 +4822,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Fey Feathers",
+      "pimg": "Rakan_P.png",
+      "img": "Rakan.png",
       "spells": [
         {
           "k": "Q",
           "n": "Gleaming Quill",
           "cd": "11/10/9/8/7",
           "cost": "45",
-          "range": "850"
+          "range": "850",
+          "img": "RakanQ.png"
         },
         {
           "k": "W",
           "n": "Grand Entrance",
           "cd": "14/13/12/11/10",
           "cost": "50/60/70/80/90",
-          "range": "600"
+          "range": "600",
+          "img": "RakanW.png"
         },
         {
           "k": "E",
           "n": "Battle Dance",
           "cd": "0",
           "cost": "40/45/50/55/60",
-          "range": "650"
+          "range": "650",
+          "img": "RakanE.png"
         },
         {
           "k": "R",
           "n": "The Quickness",
           "cd": "130/110/90",
           "cost": "100",
-          "range": "150"
+          "range": "150",
+          "img": "RakanR.png"
         }
       ]
     },
@@ -4231,34 +4867,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Spiked Shell",
+      "pimg": "Armordillo_ScavengeArmor.png",
+      "img": "Rammus.png",
       "spells": [
         {
           "k": "Q",
           "n": "Powerball",
           "cd": "12/10.5/9/7.5/6",
           "cost": "60",
-          "range": "300"
+          "range": "300",
+          "img": "PowerBall.png"
         },
         {
           "k": "W",
           "n": "Defensive Ball Curl",
           "cd": "7",
           "cost": "40",
-          "range": "300"
+          "range": "300",
+          "img": "DefensiveBallCurl.png"
         },
         {
           "k": "E",
           "n": "Frenzying Taunt",
           "cd": "12",
           "cost": "50",
-          "range": "325"
+          "range": "325",
+          "img": "PuncturingTaunt.png"
         },
         {
           "k": "R",
           "n": "Soaring Slam",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "Tremors2.png"
         }
       ]
     },
@@ -4271,34 +4913,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Rage",
       "passive": "Fury of the Xer'Sai",
+      "pimg": "RekSai_Passive.png",
+      "img": "RekSai.png",
       "spells": [
         {
           "k": "Q",
           "n": "Queen's Wrath / Prey Seeker",
           "cd": "4/3.5/3/2.5/2",
           "cost": "0",
-          "range": "325"
+          "range": "325",
+          "img": "RekSaiQ.png"
         },
         {
           "k": "W",
           "n": "Burrow / Un-burrow",
           "cd": "4",
           "cost": "0",
-          "range": "1650"
+          "range": "1650",
+          "img": "RekSaiW.png"
         },
         {
           "k": "E",
           "n": "Furious Bite / Tunnel",
           "cd": "6",
           "cost": "0",
-          "range": "250"
+          "range": "250",
+          "img": "RekSaiE.png"
         },
         {
           "k": "R",
           "n": "Void Rush",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "1500"
+          "range": "1500",
+          "img": "RekSaiR.png"
         }
       ]
     },
@@ -4311,34 +4959,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Break the Mold",
+      "pimg": "RellP.png",
+      "img": "Rell.png",
       "spells": [
         {
           "k": "Q",
           "n": "Shattering Strike",
           "cd": "11/10.5/10/9.5/9",
           "cost": "50",
-          "range": "600"
+          "range": "600",
+          "img": "RellQ.png"
         },
         {
           "k": "W",
           "n": "Ferromancy: Crash Down",
           "cd": "10",
           "cost": "40",
-          "range": "450"
+          "range": "450",
+          "img": "RellW_Dismount.png"
         },
         {
           "k": "E",
           "n": "Full Tilt",
           "cd": "14/13/12/11/10",
           "cost": "40",
-          "range": "1200"
+          "range": "1200",
+          "img": "RellE.png"
         },
         {
           "k": "R",
           "n": "Magnet Storm",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "200"
+          "range": "200",
+          "img": "RellR.png"
         }
       ]
     },
@@ -4351,34 +5005,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Leverage",
+      "pimg": "Renata_P.png",
+      "img": "Renata.png",
       "spells": [
         {
           "k": "Q",
           "n": "Handshake",
           "cd": "16",
           "cost": "80",
-          "range": "900"
+          "range": "900",
+          "img": "RenataQ.png"
         },
         {
           "k": "W",
           "n": "Bailout",
           "cd": "28/27/26/25/24",
           "cost": "80",
-          "range": "800"
+          "range": "800",
+          "img": "RenataW.png"
         },
         {
           "k": "E",
           "n": "Loyalty Program",
           "cd": "14/13/12/11/10",
           "cost": "70/80/90/100/110",
-          "range": "800"
+          "range": "800",
+          "img": "RenataE.png"
         },
         {
           "k": "R",
           "n": "Hostile Takeover",
           "cd": "150/130/110",
           "cost": "100",
-          "range": "2000"
+          "range": "2000",
+          "img": "RenataR.png"
         }
       ]
     },
@@ -4391,34 +5051,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Fury",
       "passive": "Reign of Anger",
+      "pimg": "Renekton_Passive.png",
+      "img": "Renekton.png",
       "spells": [
         {
           "k": "Q",
           "n": "Cull the Meek",
           "cd": "7",
           "cost": "0",
-          "range": "325"
+          "range": "325",
+          "img": "RenektonCleave.png"
         },
         {
           "k": "W",
           "n": "Ruthless Predator",
           "cd": "16/14/12/10/8",
           "cost": "0",
-          "range": "300"
+          "range": "300",
+          "img": "RenektonPreExecute.png"
         },
         {
           "k": "E",
           "n": "Slice and Dice",
           "cd": "16/14.5/13/11.5/10",
           "cost": "0",
-          "range": "450"
+          "range": "450",
+          "img": "RenektonSliceAndDice.png"
         },
         {
           "k": "R",
           "n": "Dominus",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "RenektonReignOfTheTyrant.png"
         }
       ]
     },
@@ -4431,34 +5097,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Ferocity",
       "passive": "Unseen Predator",
+      "pimg": "Rengar_P.png",
+      "img": "Rengar.png",
       "spells": [
         {
           "k": "Q",
           "n": "Savagery",
           "cd": "0.25",
           "cost": "0",
-          "range": "450"
+          "range": "450",
+          "img": "RengarQ.png"
         },
         {
           "k": "W",
           "n": "Battle Roar",
           "cd": "0.25",
           "cost": "0",
-          "range": "450"
+          "range": "450",
+          "img": "RengarW.png"
         },
         {
           "k": "E",
           "n": "Bola Strike",
           "cd": "0.25",
           "cost": "0",
-          "range": "1000"
+          "range": "1000",
+          "img": "RengarE.png"
         },
         {
           "k": "R",
           "n": "Thrill of the Hunt",
           "cd": "100/90/80",
           "cost": "0",
-          "range": "2500/3000/3500"
+          "range": "2500/3000/3500",
+          "img": "RengarR.png"
         }
       ]
     },
@@ -4471,34 +5143,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "None",
       "passive": "Runic Blade",
+      "pimg": "RivenRunicBlades.png",
+      "img": "Riven.png",
       "spells": [
         {
           "k": "Q",
           "n": "Broken Wings",
           "cd": "13",
           "cost": "0",
-          "range": "275"
+          "range": "275",
+          "img": "RivenTriCleave.png"
         },
         {
           "k": "W",
           "n": "Ki Burst",
           "cd": "11/10/9/8/7",
           "cost": "0",
-          "range": "260"
+          "range": "260",
+          "img": "RivenMartyr.png"
         },
         {
           "k": "E",
           "n": "Valor",
           "cd": "10/9/8/7/6",
           "cost": "0",
-          "range": "250"
+          "range": "250",
+          "img": "RivenFeint.png"
         },
         {
           "k": "R",
           "n": "Blade of the Exile",
           "cd": "120/90/60",
           "cost": "0",
-          "range": "200"
+          "range": "200",
+          "img": "RivenFengShuiEngine.png"
         }
       ]
     },
@@ -4511,34 +5189,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Heat",
       "passive": "Junkyard Titan",
+      "pimg": "Rumble_JunkyardTitan1.png",
+      "img": "Rumble.png",
       "spells": [
         {
           "k": "Q",
           "n": "Flamespitter",
           "cd": "10/9/8/7/6",
           "cost": "0",
-          "range": "600"
+          "range": "600",
+          "img": "RumbleFlameThrower.png"
         },
         {
           "k": "W",
           "n": "Scrap Shield",
           "cd": "6",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "RumbleShield.png"
         },
         {
           "k": "E",
           "n": "Electro Harpoon",
           "cd": "0.5",
           "cost": "0",
-          "range": "850"
+          "range": "850",
+          "img": "RumbleGrenade.png"
         },
         {
           "k": "R",
           "n": "The Equalizer",
           "cd": "130/105/80",
           "cost": "0",
-          "range": "1750"
+          "range": "1750",
+          "img": "RumbleCarpetBomb.png"
         }
       ]
     },
@@ -4550,34 +5234,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Arcane Mastery",
+      "pimg": "Ryze_P.png",
+      "img": "Ryze.png",
       "spells": [
         {
           "k": "Q",
           "n": "Overload",
           "cd": "5",
           "cost": "40/38/36/34/32",
-          "range": "1000"
+          "range": "1000",
+          "img": "RyzeQWrapper.png"
         },
         {
           "k": "W",
           "n": "Rune Prison",
           "cd": "11/10.5/10/9.5/9",
           "cost": "50/60/70/80/90",
-          "range": "615"
+          "range": "615",
+          "img": "RyzeW.png"
         },
         {
           "k": "E",
           "n": "Spell Flux",
           "cd": "3.5/3.25/3/2.75/2.5",
           "cost": "35/45/55/65/75",
-          "range": "615"
+          "range": "615",
+          "img": "RyzeE.png"
         },
         {
           "k": "R",
           "n": "Realm Warp",
           "cd": "180/160/140",
           "cost": "100",
-          "range": "3000"
+          "range": "3000",
+          "img": "RyzeR.png"
         }
       ]
     },
@@ -4590,34 +5280,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Daredevil Impulse",
+      "pimg": "SamiraP.png",
+      "img": "Samira.png",
       "spells": [
         {
           "k": "Q",
           "n": "Flair",
           "cd": "6/5/4/3/2",
           "cost": "30",
-          "range": "950"
+          "range": "950",
+          "img": "SamiraQ.png"
         },
         {
           "k": "W",
           "n": "Blade Whirl",
           "cd": "30/28/26/24/22",
           "cost": "60",
-          "range": "325"
+          "range": "325",
+          "img": "SamiraW.png"
         },
         {
           "k": "E",
           "n": "Wild Rush",
           "cd": "20/18/16/14/12",
           "cost": "40",
-          "range": "600"
+          "range": "600",
+          "img": "SamiraE.png"
         },
         {
           "k": "R",
           "n": "Inferno Trigger",
           "cd": "5",
           "cost": "0",
-          "range": "600"
+          "range": "600",
+          "img": "SamiraR.png"
         }
       ]
     },
@@ -4629,34 +5325,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Fury of the North",
+      "pimg": "Sejuani_passive.png",
+      "img": "Sejuani.png",
       "spells": [
         {
           "k": "Q",
           "n": "Arctic Assault",
           "cd": "18/16.5/15/13.5/12",
           "cost": "60/65/70/75/80",
-          "range": "650"
+          "range": "650",
+          "img": "SejuaniQ.png"
         },
         {
           "k": "W",
           "n": "Winter's Wrath",
           "cd": "9/8/7/6/5",
           "cost": "60",
-          "range": "600"
+          "range": "600",
+          "img": "SejuaniW.png"
         },
         {
           "k": "E",
           "n": "Permafrost",
           "cd": "1.5",
           "cost": "20",
-          "range": "560"
+          "range": "560",
+          "img": "SejuaniE.png"
         },
         {
           "k": "R",
           "n": "Glacial Prison",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "1300"
+          "range": "1300",
+          "img": "SejuaniR.png"
         }
       ]
     },
@@ -4669,34 +5371,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Absolution",
+      "pimg": "Senna_Passive.png",
+      "img": "Senna.png",
       "spells": [
         {
           "k": "Q",
           "n": "Piercing Darkness",
           "cd": "15",
           "cost": "70/80/90/100/110",
-          "range": "600"
+          "range": "600",
+          "img": "SennaQ.png"
         },
         {
           "k": "W",
           "n": "Last Embrace",
           "cd": "11",
           "cost": "50/55/60/65/70",
-          "range": "1250"
+          "range": "1250",
+          "img": "SennaW.png"
         },
         {
           "k": "E",
           "n": "Curse of the Black Mist",
           "cd": "26/24.5/23/21.5/20",
           "cost": "70",
-          "range": "400"
+          "range": "400",
+          "img": "SennaE.png"
         },
         {
           "k": "R",
           "n": "Dawning Shadow",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "SennaR.png"
         }
       ]
     },
@@ -4709,34 +5417,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Stage Presence",
+      "pimg": "Seraphine_Passive.png",
+      "img": "Seraphine.png",
       "spells": [
         {
           "k": "Q",
           "n": "High Note",
           "cd": "8/7.5/7/6.5/6",
           "cost": "60/70/80/90/100",
-          "range": "900"
+          "range": "900",
+          "img": "SeraphineQ.png"
         },
         {
           "k": "W",
           "n": "Surround Sound",
           "cd": "22",
           "cost": "70/75/80/85/90",
-          "range": "800"
+          "range": "800",
+          "img": "SeraphineW.png"
         },
         {
           "k": "E",
           "n": "Beat Drop",
           "cd": "11/10.5/10/9.5/9",
           "cost": "60",
-          "range": "1300"
+          "range": "1300",
+          "img": "SeraphineE.png"
         },
         {
           "k": "R",
           "n": "Encore",
           "cd": "160/140/120",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "SeraphineR.png"
         }
       ]
     },
@@ -4749,34 +5463,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Grit",
       "passive": "Pit Grit",
+      "pimg": "Sett_P.png",
+      "img": "Sett.png",
       "spells": [
         {
           "k": "Q",
           "n": "Knuckle Down",
           "cd": "9/8/7/6/5",
           "cost": "0",
-          "range": "0"
+          "range": "0",
+          "img": "SettQ.png"
         },
         {
           "k": "W",
           "n": "Haymaker",
           "cd": "18/16.5/15/13.5/12",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "SettW.png"
         },
         {
           "k": "E",
           "n": "Facebreaker",
           "cd": "16/14.5/13/11.5/10",
           "cost": "0",
-          "range": "490"
+          "range": "490",
+          "img": "SettE.png"
         },
         {
           "k": "R",
           "n": "The Show Stopper",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "SettR.png"
         }
       ]
     },
@@ -4788,34 +5508,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Backstab",
+      "pimg": "Jester_CarefulStrikes.png",
+      "img": "Shaco.png",
       "spells": [
         {
           "k": "Q",
           "n": "Deceive",
           "cd": "13/12.5/12/11.5/11",
           "cost": "40",
-          "range": "400"
+          "range": "400",
+          "img": "Deceive.png"
         },
         {
           "k": "W",
           "n": "Jack In The Box",
           "cd": "15",
           "cost": "70/65/60/55/50",
-          "range": "500"
+          "range": "500",
+          "img": "JackInTheBox.png"
         },
         {
           "k": "E",
           "n": "Two-Shiv Poison",
           "cd": "8",
           "cost": "75",
-          "range": "625"
+          "range": "625",
+          "img": "TwoShivPoison.png"
         },
         {
           "k": "R",
           "n": "Hallucinate",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "200"
+          "range": "200",
+          "img": "HallucinateFull.png"
         }
       ]
     },
@@ -4827,34 +5553,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Energy",
       "passive": "Ki Barrier",
+      "pimg": "Shen_Passive.png",
+      "img": "Shen.png",
       "spells": [
         {
           "k": "Q",
           "n": "Twilight Assault",
           "cd": "8/7.25/6.5/5.75/5",
           "cost": "140/130/120/110/100",
-          "range": "400"
+          "range": "400",
+          "img": "ShenQ.png"
         },
         {
           "k": "W",
           "n": "Spirit's Refuge",
           "cd": "16/14.5/13/11.5/10",
           "cost": "40",
-          "range": "400"
+          "range": "400",
+          "img": "ShenW.png"
         },
         {
           "k": "E",
           "n": "Shadow Dash",
           "cd": "18/16/14/12/10",
           "cost": "150",
-          "range": "600"
+          "range": "600",
+          "img": "ShenE.png"
         },
         {
           "k": "R",
           "n": "Stand United",
           "cd": "200/180/160",
           "cost": "0",
-          "range": "35000"
+          "range": "35000",
+          "img": "ShenR.png"
         }
       ]
     },
@@ -4867,34 +5599,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Fury",
       "passive": "Scalemail",
+      "pimg": "Shyvana_Passive.png",
+      "img": "Shyvana.png",
       "spells": [
         {
           "k": "Q",
           "n": "Emberstrike",
           "cd": "10/9/8/7/6",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "ShyvanaQ.png"
         },
         {
           "k": "W",
           "n": "Inferno Aegis",
           "cd": "13/12.25/11.5/10.75/10",
           "cost": "0",
-          "range": "350"
+          "range": "350",
+          "img": "ShyvanaW.png"
         },
         {
           "k": "E",
           "n": "Molten Burst",
           "cd": "12/11/10/9/8",
           "cost": "0",
-          "range": "800"
+          "range": "800",
+          "img": "ShyvanaE.png"
         },
         {
           "k": "R",
           "n": "Dragon's Descent",
           "cd": "0",
           "cost": "0",
-          "range": "1050"
+          "range": "1050",
+          "img": "ShyvanaR.png"
         }
       ]
     },
@@ -4907,34 +5645,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Noxious Slipstream",
+      "pimg": "Singed_Passive.png",
+      "img": "Singed.png",
       "spells": [
         {
           "k": "Q",
           "n": "Poison Trail",
           "cd": "0",
           "cost": "13",
-          "range": "20"
+          "range": "20",
+          "img": "PoisonTrail.png"
         },
         {
           "k": "W",
           "n": "Mega Adhesive",
           "cd": "17/16/15/14/13",
           "cost": "60/70/80/90/100",
-          "range": "1000"
+          "range": "1000",
+          "img": "MegaAdhesive.png"
         },
         {
           "k": "E",
           "n": "Fling",
           "cd": "10/9.5/9/8.5/8",
           "cost": "60/70/80/90/100",
-          "range": "125"
+          "range": "125",
+          "img": "Fling.png"
         },
         {
           "k": "R",
           "n": "Insanity Potion",
           "cd": "100",
           "cost": "100",
-          "range": "20"
+          "range": "20",
+          "img": "InsanityPotion.png"
         }
       ]
     },
@@ -4947,34 +5691,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Glory in Death",
+      "pimg": "Sion_Passive1.png",
+      "img": "Sion.png",
       "spells": [
         {
           "k": "Q",
           "n": "Decimating Smash",
           "cd": "10/9/8/7/6",
           "cost": "45",
-          "range": "10000"
+          "range": "10000",
+          "img": "SionQ.png"
         },
         {
           "k": "W",
           "n": "Soul Furnace",
           "cd": "15/14/13/12/11",
           "cost": "75/80/85/90/95",
-          "range": "500"
+          "range": "500",
+          "img": "SionW.png"
         },
         {
           "k": "E",
           "n": "Roar of the Slayer",
           "cd": "12/11/10/9/8",
           "cost": "35/40/45/50/55",
-          "range": "800"
+          "range": "800",
+          "img": "SionE.png"
         },
         {
           "k": "R",
           "n": "Unstoppable Onslaught",
           "cd": "140/100/60",
           "cost": "100",
-          "range": "7500"
+          "range": "7500",
+          "img": "SionR.png"
         }
       ]
     },
@@ -4986,34 +5736,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Fleet of Foot",
+      "pimg": "Sivir_Passive.png",
+      "img": "Sivir.png",
       "spells": [
         {
           "k": "Q",
           "n": "Boomerang Blade",
           "cd": "10/9.5/9/8.5/8",
           "cost": "55/60/65/70/75",
-          "range": "1200"
+          "range": "1200",
+          "img": "SivirQ.png"
         },
         {
           "k": "W",
           "n": "Ricochet",
           "cd": "12",
           "cost": "60",
-          "range": "20"
+          "range": "20",
+          "img": "SivirW.png"
         },
         {
           "k": "E",
           "n": "Spell Shield",
           "cd": "24/22.5/21/19.5/18",
           "cost": "0",
-          "range": "20"
+          "range": "20",
+          "img": "SivirE.png"
         },
         {
           "k": "R",
           "n": "On The Hunt",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "1000"
+          "range": "1000",
+          "img": "SivirR.png"
         }
       ]
     },
@@ -5026,34 +5782,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Threads of Vibration",
+      "pimg": "Skarner_Passive.png",
+      "img": "Skarner.png",
       "spells": [
         {
           "k": "Q",
           "n": "Shattered Earth / Upheaval",
           "cd": "8/6.75/5.5/4.25/3",
           "cost": "30",
-          "range": "400"
+          "range": "400",
+          "img": "SkarnerQ.png"
         },
         {
           "k": "W",
           "n": "Seismic Bastion",
           "cd": "10/9/8/7/6",
           "cost": "60/65/70/75/80",
-          "range": "700"
+          "range": "700",
+          "img": "SkarnerW.png"
         },
         {
           "k": "E",
           "n": "Ixtal's Impact",
           "cd": "22/21/20/19/18",
           "cost": "50/55/60/65/70",
-          "range": "1700"
+          "range": "1700",
+          "img": "SkarnerE.png"
         },
         {
           "k": "R",
           "n": "Impale",
           "cd": "120/105/90",
           "cost": "100",
-          "range": "625"
+          "range": "625",
+          "img": "SkarnerR.png"
         }
       ]
     },
@@ -5066,34 +5828,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Dragon Practice",
+      "pimg": "Icons_Smolder_Passive.png",
+      "img": "Smolder.png",
       "spells": [
         {
           "k": "Q",
           "n": "Super Scorcher Breath",
           "cd": "5.5/5/4.5/4/3.5",
           "cost": "25",
-          "range": "550"
+          "range": "550",
+          "img": "SmolderQ.png"
         },
         {
           "k": "W",
           "n": "Achooo!",
           "cd": "14/13/12/11/10",
           "cost": "50/55/60/65/70",
-          "range": "1500"
+          "range": "1500",
+          "img": "SmolderW.png"
         },
         {
           "k": "E",
           "n": "Flap, Flap, Flap",
           "cd": "24/22/20/18/16",
           "cost": "65",
-          "range": "700"
+          "range": "700",
+          "img": "SmolderE.png"
         },
         {
           "k": "R",
           "n": "MMOOOMMMM!",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "4200"
+          "range": "4200",
+          "img": "SmolderR.png"
         }
       ]
     },
@@ -5106,34 +5874,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Power Chord",
+      "pimg": "Sona_Passive_Charged.png",
+      "img": "Sona.png",
       "spells": [
         {
           "k": "Q",
           "n": "Hymn of Valor",
           "cd": "8",
           "cost": "50/55/60/65/70",
-          "range": "825"
+          "range": "825",
+          "img": "SonaQ.png"
         },
         {
           "k": "W",
           "n": "Aria of Perseverance",
           "cd": "10",
           "cost": "80/85/90/95/100",
-          "range": "1000"
+          "range": "1000",
+          "img": "SonaW.png"
         },
         {
           "k": "E",
           "n": "Song of Celerity",
           "cd": "14",
           "cost": "65",
-          "range": "430"
+          "range": "430",
+          "img": "SonaE.png"
         },
         {
           "k": "R",
           "n": "Crescendo",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "900"
+          "range": "900",
+          "img": "SonaR.png"
         }
       ]
     },
@@ -5146,34 +5920,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Salvation",
+      "pimg": "Soraka_Passive.png",
+      "img": "Soraka.png",
       "spells": [
         {
           "k": "Q",
           "n": "Starcall",
           "cd": "8/7/6/5/4",
           "cost": "45/50/55/60/65",
-          "range": "810"
+          "range": "810",
+          "img": "SorakaQ.png"
         },
         {
           "k": "W",
           "n": "Astral Infusion",
           "cd": "6/5/4/3/2",
           "cost": "40/45/50/55/60",
-          "range": "550"
+          "range": "550",
+          "img": "SorakaW.png"
         },
         {
           "k": "E",
           "n": "Equinox",
           "cd": "20/19/18/17/16",
           "cost": "70/75/80/85/90",
-          "range": "925"
+          "range": "925",
+          "img": "SorakaE.png"
         },
         {
           "k": "R",
           "n": "Wish",
           "cd": "150/135/120",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "SorakaR.png"
         }
       ]
     },
@@ -5186,34 +5966,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Ravenous Flock",
+      "pimg": "Swain_P.png",
+      "img": "Swain.png",
       "spells": [
         {
           "k": "Q",
           "n": "Death's Hand",
           "cd": "7/6/5/4/3",
           "cost": "40/45/50/55/60",
-          "range": "750"
+          "range": "750",
+          "img": "SwainQ.png"
         },
         {
           "k": "W",
           "n": "Vision of Empire",
           "cd": "22/21/20/19/18",
           "cost": "60/65/70/75/80",
-          "range": "5500/6000/6500/7000/7500"
+          "range": "5500/6000/6500/7000/7500",
+          "img": "SwainW.png"
         },
         {
           "k": "E",
           "n": "Nevermove",
           "cd": "12/11.5/11/10.5/10",
           "cost": "50/55/60/65/70",
-          "range": "850"
+          "range": "850",
+          "img": "SwainE.png"
         },
         {
           "k": "R",
           "n": "Demonic Ascension",
           "cd": "120",
           "cost": "100",
-          "range": "650"
+          "range": "650",
+          "img": "SwainR.png"
         }
       ]
     },
@@ -5226,34 +6012,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Petricite Burst",
+      "pimg": "SylasP.png",
+      "img": "Sylas.png",
       "spells": [
         {
           "k": "Q",
           "n": "Chain Lash",
           "cd": "10/9/8/7/6",
           "cost": "55",
-          "range": "775"
+          "range": "775",
+          "img": "SylasQ.png"
         },
         {
           "k": "W",
           "n": "Kingslayer",
           "cd": "12/10.5/9/7.5/6",
           "cost": "50/60/70/80/90",
-          "range": "400"
+          "range": "400",
+          "img": "SylasW.png"
         },
         {
           "k": "E",
           "n": "Abscond / Abduct",
           "cd": "13/12/11/10/9",
           "cost": "65",
-          "range": "400"
+          "range": "400",
+          "img": "SylasE.png"
         },
         {
           "k": "R",
           "n": "Hijack",
           "cd": "80/55/30",
           "cost": "75",
-          "range": "950"
+          "range": "950",
+          "img": "SylasR.png"
         }
       ]
     },
@@ -5265,34 +6057,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Transcendent",
+      "pimg": "SyndraPassive.png",
+      "img": "Syndra.png",
       "spells": [
         {
           "k": "Q",
           "n": "Dark Sphere",
           "cd": "7",
           "cost": "40/45/50/55/60",
-          "range": "800"
+          "range": "800",
+          "img": "SyndraQ.png"
         },
         {
           "k": "W",
           "n": "Force of Will",
           "cd": "12/11/10/9/8",
           "cost": "60/70/80/90/100",
-          "range": "925"
+          "range": "925",
+          "img": "SyndraW.png"
         },
         {
           "k": "E",
           "n": "Scatter the Weak",
           "cd": "15",
           "cost": "50",
-          "range": "650"
+          "range": "650",
+          "img": "SyndraE.png"
         },
         {
           "k": "R",
           "n": "Unleashed Power",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "675"
+          "range": "675",
+          "img": "SyndraR.png"
         }
       ]
     },
@@ -5305,34 +6103,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "An Acquired Taste",
+      "pimg": "TahmKenchP.png",
+      "img": "TahmKench.png",
       "spells": [
         {
           "k": "Q",
           "n": "Tongue Lash",
           "cd": "7/6.5/6/5.5/5",
           "cost": "50/46/42/38/34",
-          "range": "900"
+          "range": "900",
+          "img": "TahmKenchQ.png"
         },
         {
           "k": "W",
           "n": "Abyssal Dive",
           "cd": "21/20/19/18/17",
           "cost": "60/75/90/105/120",
-          "range": "1000/1050/1100/1150/1200"
+          "range": "1000/1050/1100/1150/1200",
+          "img": "TahmKenchW.png"
         },
         {
           "k": "E",
           "n": "Thick Skin",
           "cd": "3",
           "cost": "0",
-          "range": "2400"
+          "range": "2400",
+          "img": "TahmKenchE.png"
         },
         {
           "k": "R",
           "n": "Devour",
           "cd": "0",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "TahmKenchRWrapper.png"
         }
       ]
     },
@@ -5345,34 +6149,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Rock Surfing",
+      "pimg": "Taliyah_Passive.png",
+      "img": "Taliyah.png",
       "spells": [
         {
           "k": "Q",
           "n": "Threaded Volley",
           "cd": "7/6/5/4/3",
           "cost": "55/60/65/70/75",
-          "range": "1000"
+          "range": "1000",
+          "img": "TaliyahQ.png"
         },
         {
           "k": "W",
           "n": "Seismic Shove",
           "cd": "14/12.5/11/9.5/8",
           "cost": "40/30/20/10/0",
-          "range": "900"
+          "range": "900",
+          "img": "TaliyahWVC.png"
         },
         {
           "k": "E",
           "n": "Unraveled Earth",
           "cd": "14",
           "cost": "90",
-          "range": "950"
+          "range": "950",
+          "img": "TaliyahE.png"
         },
         {
           "k": "R",
           "n": "Weaver's Wall",
           "cd": "180/150/120",
           "cost": "100",
-          "range": "2500/4500/6500"
+          "range": "2500/4500/6500",
+          "img": "TaliyahR.png"
         }
       ]
     },
@@ -5384,34 +6194,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Blade's End",
+      "pimg": "TalonP.png",
+      "img": "Talon.png",
       "spells": [
         {
           "k": "Q",
           "n": "Noxian Diplomacy",
           "cd": "8/7.5/7/6.5/6",
           "cost": "40",
-          "range": "575"
+          "range": "575",
+          "img": "TalonQ.png"
         },
         {
           "k": "W",
           "n": "Rake",
           "cd": "9/8.5/8/7.5/7",
           "cost": "50/55/60/65/70",
-          "range": "650"
+          "range": "650",
+          "img": "TalonW.png"
         },
         {
           "k": "E",
           "n": "Assassin's Path",
           "cd": "0",
           "cost": "0",
-          "range": "725"
+          "range": "725",
+          "img": "TalonE.png"
         },
         {
           "k": "R",
           "n": "Shadow Assault",
           "cd": "100/80/60",
           "cost": "100",
-          "range": "550"
+          "range": "550",
+          "img": "TalonR.png"
         }
       ]
     },
@@ -5424,34 +6240,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Bravado",
+      "pimg": "Taric_Passive.png",
+      "img": "Taric.png",
       "spells": [
         {
           "k": "Q",
           "n": "Starlight's Touch",
           "cd": "3",
           "cost": "60",
-          "range": "325"
+          "range": "325",
+          "img": "TaricQ.png"
         },
         {
           "k": "W",
           "n": "Bastion",
           "cd": "15",
           "cost": "60",
-          "range": "800"
+          "range": "800",
+          "img": "TaricW.png"
         },
         {
           "k": "E",
           "n": "Dazzle",
           "cd": "16/15/14/13/12",
           "cost": "40",
-          "range": "610"
+          "range": "610",
+          "img": "TaricE.png"
         },
         {
           "k": "R",
           "n": "Cosmic Radiance",
           "cd": "180/150/120",
           "cost": "100",
-          "range": "400"
+          "range": "400",
+          "img": "TaricR.png"
         }
       ]
     },
@@ -5464,34 +6286,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Guerrilla Warfare",
+      "pimg": "TeemoPassive.png",
+      "img": "Teemo.png",
       "spells": [
         {
           "k": "Q",
           "n": "Blinding Dart",
           "cd": "7",
           "cost": "70/75/80/85/90",
-          "range": "680"
+          "range": "680",
+          "img": "TeemoQ.png"
         },
         {
           "k": "W",
           "n": "Move Quick",
           "cd": "14",
           "cost": "40",
-          "range": "20"
+          "range": "20",
+          "img": "TeemoW.png"
         },
         {
           "k": "E",
           "n": "Toxic Shot",
           "cd": "0",
           "cost": "0",
-          "range": "680"
+          "range": "680",
+          "img": "TeemoE.png"
         },
         {
           "k": "R",
           "n": "Noxious Trap",
           "cd": "0.25",
           "cost": "75/55/35",
-          "range": "600/750/900"
+          "range": "600/750/900",
+          "img": "TeemoR.png"
         }
       ]
     },
@@ -5504,34 +6332,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Damnation",
+      "pimg": "Thresh_Passive.png",
+      "img": "Thresh.png",
       "spells": [
         {
           "k": "Q",
           "n": "Death Sentence",
           "cd": "19/16.5/14/11.5/9",
           "cost": "70",
-          "range": "1075"
+          "range": "1075",
+          "img": "ThreshQ.png"
         },
         {
           "k": "W",
           "n": "Dark Passage",
           "cd": "21/20/19/18/17",
           "cost": "50/55/60/65/70",
-          "range": "950"
+          "range": "950",
+          "img": "ThreshW.png"
         },
         {
           "k": "E",
           "n": "Flay",
           "cd": "13/12.25/11.5/10.75/10",
           "cost": "60/65/70/75/80",
-          "range": "500"
+          "range": "500",
+          "img": "ThreshE.png"
         },
         {
           "k": "R",
           "n": "The Box",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "450"
+          "range": "450",
+          "img": "ThreshRPenta.png"
         }
       ]
     },
@@ -5544,34 +6378,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Draw a Bead",
+      "pimg": "Tristana_Passive.png",
+      "img": "Tristana.png",
       "spells": [
         {
           "k": "Q",
           "n": "Rapid Fire",
           "cd": "20/19/18/17/16",
           "cost": "15/20/25/30/35",
-          "range": "20"
+          "range": "20",
+          "img": "TristanaQ.png"
         },
         {
           "k": "W",
           "n": "Rocket Jump",
           "cd": "22/20/18/16/14",
           "cost": "30/35/40/45/50",
-          "range": "900"
+          "range": "900",
+          "img": "TristanaW.png"
         },
         {
           "k": "E",
           "n": "Explosive Charge",
           "cd": "16/15.5/15/14.5/14",
           "cost": "50/55/60/65/70",
-          "range": "550"
+          "range": "550",
+          "img": "TristanaE.png"
         },
         {
           "k": "R",
           "n": "Buster Shot",
           "cd": "100",
           "cost": "100",
-          "range": "550"
+          "range": "550",
+          "img": "TristanaR.png"
         }
       ]
     },
@@ -5584,34 +6424,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "King's Tribute",
+      "pimg": "Trundle_Passive.png",
+      "img": "Trundle.png",
       "spells": [
         {
           "k": "Q",
           "n": "Chomp",
           "cd": "3.5",
           "cost": "20",
-          "range": "300"
+          "range": "300",
+          "img": "TrundleTrollSmash.png"
         },
         {
           "k": "W",
           "n": "Frozen Domain",
           "cd": "18/17/16/15/14",
           "cost": "40",
-          "range": "750"
+          "range": "750",
+          "img": "trundledesecrate.png"
         },
         {
           "k": "E",
           "n": "Pillar of Ice",
           "cd": "21/19.5/18/16.5/15",
           "cost": "75",
-          "range": "1000"
+          "range": "1000",
+          "img": "TrundleCircle.png"
         },
         {
           "k": "R",
           "n": "Subjugate",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "650"
+          "range": "650",
+          "img": "TrundlePain.png"
         }
       ]
     },
@@ -5624,34 +6470,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Fury",
       "passive": "Battle Fury",
+      "pimg": "Tryndamere_Passive.png",
+      "img": "Tryndamere.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bloodlust",
           "cd": "12",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "TryndamereQ.png"
         },
         {
           "k": "W",
           "n": "Mocking Shout",
           "cd": "14",
           "cost": "0",
-          "range": "850"
+          "range": "850",
+          "img": "TryndamereW.png"
         },
         {
           "k": "E",
           "n": "Spinning Slash",
           "cd": "12/11/10/9/8",
           "cost": "0",
-          "range": "650"
+          "range": "650",
+          "img": "TryndamereE.png"
         },
         {
           "k": "R",
           "n": "Undying Rage",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "UndyingRage.png"
         }
       ]
     },
@@ -5664,34 +6516,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Loaded Dice",
+      "pimg": "Cardmaster_SealFate.png",
+      "img": "TwistedFate.png",
       "spells": [
         {
           "k": "Q",
           "n": "Wild Cards",
           "cd": "6/5.75/5.5/5.25/5",
           "cost": "60/70/80/90/100",
-          "range": "10000"
+          "range": "10000",
+          "img": "WildCards.png"
         },
         {
           "k": "W",
           "n": "Pick a Card",
           "cd": "6",
           "cost": "50/55/60/65/70",
-          "range": "200"
+          "range": "200",
+          "img": "PickACard.png"
         },
         {
           "k": "E",
           "n": "Stacked Deck",
           "cd": "0",
           "cost": "0",
-          "range": "0"
+          "range": "0",
+          "img": "CardmasterStack.png"
         },
         {
           "k": "R",
           "n": "Destiny",
           "cd": "170/140/110",
           "cost": "100",
-          "range": "5500"
+          "range": "5500",
+          "img": "Destiny.png"
         }
       ]
     },
@@ -5704,34 +6562,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Deadly Venom",
+      "pimg": "Twitch_Passive.png",
+      "img": "Twitch.png",
       "spells": [
         {
           "k": "Q",
           "n": "Ambush",
           "cd": "16",
           "cost": "40",
-          "range": "20"
+          "range": "20",
+          "img": "TwitchHideInShadows.png"
         },
         {
           "k": "W",
           "n": "Venom Cask",
           "cd": "13/12/11/10/9",
           "cost": "70",
-          "range": "950"
+          "range": "950",
+          "img": "TwitchVenomCask.png"
         },
         {
           "k": "E",
           "n": "Contaminate",
           "cd": "12/11/10/9/8",
           "cost": "50/60/70/80/90",
-          "range": "1200"
+          "range": "1200",
+          "img": "TwitchExpunge.png"
         },
         {
           "k": "R",
           "n": "Spray and Pray",
           "cd": "90",
           "cost": "100",
-          "range": "1200"
+          "range": "1200",
+          "img": "TwitchFullAutomatic.png"
         }
       ]
     },
@@ -5744,34 +6608,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Bridge Between",
+      "pimg": "Udyr_P.png",
+      "img": "Udyr.png",
       "spells": [
         {
           "k": "Q",
           "n": "Wilding Claw",
           "cd": "6",
           "cost": "20",
-          "range": "600"
+          "range": "600",
+          "img": "UdyrQ.png"
         },
         {
           "k": "W",
           "n": "Iron Mantle",
           "cd": "6",
           "cost": "40",
-          "range": "0"
+          "range": "0",
+          "img": "UdyrW.png"
         },
         {
           "k": "E",
           "n": "Blazing Stampede",
           "cd": "6",
           "cost": "40",
-          "range": "600"
+          "range": "600",
+          "img": "UdyrE.png"
         },
         {
           "k": "R",
           "n": "Wingborne Storm",
           "cd": "6",
           "cost": "40",
-          "range": "370"
+          "range": "370",
+          "img": "UdyrR.png"
         }
       ]
     },
@@ -5784,34 +6654,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Echoing Flames",
+      "pimg": "Urgot_Passive.png",
+      "img": "Urgot.png",
       "spells": [
         {
           "k": "Q",
           "n": "Corrosive Charge",
           "cd": "10/9.5/9/8.5/8",
           "cost": "70",
-          "range": "800"
+          "range": "800",
+          "img": "UrgotQ.png"
         },
         {
           "k": "W",
           "n": "Purge",
           "cd": "12/9/6/3/0",
           "cost": "40/30/20/10/0",
-          "range": "490"
+          "range": "490",
+          "img": "UrgotW.png"
         },
         {
           "k": "E",
           "n": "Disdain",
           "cd": "16/15.5/15/14.5/14",
           "cost": "60/70/80/90/100",
-          "range": "475"
+          "range": "475",
+          "img": "UrgotE.png"
         },
         {
           "k": "R",
           "n": "Fear Beyond Death",
           "cd": "100/85/70",
           "cost": "100",
-          "range": "2500"
+          "range": "2500",
+          "img": "UrgotR.png"
         }
       ]
     },
@@ -5824,34 +6700,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Living Vengeance",
+      "pimg": "VarusPassive.png",
+      "img": "Varus.png",
       "spells": [
         {
           "k": "Q",
           "n": "Piercing Arrow",
           "cd": "16/15/14/13/12",
           "cost": "50/55/60/65/70",
-          "range": "925"
+          "range": "925",
+          "img": "VarusQ.png"
         },
         {
           "k": "W",
           "n": "Blighted Quiver",
           "cd": "40",
           "cost": "0",
-          "range": "750"
+          "range": "750",
+          "img": "VarusW.png"
         },
         {
           "k": "E",
           "n": "Hail of Arrows",
           "cd": "18/16/14/12/10",
           "cost": "90",
-          "range": "925"
+          "range": "925",
+          "img": "VarusE.png"
         },
         {
           "k": "R",
           "n": "Chain of Corruption",
           "cd": "100/80/60",
           "cost": "100",
-          "range": "1300"
+          "range": "1300",
+          "img": "VarusR.png"
         }
       ]
     },
@@ -5864,34 +6746,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Night Hunter",
+      "pimg": "Vayne_NightHunter.png",
+      "img": "Vayne.png",
       "spells": [
         {
           "k": "Q",
           "n": "Tumble",
           "cd": "6/5/4/3/2",
           "cost": "30",
-          "range": "300"
+          "range": "300",
+          "img": "VayneTumble.png"
         },
         {
           "k": "W",
           "n": "Silver Bolts",
           "cd": "0",
           "cost": "0",
-          "range": "750"
+          "range": "750",
+          "img": "VayneSilveredBolts.png"
         },
         {
           "k": "E",
           "n": "Condemn",
           "cd": "20/18/16/14/12",
           "cost": "90",
-          "range": "550"
+          "range": "550",
+          "img": "VayneCondemn.png"
         },
         {
           "k": "R",
           "n": "Final Hour",
           "cd": "100/85/70",
           "cost": "80",
-          "range": "1"
+          "range": "1",
+          "img": "VayneInquisition.png"
         }
       ]
     },
@@ -5903,34 +6791,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Phenomenal Evil Power",
+      "pimg": "VeigarEntropy.png",
+      "img": "Veigar.png",
       "spells": [
         {
           "k": "Q",
           "n": "Baleful Strike",
           "cd": "6/5.5/5/4.5/4",
           "cost": "30/35/40/45/50",
-          "range": "1000"
+          "range": "1000",
+          "img": "VeigarBalefulStrike.png"
         },
         {
           "k": "W",
           "n": "Dark Matter",
           "cd": "0",
           "cost": "60/65/70/75/80",
-          "range": "950"
+          "range": "950",
+          "img": "VeigarDarkMatter.png"
         },
         {
           "k": "E",
           "n": "Event Horizon",
           "cd": "20/18.5/17/15.5/14",
           "cost": "70/75/80/85/90",
-          "range": "725"
+          "range": "725",
+          "img": "VeigarEventHorizon.png"
         },
         {
           "k": "R",
           "n": "Primordial Burst",
           "cd": "120/90/60",
           "cost": "100",
-          "range": "650"
+          "range": "650",
+          "img": "VeigarR.png"
         }
       ]
     },
@@ -5943,34 +6837,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Organic Deconstruction",
+      "pimg": "VelKoz_Passive.png",
+      "img": "Velkoz.png",
       "spells": [
         {
           "k": "Q",
           "n": "Plasma Fission",
           "cd": "7",
           "cost": "40/45/50/55/60",
-          "range": "1050"
+          "range": "1050",
+          "img": "VelkozQ.png"
         },
         {
           "k": "W",
           "n": "Void Rift",
           "cd": "1.5",
           "cost": "50/55/60/65/70",
-          "range": "1050"
+          "range": "1050",
+          "img": "VelkozW.png"
         },
         {
           "k": "E",
           "n": "Tectonic Disruption",
           "cd": "12/11.5/11/10.5/10",
           "cost": "50/55/60/65/70",
-          "range": "810"
+          "range": "810",
+          "img": "VelkozE.png"
         },
         {
           "k": "R",
           "n": "Life Form Disintegration Ray",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "1575"
+          "range": "1575",
+          "img": "VelkozR.png"
         }
       ]
     },
@@ -5982,34 +6882,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Doom 'n Gloom",
+      "pimg": "Icons_Vex_Passive.png",
+      "img": "Vex.png",
       "spells": [
         {
           "k": "Q",
           "n": "Mistral Bolt",
           "cd": "8/7/6/5/4",
           "cost": "45/50/55/60/65",
-          "range": "1200"
+          "range": "1200",
+          "img": "VexQ.png"
         },
         {
           "k": "W",
           "n": "Personal Space",
           "cd": "16/15/14/13/12",
           "cost": "75",
-          "range": "475"
+          "range": "475",
+          "img": "VexW.png"
         },
         {
           "k": "E",
           "n": "Looming Darkness",
           "cd": "12",
           "cost": "70/80/90/100/110",
-          "range": "800"
+          "range": "800",
+          "img": "VexE.png"
         },
         {
           "k": "R",
           "n": "Shadow Surge",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "2000/2500/3000"
+          "range": "2000/2500/3000",
+          "img": "VexR.png"
         }
       ]
     },
@@ -6022,34 +6928,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Blast Shield",
+      "pimg": "ViPassive.png",
+      "img": "Vi.png",
       "spells": [
         {
           "k": "Q",
           "n": "Vault Breaker",
           "cd": "12/10.5/9/7.5/6",
           "cost": "50/60/70/80/90",
-          "range": "250"
+          "range": "250",
+          "img": "ViQ.png"
         },
         {
           "k": "W",
           "n": "Denting Blows",
           "cd": "0",
           "cost": "0",
-          "range": "750"
+          "range": "750",
+          "img": "ViW.png"
         },
         {
           "k": "E",
           "n": "Relentless Force",
           "cd": "1",
           "cost": "26/32/38/44/50",
-          "range": "400"
+          "range": "400",
+          "img": "ViE.png"
         },
         {
           "k": "R",
           "n": "Cease and Desist",
           "cd": "140/115/90",
           "cost": "100",
-          "range": "800"
+          "range": "800",
+          "img": "ViR.png"
         }
       ]
     },
@@ -6062,34 +6974,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "None",
       "passive": "Sovereign's Domination",
+      "pimg": "Viego_Passive.png",
+      "img": "Viego.png",
       "spells": [
         {
           "k": "Q",
           "n": "Blade of the Ruined King",
           "cd": "5/4.5/4/3.5/3",
           "cost": "0",
-          "range": "600"
+          "range": "600",
+          "img": "ViegoQ.png"
         },
         {
           "k": "W",
           "n": "Spectral Maw",
           "cd": "8",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "ViegoW.png"
         },
         {
           "k": "E",
           "n": "Harrowed Path",
           "cd": "14/12/10/8/6",
           "cost": "0",
-          "range": "750"
+          "range": "750",
+          "img": "ViegoE.png"
         },
         {
           "k": "R",
           "n": "Heartbreaker",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "500"
+          "range": "500",
+          "img": "ViegoR.png"
         }
       ]
     },
@@ -6101,34 +7019,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Glorious Evolution",
+      "pimg": "Viktor_Passive.png",
+      "img": "Viktor.png",
       "spells": [
         {
           "k": "Q",
           "n": "Siphon Power",
           "cd": "9/8/7/6/5",
           "cost": "45/50/55/60/65",
-          "range": "600"
+          "range": "600",
+          "img": "ViktorQ.png"
         },
         {
           "k": "W",
           "n": "Gravity Field",
           "cd": "17/16/15/14/13",
           "cost": "65",
-          "range": "800"
+          "range": "800",
+          "img": "ViktorW.png"
         },
         {
           "k": "E",
           "n": "Hextech Ray",
           "cd": "12/11/10/9/8",
           "cost": "60/70/80/90/100",
-          "range": "525"
+          "range": "525",
+          "img": "ViktorE.png"
         },
         {
           "k": "R",
           "n": "Arcane Storm",
           "cd": "120/100/80",
           "cost": "100",
-          "range": "700"
+          "range": "700",
+          "img": "ViktorR.png"
         }
       ]
     },
@@ -6141,34 +7065,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Crimson Rush",
       "passive": "Crimson Pact",
+      "pimg": "VladimirP.png",
+      "img": "Vladimir.png",
       "spells": [
         {
           "k": "Q",
           "n": "Transfusion",
           "cd": "9/7.9/6.8/5.7/4.6",
           "cost": "0",
-          "range": "600"
+          "range": "600",
+          "img": "VladimirQ.png"
         },
         {
           "k": "W",
           "n": "Sanguine Pool",
           "cd": "28/25/22/19/16",
           "cost": "0",
-          "range": "350"
+          "range": "350",
+          "img": "VladimirSanguinePool.png"
         },
         {
           "k": "E",
           "n": "Tides of Blood",
           "cd": "13/11/9/7/5",
           "cost": "0",
-          "range": "600"
+          "range": "600",
+          "img": "VladimirE.png"
         },
         {
           "k": "R",
           "n": "Hemoplague",
           "cd": "120",
           "cost": "0",
-          "range": "625"
+          "range": "625",
+          "img": "VladimirHemoplague.png"
         }
       ]
     },
@@ -6181,34 +7111,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "The Relentless Storm",
+      "pimg": "Volibear_Icon_P.png",
+      "img": "Volibear.png",
       "spells": [
         {
           "k": "Q",
           "n": "Thundering Smash",
           "cd": "12/11.5/11/10.5/10",
           "cost": "50",
-          "range": "300"
+          "range": "300",
+          "img": "VolibearQ.png"
         },
         {
           "k": "W",
           "n": "Frenzied Maul",
           "cd": "5",
           "cost": "20/25/30/35/40",
-          "range": "325"
+          "range": "325",
+          "img": "VolibearW.png"
         },
         {
           "k": "E",
           "n": "Sky Splitter",
           "cd": "16",
           "cost": "50",
-          "range": "1200"
+          "range": "1200",
+          "img": "VolibearE.png"
         },
         {
           "k": "R",
           "n": "Stormbringer",
           "cd": "160/135/110",
           "cost": "100",
-          "range": "550"
+          "range": "550",
+          "img": "VolibearR.png"
         }
       ]
     },
@@ -6221,34 +7157,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Eternal Hunger",
+      "pimg": "WarwickP.png",
+      "img": "Warwick.png",
       "spells": [
         {
           "k": "Q",
           "n": "Jaws of the Beast",
           "cd": "8/7.5/7/6.5/6",
           "cost": "80/85/90/95/100",
-          "range": "365"
+          "range": "365",
+          "img": "WarwickQ.png"
         },
         {
           "k": "W",
           "n": "Blood Hunt",
           "cd": "80/70/60/50/40",
           "cost": "55",
-          "range": "4000"
+          "range": "4000",
+          "img": "WarwickW.png"
         },
         {
           "k": "E",
           "n": "Primal Howl",
           "cd": "15/14/13/12/11",
           "cost": "40",
-          "range": "375"
+          "range": "375",
+          "img": "WarwickE.png"
         },
         {
           "k": "R",
           "n": "Infinite Duress",
           "cd": "110/90/70",
           "cost": "100",
-          "range": "25000"
+          "range": "25000",
+          "img": "WarwickR.png"
         }
       ]
     },
@@ -6260,34 +7202,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Clean Cuts",
+      "pimg": "XayahPassive.png",
+      "img": "Xayah.png",
       "spells": [
         {
           "k": "Q",
           "n": "Double Daggers",
           "cd": "10/9.5/9/8.5/8",
           "cost": "35",
-          "range": "400"
+          "range": "400",
+          "img": "XayahQ.png"
         },
         {
           "k": "W",
           "n": "Deadly Plumage",
           "cd": "18/17/16/15/14",
           "cost": "60/55/50/45/40",
-          "range": "1000"
+          "range": "1000",
+          "img": "XayahW.png"
         },
         {
           "k": "E",
           "n": "Bladecaller",
           "cd": "12/11/10/9/8",
           "cost": "20",
-          "range": "2000"
+          "range": "2000",
+          "img": "XayahE.png"
         },
         {
           "k": "R",
           "n": "Featherstorm",
           "cd": "140/120/100",
           "cost": "100",
-          "range": "450"
+          "range": "450",
+          "img": "XayahR.png"
         }
       ]
     },
@@ -6300,34 +7248,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Mana Surge",
+      "pimg": "Xerath_Passive1.png",
+      "img": "Xerath.png",
       "spells": [
         {
           "k": "Q",
           "n": "Arcanopulse",
           "cd": "9/8/7/6/5",
           "cost": "80/90/100/110/120",
-          "range": "750"
+          "range": "750",
+          "img": "XerathArcanopulseChargeUp.png"
         },
         {
           "k": "W",
           "n": "Eye of Destruction",
           "cd": "14/13/12/11/10",
           "cost": "80/90/100/110/120",
-          "range": "1000"
+          "range": "1000",
+          "img": "XerathArcaneBarrage2.png"
         },
         {
           "k": "E",
           "n": "Shocking Orb",
           "cd": "13/12.5/12/11.5/11",
           "cost": "60/65/70/75/80",
-          "range": "1050"
+          "range": "1050",
+          "img": "XerathMageSpear.png"
         },
         {
           "k": "R",
           "n": "Rite of the Arcane",
           "cd": "130/115/100",
           "cost": "100",
-          "range": "5000"
+          "range": "5000",
+          "img": "XerathLocusOfPower2.png"
         }
       ]
     },
@@ -6340,34 +7294,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Determination",
+      "pimg": "XinZhaoReworkP.png",
+      "img": "XinZhao.png",
       "spells": [
         {
           "k": "Q",
           "n": "Three Talon Strike",
           "cd": "7/6.5/6/5.5/5",
           "cost": "30",
-          "range": "375"
+          "range": "375",
+          "img": "XinZhaoQ.png"
         },
         {
           "k": "W",
           "n": "Wind Becomes Lightning",
           "cd": "12/11/10/9/8",
           "cost": "60",
-          "range": "1000"
+          "range": "1000",
+          "img": "XinZhaoW.png"
         },
         {
           "k": "E",
           "n": "Audacious Charge",
           "cd": "11",
           "cost": "60",
-          "range": "650"
+          "range": "650",
+          "img": "XinZhaoE.png"
         },
         {
           "k": "R",
           "n": "Crescent Guard",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "500"
+          "range": "500",
+          "img": "XinZhaoR.png"
         }
       ]
     },
@@ -6380,34 +7340,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Flow",
       "passive": "Way of the Wanderer",
+      "pimg": "Yasuo_Passive.png",
+      "img": "Yasuo.png",
       "spells": [
         {
           "k": "Q",
           "n": "Steel Tempest",
           "cd": "4",
           "cost": "0",
-          "range": "475"
+          "range": "475",
+          "img": "YasuoQ1Wrapper.png"
         },
         {
           "k": "W",
           "n": "Wind Wall",
           "cd": "25/23/21/19/17",
           "cost": "0",
-          "range": "400"
+          "range": "400",
+          "img": "YasuoW.png"
         },
         {
           "k": "E",
           "n": "Sweeping Blade",
           "cd": "0.5/0.4/0.3/0.2/0.1",
           "cost": "0",
-          "range": "475"
+          "range": "475",
+          "img": "YasuoE.png"
         },
         {
           "k": "R",
           "n": "Last Breath",
           "cd": "70/50/30",
           "cost": "0",
-          "range": "1400"
+          "range": "1400",
+          "img": "YasuoR.png"
         }
       ]
     },
@@ -6420,34 +7386,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Flow",
       "passive": "Way of the Hunter",
+      "pimg": "YonePassive.png",
+      "img": "Yone.png",
       "spells": [
         {
           "k": "Q",
           "n": "Mortal Steel",
           "cd": "4",
           "cost": "0",
-          "range": "450"
+          "range": "450",
+          "img": "YoneQ.png"
         },
         {
           "k": "W",
           "n": "Spirit Cleave",
           "cd": "14",
           "cost": "0",
-          "range": "700"
+          "range": "700",
+          "img": "YoneW.png"
         },
         {
           "k": "E",
           "n": "Soul Unbound",
           "cd": "22/19/16/13/10",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "YoneE.png"
         },
         {
           "k": "R",
           "n": "Fate Sealed",
           "cd": "120/100/80",
           "cost": "0",
-          "range": "1000"
+          "range": "1000",
+          "img": "YoneR.png"
         }
       ]
     },
@@ -6460,34 +7432,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Shepherd of Souls",
+      "pimg": "Yorick_P.png",
+      "img": "Yorick.png",
       "spells": [
         {
           "k": "Q",
           "n": "Last Rites",
           "cd": "6/5.5/5/4.5/4",
           "cost": "20",
-          "range": "0"
+          "range": "0",
+          "img": "YorickQ.png"
         },
         {
           "k": "W",
           "n": "Dark Procession",
           "cd": "20/18/16/14/12",
           "cost": "70",
-          "range": "600"
+          "range": "600",
+          "img": "YorickW.png"
         },
         {
           "k": "E",
           "n": "Mourning Mist",
           "cd": "12/11/10/9/8",
           "cost": "50/55/60/65/70",
-          "range": "700"
+          "range": "700",
+          "img": "YorickE.png"
         },
         {
           "k": "R",
           "n": "Eulogy of the Isles",
           "cd": "160/130/100",
           "cost": "100",
-          "range": "600"
+          "range": "600",
+          "img": "YorickR.png"
         }
       ]
     },
@@ -6499,34 +7477,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Vow of the First Lands",
+      "pimg": "Yunara_Passive.png",
+      "img": "Yunara.png",
       "spells": [
         {
           "k": "Q",
           "n": "Cultivation of Spirit",
           "cd": "0",
           "cost": "30",
-          "range": "0"
+          "range": "0",
+          "img": "YunaraQ.png"
         },
         {
           "k": "W",
           "n": "Arc of Judgment | Arc of Ruin",
           "cd": "10",
           "cost": "60",
-          "range": "1150"
+          "range": "1150",
+          "img": "YunaraW.png"
         },
         {
           "k": "E",
           "n": "Kanmei's Steps | Untouchable Shadow",
           "cd": "9",
           "cost": "40",
-          "range": "0"
+          "range": "0",
+          "img": "YunaraE.png"
         },
         {
           "k": "R",
           "n": "Transcend One's Self",
           "cd": "100/90/80",
           "cost": "100",
-          "range": "0"
+          "range": "0",
+          "img": "YunaraR.png"
         }
       ]
     },
@@ -6539,34 +7523,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Feline Friendship",
+      "pimg": "YuumiP2.png",
+      "img": "Yuumi.png",
       "spells": [
         {
           "k": "Q",
           "n": "Prowling Projectile",
           "cd": "6.5",
           "cost": "50/55/60/65/70/75",
-          "range": "25000"
+          "range": "25000",
+          "img": "YuumiQ.png"
         },
         {
           "k": "W",
           "n": "You and Me!",
           "cd": "0",
           "cost": "0",
-          "range": "25000"
+          "range": "25000",
+          "img": "YuumiW.png"
         },
         {
           "k": "E",
           "n": "Zoomies",
           "cd": "10",
           "cost": "80/90/100/110/120",
-          "range": "25000"
+          "range": "25000",
+          "img": "YuumiE.png"
         },
         {
           "k": "R",
           "n": "Final Chapter",
           "cd": "120/110/100",
           "cost": "100",
-          "range": "1100"
+          "range": "1100",
+          "img": "YuumiR.png"
         }
       ]
     },
@@ -6579,34 +7569,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Cultivation of War",
+      "pimg": "ZaahenP.png",
+      "img": "Zaahen.png",
       "spells": [
         {
           "k": "Q",
           "n": "The Darkin Glaive",
           "cd": "10/9/8/7/6",
           "cost": "25",
-          "range": "25000"
+          "range": "25000",
+          "img": "ZaahenQ.png"
         },
         {
           "k": "W",
           "n": "Dreaded Return",
           "cd": "14/13.5/13/12.5/12",
           "cost": "50",
-          "range": "850"
+          "range": "850",
+          "img": "ZaahenW.png"
         },
         {
           "k": "E",
           "n": "Aureate Rush",
           "cd": "10/9.5/9/8.5/8",
           "cost": "40",
-          "range": "25000"
+          "range": "25000",
+          "img": "ZaahenE.png"
         },
         {
           "k": "R",
           "n": "Grim Deliverance",
           "cd": "110/95/80",
           "cost": "100",
-          "range": "600"
+          "range": "600",
+          "img": "ZaahenR.png"
         }
       ]
     },
@@ -6619,34 +7615,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "None",
       "passive": "Cell Division",
+      "pimg": "ZacPassive.png",
+      "img": "Zac.png",
       "spells": [
         {
           "k": "Q",
           "n": "Stretching Strikes",
           "cd": "14/12.5/11/9.5/8",
           "cost": "0",
-          "range": "800"
+          "range": "800",
+          "img": "ZacQ.png"
         },
         {
           "k": "W",
           "n": "Unstable Matter",
           "cd": "5",
           "cost": "0",
-          "range": "350"
+          "range": "350",
+          "img": "ZacW.png"
         },
         {
           "k": "E",
           "n": "Elastic Slingshot",
           "cd": "21/18/15/12/9",
           "cost": "0",
-          "range": "300"
+          "range": "300",
+          "img": "ZacE.png"
         },
         {
           "k": "R",
           "n": "Let's Bounce!",
           "cd": "120/105/90",
           "cost": "0",
-          "range": "300"
+          "range": "300",
+          "img": "ZacR.png"
         }
       ]
     },
@@ -6658,34 +7660,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Energy",
       "passive": "Contempt for the Weak",
+      "pimg": "ZedP.png",
+      "img": "Zed.png",
       "spells": [
         {
           "k": "Q",
           "n": "Razor Shuriken",
           "cd": "6",
           "cost": "75/70/65/60/55",
-          "range": "900"
+          "range": "900",
+          "img": "ZedQ.png"
         },
         {
           "k": "W",
           "n": "Living Shadow",
           "cd": "20/19/18/17/16",
           "cost": "40/35/30/25/20",
-          "range": "650"
+          "range": "650",
+          "img": "ZedW.png"
         },
         {
           "k": "E",
           "n": "Shadow Slash",
           "cd": "5/4.5/4/3.5/3",
           "cost": "40",
-          "range": "290"
+          "range": "290",
+          "img": "ZedE.png"
         },
         {
           "k": "R",
           "n": "Death Mark",
           "cd": "120/110/100",
           "cost": "0",
-          "range": "625"
+          "range": "625",
+          "img": "ZedR.png"
         }
       ]
     },
@@ -6697,34 +7705,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Living Battery",
+      "pimg": "ZeriP.png",
+      "img": "Zeri.png",
       "spells": [
         {
           "k": "Q",
           "n": "Burst Fire",
           "cd": "0",
           "cost": "0",
-          "range": "700"
+          "range": "700",
+          "img": "ZeriQ.png"
         },
         {
           "k": "W",
           "n": "Ultrashock Laser",
           "cd": "12/11/10/9/8",
           "cost": "50/60/70/80/90",
-          "range": "1150"
+          "range": "1150",
+          "img": "ZeriW.png"
         },
         {
           "k": "E",
           "n": "Spark Surge",
           "cd": "24/22.5/21/19.5/18",
           "cost": "90/85/80/75/70",
-          "range": "25000"
+          "range": "25000",
+          "img": "ZeriE.png"
         },
         {
           "k": "R",
           "n": "Lightning Crash",
           "cd": "80/75/70",
           "cost": "100",
-          "range": "800"
+          "range": "800",
+          "img": "ZeriR.png"
         }
       ]
     },
@@ -6736,34 +7750,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Short Fuse",
+      "pimg": "ZiggsPassiveReady.png",
+      "img": "Ziggs.png",
       "spells": [
         {
           "k": "Q",
           "n": "Bouncing Bomb",
           "cd": "6/5.5/5/4.5/4",
           "cost": "50/55/60/65/70",
-          "range": "850"
+          "range": "850",
+          "img": "ZiggsQ.png"
         },
         {
           "k": "W",
           "n": "Satchel Charge",
           "cd": "20/18/16/14/12",
           "cost": "80",
-          "range": "1000"
+          "range": "1000",
+          "img": "ZiggsW.png"
         },
         {
           "k": "E",
           "n": "Hexplosive Minefield",
           "cd": "16",
           "cost": "70/80/90/100/110",
-          "range": "900"
+          "range": "900",
+          "img": "ZiggsE.png"
         },
         {
           "k": "R",
           "n": "Mega Inferno Bomb",
           "cd": "120/95/70",
           "cost": "100",
-          "range": "5000"
+          "range": "5000",
+          "img": "ZiggsR.png"
         }
       ]
     },
@@ -6776,34 +7796,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Time In A Bottle",
+      "pimg": "Zilean_Passive.png",
+      "img": "Zilean.png",
       "spells": [
         {
           "k": "Q",
           "n": "Time Bomb",
           "cd": "10/9.5/9/8.5/8",
           "cost": "60/65/70/75/80",
-          "range": "900"
+          "range": "900",
+          "img": "ZileanQ.png"
         },
         {
           "k": "W",
           "n": "Rewind",
           "cd": "14/12/10/8/6",
           "cost": "35",
-          "range": "600"
+          "range": "600",
+          "img": "ZileanW.png"
         },
         {
           "k": "E",
           "n": "Time Warp",
           "cd": "15",
           "cost": "50",
-          "range": "550"
+          "range": "550",
+          "img": "TimeWarp.png"
         },
         {
           "k": "R",
           "n": "Chronoshift",
           "cd": "120/90/60",
           "cost": "125/150/175",
-          "range": "900"
+          "range": "900",
+          "img": "ChronoShift.png"
         }
       ]
     },
@@ -6815,34 +7841,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "More Sparkles!",
+      "pimg": "Zoe_P.png",
+      "img": "Zoe.png",
       "spells": [
         {
           "k": "Q",
           "n": "Paddle Star!",
           "cd": "8.5/8/7.5/7/6.5",
           "cost": "40/45/50/55/60",
-          "range": "800"
+          "range": "800",
+          "img": "ZoeQ.png"
         },
         {
           "k": "W",
           "n": "Spell Thief",
           "cd": "0.25",
           "cost": "0",
-          "range": "3000/4500/6000/3000/3000"
+          "range": "3000/4500/6000/3000/3000",
+          "img": "ZoeW.png"
         },
         {
           "k": "E",
           "n": "Sleepy Trouble Bubble",
           "cd": "18/17/16/15/14",
           "cost": "80",
-          "range": "800"
+          "range": "800",
+          "img": "ZoeE.png"
         },
         {
           "k": "R",
           "n": "Portal Jump",
           "cd": "11/8/5",
           "cost": "40",
-          "range": "575"
+          "range": "575",
+          "img": "ZoeR.png"
         }
       ]
     },
@@ -6855,34 +7887,40 @@ window.CHAMPION_DATA ={
       ],
       "partype": "Mana",
       "passive": "Garden of Thorns",
+      "pimg": "ZyraP.png",
+      "img": "Zyra.png",
       "spells": [
         {
           "k": "Q",
           "n": "Deadly Spines",
           "cd": "7/6.5/6/5.5/5",
           "cost": "55",
-          "range": "800"
+          "range": "800",
+          "img": "ZyraQ.png"
         },
         {
           "k": "W",
           "n": "Rampant Growth",
           "cd": "0",
           "cost": "0",
-          "range": "850"
+          "range": "850",
+          "img": "ZyraW.png"
         },
         {
           "k": "E",
           "n": "Grasping Roots",
           "cd": "11",
           "cost": "70/75/80/85/90",
-          "range": "1100"
+          "range": "1100",
+          "img": "ZyraE.png"
         },
         {
           "k": "R",
           "n": "Stranglethorns",
           "cd": "110/100/90",
           "cost": "100",
-          "range": "700"
+          "range": "700",
+          "img": "ZyraR.png"
         }
       ]
     }

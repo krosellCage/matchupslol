@@ -57,13 +57,13 @@
       name: "Warwick",
       identity: "Sustain duelist. Wins long fights early through healing, and hunts low targets all game.",
       clear: "Extremely healthy - his lifesteal means he can clear and fight immediately.",
-      spikes: "Level 6 gives him a point-and-click suppress. Early game is already strong.",
-      winBy: "Duelling anyone before their items exist, then converting with a suppress that cannot be dodged.",
+      spikes: "Level 6, though his early game is already strong. Infinite Duress is a leap, not a lock-on.",
+      winBy: "Duelling anyone before their items exist, then landing a leap they had no room to sidestep.",
       loseBy: "Meeting grievous wounds, or being kited so the sustain never applies.",
       ban: "A hard-kiting or anti-heal champion that turns off your whole kit.",
       micro: [
         "You sense enemies below half health across the map. That is a tracking tool most Warwicks ignore.",
-        "Your ult suppresses - hold it for the target your team cannot otherwise catch.",
+        "Your ult is a leap that suppresses whoever it collides with first - it can be dodged, blocked and interrupted. Use terrain to remove the sidestep.",
         "Your fear is a peel button as well as an engage. Use it to save your carry.",
         "Grievous wounds is the counter to your entire champion. Check who bought it before committing."
       ]
@@ -73,7 +73,7 @@
       identity: "Teamfight tank. Poor duellist, fast clear, and an ultimate that decides fights by itself.",
       clear: "Fast with his passive and E; low risk, low counterplay.",
       spikes: "Level 6 and every point of ability power. He needs almost no gold to matter.",
-      winBy: "Landing one ult on multiple targets, and ganking early with an unmissable-if-aimed stun.",
+      winBy: "Landing one ult on multiple targets, and ganking early off a Q most people never dodge.",
       loseBy: "Missing Q, being invaded before 6, or trying to duel anyone.",
       ban: "An early invader that punishes your weak duel - Lee Sin, Shaco.",
       micro: [
@@ -289,7 +289,7 @@
     ["Warwick","Shyvana","favoured","Punish her farming. She can't fight you before dragon form."],
     ["Warwick","Skarner","even","His suppression trades with yours. Whoever lands it first."],
     ["Warwick","Sylas","careful","He out-heals your lifesteal, and a stolen suppress hurts you more than it ever helped him."],
-    ["Warwick","Taliyah","favoured","Reach her and she dies. Your ult is unmissable."],
+    ["Warwick","Taliyah","favoured","Reach her and she dies. Her wall is what makes your leap miss - watch for it."],
     ["Warwick","Talon","favoured","You out-sustain his burst if you survive the opening."],
     ["Warwick","Trundle","hard","He out-sustains you and steals the stats you fight with."],
     ["Warwick","Udyr","careful","He matches your sustain and adds a stun. Fight with a lane."],
@@ -357,6 +357,7 @@
     ["Amumu","Zed","even","He ignores you entirely. Peel him off the carry he's hunting."]
   );
 })();
+
 
 
 

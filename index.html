@@ -152,7 +152,16 @@
   .note.derived{font-style:italic;opacity:.86}
   .cchip.thin{border-style:dashed;color:var(--soft)}
   .cchip.thin.on{border-style:solid;color:var(--ground)}
-  .ab{display:grid;grid-template-columns:20px 1fr auto;gap:9px;align-items:baseline;
+  /* Icons come from Riot's CDN. They are blocked by strict content policies in
+     some embedded contexts, so every one hides itself on error rather than
+     leaving a broken-image box behind. */
+  .pchamp{display:flex;gap:12px;align-items:center;margin-bottom:6px}
+  .pchamp img{width:54px;height:54px;border-radius:3px;border:1px solid var(--line2);flex:none}
+  .pchamp h2{margin:0}
+  .abi{width:26px;height:26px;border-radius:3px;border:1px solid var(--line);flex:none}
+  .row .who{display:flex;gap:9px;align-items:center}
+  .row .who img{width:28px;height:28px;border-radius:3px;border:1px solid var(--line);flex:none}
+  .ab{display:grid;grid-template-columns:26px 20px 1fr auto;gap:9px;align-items:baseline;
       padding:4px 0;font-size:13px}
   .abk{font-family:var(--mono);font-size:10px;font-weight:700;color:var(--ground);
        background:var(--accent);text-align:center;border-radius:2px;padding:2px 0}
@@ -218,6 +227,7 @@
 <script src="data/jungle.js"></script>
 <script src="data/jungle-2.js"></script>
 <script src="data/mid.js"></script>
+<script src="data/mid-2.js"></script>
 <script src="data/bot.js"></script>
 <script>
 (function(){
@@ -313,14 +323,33 @@
     }).join('');
   }
 
+  function ddUrl(kind, file){
+    var CD = window.CHAMPION_DATA;
+    if (!CD || !file) { return ''; }
+    return 'https://ddragon.leagueoflegends.com/cdn/' + CD.version + '/img/' + kind + '/' + file;
+  }
+  function imgTag(kind, file, cls){
+    var u = ddUrl(kind, file);
+    if (!u) { return ''; }
+    return '<img class="' + cls + '" src="' + esc(u) + '" alt="" loading="lazy" ' +
+           'onerror="this.style.display=&quot;none&quot;">';
+  }
+  function champIcon(name){
+    var CD = window.CHAMPION_DATA;
+    if (!CD || !CD.champions || !CD.champions[name]) { return ''; }
+    return imgTag('champion', CD.champions[name].img, 'ci');
+  }
+
   function abilityBlock(name){
     var CD = window.CHAMPION_DATA;
     if (!CD || !CD.champions || !CD.champions[name]) { return ''; }
     var c = CD.champions[name];
-    var rows = '<div class="ab"><span class="abk p">P</span><span class="abn">' +
+    var rows = '<div class="ab">' + imgTag('passive', c.pimg, 'abi') +
+               '<span class="abk p">P</span><span class="abn">' +
                esc(c.passive) + '</span><span class="abcd">passive</span></div>';
     rows += c.spells.map(function(s){
-      return '<div class="ab"><span class="abk">' + s.k + '</span><span class="abn">' +
+      return '<div class="ab">' + imgTag('spell', s.img, 'abi') +
+             '<span class="abk">' + s.k + '</span><span class="abn">' +
              esc(s.n) + '</span><span class="abcd">' + esc(s.cd) + '</span></div>';
     }).join('');
     return '<div class="prow"><span class="k">Abilities — cooldown per rank</span>' + rows +
@@ -341,7 +370,7 @@
       var tally = { favoured:0, even:0, careful:0, hard:0 };
       against.forEach(function(m){ tally[m[2]]++; });
       elProfile.innerHTML =
-        '<h2>' + esc(current) + '</h2>' +
+        '<div class=\"pchamp\">' + champIcon(current) + '<h2>' + esc(current) + '</h2></div>' +
         '<p class="idn">How our covered junglers fare into ' + esc(current) + '.</p>' +
         '<div class="prow"><span class="k">Favoured into them</span><span class="v">' + tally.favoured + '</span></div>' +
         '<div class="prow"><span class="k">Even</span><span class="v">' + tally.even + '</span></div>' +
@@ -357,7 +386,7 @@
       var t = { favoured:0, even:0, careful:0, hard:0 };
       rs.forEach(function(r){ t[r.v]++; });
       elProfile.innerHTML =
-        '<h2>' + esc(current) + '</h2>' +
+        '<div class=\"pchamp\">' + champIcon(current) + '<h2>' + esc(current) + '</h2></div>' +
         '<p class="idn">' + (championMeta(current) ? championMeta(current) + '. ' : '') +
         'No matchup profile written yet — the rows below are derived from the entries ' +
         'of champions that are.</p>' +
@@ -371,7 +400,7 @@
       return;
     }
     elProfile.innerHTML =
-      '<h2>' + esc(c.name) + '</h2>' +
+      '<div class=\"pchamp\">' + champIcon(c.name) + '<h2>' + esc(c.name) + '</h2></div>' +
       '<p class="idn">' + esc(c.identity) + '</p>' +
       '<div class="prow"><span class="k">Clear</span><span class="v">' + esc(c.clear) + '</span></div>' +
       '<div class="prow"><span class="k">Power spikes</span><span class="v">' + esc(c.spikes) + '</span></div>' +
@@ -419,7 +448,8 @@
 
     elRows.innerHTML = rows.map(function(r){
       var sub = r.asMe ? '<small>playing as</small>' : (r.derived ? '<small>derived</small>' : '');
-      return '<div class="row"><div class="who">' + esc(r.other) + sub + '</div>' +
+      return '<div class="row"><div class="who">' + champIcon(r.other) +
+             '<span>' + esc(r.other) + sub + '</span></div>' +
              '<div><span class="badge ' + r.v + (r.derived ? ' soft' : '') + '">' + r.v + '</span></div>' +
              '<div class="note' + (r.derived ? ' derived' : '') + '">' + esc(r.note) + '</div></div>';
     }).join('');
@@ -485,6 +515,8 @@
   renderAll();
 })();
 </script>
+
+
 
 
 
