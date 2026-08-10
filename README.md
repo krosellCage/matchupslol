@@ -13,13 +13,14 @@ and a script tag.
 
 ## What's in it
 
-**760 matchups across two lanes**, each with a verdict and one line on what
+**786 matchups across three lanes**, each with a verdict and one line on what
 decides it.
 
 | Lane | Written champions | Matchups | Pool |
 |---|---|---|---|
 | **Jungle** | Nocturne, Xin Zhao, Viego, Lee Sin, Sejuani, Kayn, Graves, Vi, Warwick, Amumu | 520 | 52 junglers |
 | **Mid** | Zed, Yasuo, LeBlanc, Katarina, Orianna, Syndra | 240 | 40 mid laners |
+| **Bot** | Zeri | 26 | 26 marksmen |
 
 Switch lanes from the tabs at the top. Every champion in either pool is
 selectable; the ones without a written profile show *derived* matchups instead —
@@ -62,14 +63,14 @@ enemy jungler and start playing the map.
 
 ## Honest scope
 
-Two lanes are written, with ten jungle and six mid profiles. Full
+Three lanes are written, with ten jungle, six mid and one bot profile. Full
 coverage of every champion in every lane is roughly **7,600 directional
 matchups**. At the quality of what's here that is a multi-year writing project,
 and anything generated wholesale to fill the gap would be confidently wrong —
 which is worse than an empty page, because a matchup site survives on being
 right.
 
-So top, bot and support contain nothing, and champions without a profile show **derived**
+So top and support contain nothing, and champions without a profile show **derived**
 matchups: if Lee Sin's entry says he is favoured into Karthus, Karthus's page
 shows that inverted, quoting Lee Sin's note rather than inventing a new one.
 Derived rows carry a muted badge, unwritten champions get a dashed outline in the
@@ -105,7 +106,7 @@ Reload the page. There is no build step for local use.
 |---|---|
 | `index.html` | The whole application — markup, styles, and logic |
 | `data/jungle.js`, `data/jungle-2.js` | Jungle datasets |
-| `data/mid.js` | Mid dataset |
+| `data/mid.js`, `data/bot.js` | Mid and bot datasets |
 | `data/champions.js` | Generated ability data for all 173 champions |
 | `Import-DataDragon.ps1` | Refreshes that from Riot''s Data Dragon |
 | `Build.ps1` | Optional: inlines datasets into `dist/index.html` as one file |
@@ -135,6 +136,7 @@ matchupslol isn't endorsed by Riot Games and doesn't reflect the views or
 opinions of Riot Games or anyone officially involved in producing or managing
 Riot Games properties. Riot Games and all associated properties are trademarks
 or registered trademarks of Riot Games, Inc.
+
 
 
 
