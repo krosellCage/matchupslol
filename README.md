@@ -29,6 +29,19 @@ Two directions:
 Filter by verdict, search opponents and notes, `/` focuses the search box.
 Light and dark themes, works on mobile.
 
+**Ability data for all 173 champions** comes from Riot''s Data Dragon: passive and
+Q/W/E/R names with cooldowns per rank, plus title and class tags. Every champion
+page shows real ability data even when no matchup analysis is written yet.
+
+```powershell
+.\Import-DataDragon.ps1        # refresh after a patch
+```
+
+Data Dragon is Riot''s own free static data service, published for third-party
+tools. It needs no API key. Everything it provides is fact - ability names,
+cooldowns, ranges - which is the only kind of breadth worth having without
+writing it yourself.
+
 ### Verdicts
 
 | | Means | How you play it |
@@ -88,6 +101,8 @@ Reload the page. There is no build step for local use.
 |---|---|
 | `index.html` | The whole application — markup, styles, and logic |
 | `data/jungle.js` | The jungle dataset |
+| `data/champions.js` | Generated ability data for all 173 champions |
+| `Import-DataDragon.ps1` | Refreshes that from Riot''s Data Dragon |
 | `Build.ps1` | Optional: inlines datasets into `dist/index.html` as one file |
 
 `Build.ps1` exists for hosts that only accept a single file. It verifies the
@@ -115,5 +130,6 @@ matchupslol isn't endorsed by Riot Games and doesn't reflect the views or
 opinions of Riot Games or anyone officially involved in producing or managing
 Riot Games properties. Riot Games and all associated properties are trademarks
 or registered trademarks of Riot Games, Inc.
+
 
 

@@ -121,6 +121,14 @@
   .note.derived{font-style:italic;opacity:.86}
   .cchip.thin{border-style:dashed;color:var(--soft)}
   .cchip.thin.on{border-style:solid;color:var(--ground)}
+  .ab{display:grid;grid-template-columns:20px 1fr auto;gap:9px;align-items:baseline;
+      padding:4px 0;font-size:13px}
+  .abk{font-family:var(--mono);font-size:10px;font-weight:700;color:var(--ground);
+       background:var(--accent);text-align:center;border-radius:2px;padding:2px 0}
+  .abk.p{background:var(--faint)}
+  .abn{color:var(--ink)}
+  .abcd{font-family:var(--mono);font-size:11px;color:var(--faint);
+        font-variant-numeric:tabular-nums;white-space:nowrap}
   .empty{padding:34px 18px;text-align:center;color:var(--faint);font-size:15px}
 
   footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line2);
@@ -180,6 +188,7 @@
 
 </div>
 
+<script src="data/champions.js"></script>
 <script src="data/jungle.js"></script>
 <script src="data/jungle-2.js"></script>
 <script>
@@ -255,6 +264,28 @@
     }).join('');
   }
 
+  function abilityBlock(name){
+    var CD = window.CHAMPION_DATA;
+    if (!CD || !CD.champions || !CD.champions[name]) { return ''; }
+    var c = CD.champions[name];
+    var rows = '<div class="ab"><span class="abk p">P</span><span class="abn">' +
+               esc(c.passive) + '</span><span class="abcd">passive</span></div>';
+    rows += c.spells.map(function(s){
+      return '<div class="ab"><span class="abk">' + s.k + '</span><span class="abn">' +
+             esc(s.n) + '</span><span class="abcd">' + esc(s.cd) + '</span></div>';
+    }).join('');
+    return '<div class="prow"><span class="k">Abilities — cooldown per rank</span>' + rows +
+           '<span class="abcd" style="display:block;margin-top:8px">Riot Data Dragon, patch ' +
+           esc(CD.version) + '</span></div>';
+  }
+
+  function championMeta(name){
+    var CD = window.CHAMPION_DATA;
+    if (!CD || !CD.champions || !CD.champions[name]) { return ''; }
+    var c = CD.champions[name];
+    return esc(c.title) + ' · ' + c.tags.map(esc).join(' / ');
+  }
+
   function renderProfile(){
     if (mode !== 'play') {
       var against = D.matchups.filter(function(m){ return m[1] === current; });
@@ -278,14 +309,16 @@
       rs.forEach(function(r){ t[r.v]++; });
       elProfile.innerHTML =
         '<h2>' + esc(current) + '</h2>' +
-        '<p class="idn">No profile written yet. These matchups are derived from the ' +
-        'entries of champions that are written up, read from the other side.</p>' +
+        '<p class="idn">' + (championMeta(current) ? championMeta(current) + '. ' : '') +
+        'No matchup profile written yet — the rows below are derived from the entries ' +
+        'of champions that are.</p>' +
         '<div class="prow"><span class="k">Favoured</span><span class="v">' + t.favoured + '</span></div>' +
         '<div class="prow"><span class="k">Even</span><span class="v">' + t.even + '</span></div>' +
         '<div class="prow"><span class="k">Hard</span><span class="v">' + t.hard + '</span></div>' +
         '<div class="prow"><span class="k">Coverage</span><span class="v">' + rs.length +
         ' of the ' + allChampions().length + ' junglers on the site. A full profile means ' +
-        'someone has actually played and written the champion up.</span></div>';
+        'someone has actually played and written the champion up.</span></div>' +
+        abilityBlock(current);
       return;
     }
     elProfile.innerHTML =
@@ -297,7 +330,8 @@
       '<div class="prow"><span class="k">You lose by</span><span class="v">' + esc(c.loseBy) + '</span></div>' +
       '<div class="prow"><span class="k">Ban logic</span><span class="v">' + esc(c.ban) + '</span></div>' +
       '<div class="prow"><span class="k">Have this automatic</span><ul>' +
-        c.micro.map(function(m){ return '<li>' + esc(m) + '</li>'; }).join('') + '</ul></div>';
+        c.micro.map(function(m){ return '<li>' + esc(m) + '</li>'; }).join('') + '</ul></div>' +
+      abilityBlock(c.name);
   }
 
   function renderRows(){
@@ -375,5 +409,6 @@
   renderAll();
 })();
 </script>
+
 
 
