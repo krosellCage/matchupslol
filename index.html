@@ -82,9 +82,21 @@
   .cols{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start}
   @media (max-width:820px){ .cols{grid-template-columns:1fr} }
 
+  /* Sticky only works if the card fits on screen. With abilities added it is
+     often taller than the viewport, and a pinned element taller than the
+     viewport can never be scrolled to the bottom of. Capping the height and
+     letting it scroll internally handles both cases: short cards just stick,
+     tall cards stay reachable. */
   .profile{background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);
-           padding:18px 20px;position:sticky;top:16px}
-  @media (max-width:820px){ .profile{position:static} }
+           padding:18px 20px;position:sticky;top:16px;
+           max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);
+           overflow-y:auto;overscroll-behavior:contain}
+  .profile::-webkit-scrollbar{width:9px}
+  .profile::-webkit-scrollbar-thumb{background:var(--line2);border-radius:5px}
+  .profile::-webkit-scrollbar-track{background:transparent}
+  @media (max-width:820px){
+    .profile{position:static;max-height:none;overflow:visible}
+  }
   .profile h2{font-size:21px;margin:0 0 4px;letter-spacing:-.02em}
   .profile .idn{color:var(--soft);font-size:14px;margin:0 0 16px}
   .prow{border-top:1px solid var(--line);padding:11px 0}
@@ -409,6 +421,7 @@
   renderAll();
 })();
 </script>
+
 
 
 
