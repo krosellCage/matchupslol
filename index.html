@@ -156,12 +156,20 @@
      some embedded contexts, so every one hides itself on error rather than
      leaving a broken-image box behind. */
   .pchamp{display:flex;gap:12px;align-items:center;margin-bottom:6px}
-  .pchamp img{width:54px;height:54px;border-radius:3px;border:1px solid var(--line2);flex:none}
+
   .pchamp h2{margin:0}
-  .abi{width:26px;height:26px;border-radius:3px;border:1px solid var(--line);flex:none}
+  .ic{display:inline-flex;align-items:center;justify-content:center;position:relative;
+      background:var(--surface2);color:var(--faint);font-weight:700;border-radius:3px;
+      border:1px solid var(--line);overflow:hidden;flex:none;line-height:1}
+  .ic::before{content:attr(data-l)}
+  .ic img{position:absolute;left:0;top:0;width:100%;height:100%;display:block}
+  .pchamp .ic{width:54px;height:54px;font-size:21px}
+  .row .who .ic{width:28px;height:28px;font-size:12px}
+  .ab .ic{width:26px;height:26px;font-size:11px;color:var(--accent)}
+  .ab .ic.p{color:var(--faint)}
   .row .who{display:flex;gap:9px;align-items:center}
-  .row .who img{width:28px;height:28px;border-radius:3px;border:1px solid var(--line);flex:none}
-  .ab{display:grid;grid-template-columns:26px 20px 1fr auto;gap:9px;align-items:baseline;
+
+  .ab{display:grid;grid-template-columns:26px 1fr auto;gap:9px;align-items:baseline;
       padding:4px 0;font-size:13px}
   .abk{font-family:var(--mono);font-size:10px;font-weight:700;color:var(--ground);
        background:var(--accent);text-align:center;border-radius:2px;padding:2px 0}
@@ -328,29 +336,31 @@
     if (!CD || !file) { return ''; }
     return 'https://ddragon.leagueoflegends.com/cdn/' + CD.version + '/img/' + kind + '/' + file;
   }
-  function imgTag(kind, file, cls){
+  // The tile always renders. If the image cannot load - offline, or an embed
+  // that blocks external hosts - it removes itself and the letter underneath
+  // shows through, so the layout never collapses into empty space.
+  function iconTag(kind, file, label, cls){
     var u = ddUrl(kind, file);
-    if (!u) { return ''; }
-    return '<img class="' + cls + '" src="' + esc(u) + '" alt="" loading="lazy" ' +
-           'onerror="this.style.display=&quot;none&quot;">';
+    var img = u ? '<img src="' + esc(u) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+    return '<span class="ic ' + cls + '" data-l="' + esc(label) + '">' + img + '</span>';
   }
   function champIcon(name){
     var CD = window.CHAMPION_DATA;
-    if (!CD || !CD.champions || !CD.champions[name]) { return ''; }
-    return imgTag('champion', CD.champions[name].img, 'ci');
+    var file = (CD && CD.champions && CD.champions[name]) ? CD.champions[name].img : '';
+    return iconTag('champion', file, name.charAt(0), '');
   }
 
   function abilityBlock(name){
     var CD = window.CHAMPION_DATA;
     if (!CD || !CD.champions || !CD.champions[name]) { return ''; }
     var c = CD.champions[name];
-    var rows = '<div class="ab">' + imgTag('passive', c.pimg, 'abi') +
-               '<span class="abk p">P</span><span class="abn">' +
-               esc(c.passive) + '</span><span class="abcd">passive</span></div>';
+    var rows = '<div class="ab">' + iconTag('passive', c.pimg, 'P', 'p') +
+               '<span class="abn">' + esc(c.passive) + '</span>' +
+               '<span class="abcd">passive</span></div>';
     rows += c.spells.map(function(s){
-      return '<div class="ab">' + imgTag('spell', s.img, 'abi') +
-             '<span class="abk">' + s.k + '</span><span class="abn">' +
-             esc(s.n) + '</span><span class="abcd">' + esc(s.cd) + '</span></div>';
+      return '<div class="ab">' + iconTag('spell', s.img, s.k, '') +
+             '<span class="abn">' + esc(s.n) + '</span>' +
+             '<span class="abcd">' + esc(s.cd) + '</span></div>';
     }).join('');
     return '<div class="prow"><span class="k">Abilities — cooldown per rank</span>' + rows +
            '<span class="abcd" style="display:block;margin-top:8px">Riot Data Dragon, patch ' +
@@ -515,6 +525,7 @@
   renderAll();
 })();
 </script>
+
 
 
 
