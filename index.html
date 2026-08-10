@@ -1,5 +1,5 @@
 <title>Matchups — League of Legends matchup reference</title>
-<meta name="description" content="Every jungle matchup, with what actually decides it. Search by champion or by who you're up against.">
+<meta name="description" content="League of Legends matchups with what actually decides them. Jungle and mid, searchable by champion or by who you're up against.">
 <style>
   :root{
     --ground:#F2F4F7; --surface:#FFFFFF; --surface2:#E9ECF1; --sunken:#DDE2E9;
@@ -49,11 +49,11 @@
   .logo em{font-style:normal;color:var(--faint);font-weight:500}
   .tag{color:var(--soft);font-size:14.5px;margin:0}
   .lanes{display:flex;gap:6px;margin:22px 0 0;flex-wrap:wrap}
-  .lane{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;
+  .lane{font-family:var(--mono);cursor:pointer;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;
         padding:7px 13px;border:1px solid var(--line2);background:var(--surface);color:var(--soft);
         border-radius:2px}
   .lane.on{background:var(--accent);color:var(--ground);border-color:var(--accent);font-weight:600}
-  .lane.soon{opacity:.45}
+  .lane.soon{opacity:.45;cursor:default}
 
   /* mode + picker */
   .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:26px 0 14px}
@@ -157,13 +157,7 @@
   <p class="tag">What actually decides the matchup — not a tier list.</p>
 </header>
 
-<div class="lanes">
-  <span class="lane on">Jungle</span>
-  <span class="lane soon">Top · soon</span>
-  <span class="lane soon">Mid · soon</span>
-  <span class="lane soon">Bot · soon</span>
-  <span class="lane soon">Support · soon</span>
-</div>
+<div class="lanes" id="lanes"></div>
 
 <div class="bar">
   <div class="seg" role="group" aria-label="Direction">
@@ -203,11 +197,24 @@
 <script src="data/champions.js"></script>
 <script src="data/jungle.js"></script>
 <script src="data/jungle-2.js"></script>
+<script src="data/mid.js"></script>
 <script>
 (function(){
-  var D = window.LANE_JUNGLE;
-  if (!D) { document.getElementById('rows').innerHTML = '<div class="empty">Dataset failed to load.</div>'; return; }
+  // Lanes register themselves as globals; whichever loaded are the ones we show.
+  var LANES = [];
+  ['LANE_JUNGLE', 'LANE_TOP', 'LANE_MID', 'LANE_BOT', 'LANE_SUPPORT'].forEach(function(g){
+    if (window[g]) { LANES.push(window[g]); }
+  });
+  var UNWRITTEN = ['Top', 'Bot', 'Support'].filter(function(n){
+    return !LANES.some(function(l){ return l.lane === n; });
+  });
 
+  if (!LANES.length) {
+    document.getElementById('rows').innerHTML = '<div class="empty">No lane dataset loaded.</div>';
+    return;
+  }
+
+  var D = LANES[0];
   var champs   = D.champions.map(function(c){ return c.name; });
   var written  = {}; champs.forEach(function(n){ written[n] = true; });
 
@@ -221,7 +228,6 @@
   var query    = '';
   var verdicts = { favoured:true, even:true, careful:true, hard:true };
 
-  document.getElementById('upd').textContent = D.updated;
 
   var elChamps  = document.getElementById('champs');
   var elProfile = document.getElementById('profile');
@@ -388,6 +394,32 @@
     }).join('');
   }
 
+  function renderLanes(){
+    var html = LANES.map(function(l, i){
+      return '<button class="lane' + (l === D ? ' on' : '') + '" data-i="' + i + '">' + esc(l.lane) + '</button>';
+    }).join('');
+    html += UNWRITTEN.map(function(n){
+      return '<span class="lane soon">' + esc(n) + ' · soon</span>';
+    }).join('');
+    document.getElementById('lanes').innerHTML = html;
+    document.getElementById('upd').textContent = D.updated;
+  }
+
+  function setLane(i){
+    if (!LANES[i] || LANES[i] === D) { return; }
+    D = LANES[i];
+    champs  = D.champions.map(function(c){ return c.name; });
+    written = {}; champs.forEach(function(n){ written[n] = true; });
+    current = champs[0];
+    query = ''; document.getElementById('q').value = '';
+    renderLanes(); renderAll();
+  }
+
+  document.getElementById('lanes').addEventListener('click', function(e){
+    var b = e.target.closest('.lane[data-i]'); if (!b) { return; }
+    setLane(parseInt(b.dataset.i, 10));
+  });
+
   function renderAll(){ renderChamps(); renderProfile(); renderRows(); }
 
   elChamps.addEventListener('click', function(e){
@@ -418,9 +450,12 @@
     }
   });
 
+  renderLanes();
   renderAll();
 })();
 </script>
+
+
 
 
 

@@ -13,13 +13,17 @@ and a script tag.
 
 ## What's in it
 
-**520 jungle matchups.** Ten champions are written up in full — Nocturne, Xin
-Zhao, Viego, Lee Sin, Sejuani, Kayn, Graves, Vi, Warwick and Amumu — each
-against every jungler that sees play, with a verdict and one line on what
+**760 matchups across two lanes**, each with a verdict and one line on what
 decides it.
 
-All **52 junglers are selectable**. The 42 without a profile show *derived*
-matchups instead — see scope below.
+| Lane | Written champions | Matchups | Pool |
+|---|---|---|---|
+| **Jungle** | Nocturne, Xin Zhao, Viego, Lee Sin, Sejuani, Kayn, Graves, Vi, Warwick, Amumu | 520 | 52 junglers |
+| **Mid** | Zed, Yasuo, LeBlanc, Katarina, Orianna, Syndra | 240 | 40 mid laners |
+
+Switch lanes from the tabs at the top. Every champion in either pool is
+selectable; the ones without a written profile show *derived* matchups instead —
+see scope below.
 
 Two directions:
 
@@ -58,14 +62,14 @@ enemy jungler and start playing the map.
 
 ## Honest scope
 
-Only **jungle** is written, and only ten champions have real profiles. Full
+Two lanes are written, with ten jungle and six mid profiles. Full
 coverage of every champion in every lane is roughly **7,600 directional
 matchups**. At the quality of what's here that is a multi-year writing project,
 and anything generated wholesale to fill the gap would be confidently wrong —
 which is worse than an empty page, because a matchup site survives on being
 right.
 
-So the other lanes contain nothing, and the 42 unwritten junglers show **derived**
+So top, bot and support contain nothing, and champions without a profile show **derived**
 matchups: if Lee Sin's entry says he is favoured into Karthus, Karthus's page
 shows that inverted, quoting Lee Sin's note rather than inventing a new one.
 Derived rows carry a muted badge, unwritten champions get a dashed outline in the
@@ -80,8 +84,8 @@ key and a crawler. That is a separate project.
 
 ## Adding a champion
 
-Everything lives in `data/jungle.js`. Add one entry to `champions` and one row
-per opponent to `matchups`:
+Pick the lane''s dataset in `data/`. Add one entry to `champions` and one row per
+opponent to `matchups`:
 
 ```js
 ["Lee Sin","Karthus","favoured","Your single best matchup. Camp him from minute two."]
@@ -100,7 +104,8 @@ Reload the page. There is no build step for local use.
 | | |
 |---|---|
 | `index.html` | The whole application — markup, styles, and logic |
-| `data/jungle.js` | The jungle dataset |
+| `data/jungle.js`, `data/jungle-2.js` | Jungle datasets |
+| `data/mid.js` | Mid dataset |
 | `data/champions.js` | Generated ability data for all 173 champions |
 | `Import-DataDragon.ps1` | Refreshes that from Riot''s Data Dragon |
 | `Build.ps1` | Optional: inlines datasets into `dist/index.html` as one file |
@@ -130,6 +135,7 @@ matchupslol isn't endorsed by Riot Games and doesn't reflect the views or
 opinions of Riot Games or anyone officially involved in producing or managing
 Riot Games properties. Riot Games and all associated properties are trademarks
 or registered trademarks of Riot Games, Inc.
+
 
 
 
